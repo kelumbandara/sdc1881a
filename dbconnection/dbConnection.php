@@ -3,7 +3,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $database = "hvc1750b";  // Test
+    $database = "hvc1750b";  // Te
 
     // $servername = "localhost";
     // $username = "root";
