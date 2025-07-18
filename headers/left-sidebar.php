@@ -6,6 +6,8 @@
     //print_r($section);   
 ?>
 
+
+</style>
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Sidebar -->
@@ -13,10 +15,7 @@
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-                <img src="../../myimg/Noyon_Logo.jpg" class="img-fluid active " alt="User Image">
-            </div>
-            <div class="info">
-                <a href="https://www.masholdings.com/global-contact/sri-lanka/mas-matrix/" class="d-block">MAS MATRIX</a>
+                <div id="img_sidebar"></div>
             </div>
         </div>       
         <!-- Sidebar Menu -->
@@ -24,6 +23,7 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <!-- Add icons to the links using the .nav-icon class
                  with font-awesome or any other icon font library -->
+
                 <?php if (in_array('10' , $roll_section)): ?>
                     <li class="nav-item menu-open">
                         <a href="../../pages/home/home.php" class="nav-link deactive">
@@ -31,22 +31,16 @@
                             <p>Dashboard</p>
                         </a>                   
                     </li> 
+
                 <?php endif; ?>
-                <?php if (in_array('14' , $roll_section)): ?>
-                    <li class="nav-item menu-open">
-                        <a href="../../pages/home/homeMFM.php" class="nav-link deactive">
-                            <i class="nav-icon fas fa-tachometer-alt"></i>
-                            <p>Dashboard MFM</p>
+                <?php if (in_array('15' , $roll_section)): ?>
+                    <li class="nav-item menu">
+                        <a href="../../pages/diagnostic/diagnostic.php" class="nav-link deactive">
+                        <i class="nav-icon fas fa-wrench"></i>
+                            <p>Diagnostic</p>
                         </a>                   
                     </li> 
-                <?php endif; ?>
-                <?php if (in_array('17' , $roll_section)): ?>
-                    <li class="nav-item menu-open">
-                        <a href="../../pages/home/homeMFI.php" class="nav-link deactive">
-                            <i class="nav-icon fas fa-tachometer-alt"></i>
-                            <p>Dashboard MFI</p>
-                        </a>                   
-                    </li> 
+    
                 <?php endif; ?>      
                 <li class="nav-item">
                     <?php if (in_array('20' , $roll_section)): ?>
@@ -54,6 +48,8 @@
                             <i class="nav-icon fa fa-list"></i>
                             <p>Reports<i class="right fas fa-angle-left"></i></p>
                         </a>
+
+
                     <?php endif; ?>                    
                     <ul class="nav nav-treeview">
                         <?php if (in_array('201' , $roll_section)): ?>
@@ -64,15 +60,8 @@
                                 </a>
                             </li>
                         <?php endif; ?>
-                        <?php if (in_array('202' , $roll_section)): ?>
-                            <li class="nav-item">
-                                <a href="../BTUH_Report/index.php" class="nav-link">
-                                    <i class="nav-icon fas fa-chart-pie"></i>
-                                    <p>Thermal Consumption</p>
-                                </a>
-                            </li>
-                        <?php endif; ?>
                         
+
                     </ul>
                 </li>
                    
@@ -97,6 +86,15 @@
                                 <a href="../user_role/users_role.php" class="nav-link">
                                     <i class="nav-icon far fa-edit"></i>
                                     <p>User Access Management</p>
+                                </a>
+                            </li>   
+                        <?php endif; ?>
+
+                        <?php if (in_array('303' , $roll_section)): ?>
+                            <li class="nav-item disabled">
+                                <a href="../user_Phonenumbers/users.php" class="nav-link">
+                                    <i class="nav-icon far fa-edit"></i>
+                                    <p>User SMS Management</p>
                                 </a>
                             </li>   
                         <?php endif; ?>
@@ -130,3 +128,14 @@
     </div>
       <!-- /.sidebar -->
 </aside>
+
+
+<style>
+  #img_sidebar {
+    background-image: url('../../myimg/mas_active.jpg');
+    width: 200px;
+    height: 50px;
+    background-size: cover; /* or contain */
+    background-repeat: no-repeat;
+}
+</style>

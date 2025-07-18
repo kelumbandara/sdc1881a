@@ -1,0 +1,1603 @@
+2025-01-28 16:27:09,499 - INFO - package: mysql.connector.plugins
+2025-01-28 16:27:09,499 - INFO - plugin_name: mysql_native_password
+2025-01-28 16:27:09,499 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-01-28 16:27:19,748 - INFO - Mqtt Inserted to the Database
+2025-01-28 16:27:28,763 - INFO - Mqtt Inserted to the Database
+2025-01-28 16:27:37,798 - INFO - Mqtt Inserted to the Database
+2025-01-28 16:27:46,816 - INFO - Mqtt Inserted to the Database
+2025-01-28 16:27:55,847 - INFO - Mqtt Inserted to the Database
+2025-01-28 16:28:04,866 - INFO - Mqtt Inserted to the Database
+2025-01-28 16:28:13,903 - INFO - Mqtt Inserted to the Database
+2025-01-28 16:28:31,960 - INFO - Mqtt Inserted to the Database
+2025-01-28 16:28:49,999 - INFO - Mqtt Inserted to the Database
+2025-01-28 16:29:08,053 - INFO - Mqtt Inserted to the Database
+2025-01-28 16:29:26,123 - INFO - Mqtt Inserted to the Database
+2025-01-28 16:31:06,845 - INFO - package: mysql.connector.plugins
+2025-01-28 16:31:06,845 - INFO - plugin_name: mysql_native_password
+2025-01-28 16:31:06,846 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-01-28 16:31:17,079 - INFO - Mqtt Inserted to the Database
+2025-01-28 16:31:35,129 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:11:27,662 - INFO - package: mysql.connector.plugins
+2025-01-28 17:11:27,662 - INFO - plugin_name: mysql_native_password
+2025-01-28 17:11:27,662 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-01-28 17:11:37,865 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:11:46,913 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:11:55,955 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:12:32,053 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:12:59,143 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:13:08,169 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:13:53,284 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:14:02,325 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:14:29,397 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:14:38,429 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:15:05,506 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:15:14,541 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:15:43,159 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:15:52,203 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:16:23,271 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:16:32,305 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:17:03,430 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:17:12,478 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:17:43,604 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:17:52,662 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:18:23,710 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:18:32,750 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:19:03,877 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:19:12,915 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:19:44,049 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:19:53,088 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:20:24,157 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:20:33,202 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:21:04,320 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:21:13,358 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:21:44,452 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:21:53,492 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:22:24,607 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:22:33,652 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:23:04,717 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:23:13,761 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:23:44,842 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:23:53,880 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:24:25,011 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:24:34,055 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:25:05,158 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:25:14,195 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:25:45,270 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:25:54,312 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:26:25,437 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:26:34,489 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:27:05,569 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:27:14,608 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:27:45,712 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:27:54,752 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:28:25,858 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:28:34,907 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:29:07,002 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:29:16,047 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:29:46,169 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:29:55,208 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:30:26,321 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:30:35,364 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:31:06,447 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:31:15,491 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:31:46,558 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:31:55,591 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:32:26,735 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:32:35,793 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:33:06,890 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:33:15,930 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:33:46,994 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:33:56,033 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:34:27,132 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:34:36,182 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:35:07,245 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:35:16,307 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:35:47,609 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:35:56,648 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:36:27,527 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:36:36,593 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:37:07,699 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:37:16,748 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:37:47,822 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:37:56,859 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:38:27,919 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:38:36,950 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:39:08,083 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:39:17,124 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:39:48,214 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:39:57,260 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:40:28,378 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:40:37,435 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:41:08,491 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:41:17,523 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:41:48,608 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:41:57,639 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:42:28,751 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:42:37,792 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:43:08,916 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:43:17,948 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:43:49,046 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:43:58,091 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:44:29,211 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:44:38,252 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:45:18,368 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:45:29,424 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:45:58,526 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:46:29,668 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:46:38,704 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:47:09,772 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:47:18,807 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:48:09,962 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:48:18,989 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:48:50,127 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:48:59,161 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:49:30,229 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:49:39,264 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:50:10,375 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:50:19,414 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:50:50,506 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:50:59,548 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:51:30,667 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:51:39,712 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:52:10,773 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:52:19,795 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:53:10,982 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:53:20,026 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:53:51,131 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:54:00,162 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:54:31,269 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:54:40,309 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:55:11,426 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:55:20,469 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:55:51,563 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:56:00,607 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:56:31,693 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:56:40,729 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:57:11,837 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:57:20,881 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:57:51,982 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:58:01,024 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:58:32,152 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:58:41,185 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:59:12,255 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:59:21,290 - INFO - Mqtt Inserted to the Database
+2025-01-28 17:59:52,387 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:00:01,415 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:00:32,548 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:00:41,592 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:01:12,665 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:01:21,703 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:01:52,787 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:02:01,821 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:02:32,947 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:02:41,992 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:03:13,077 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:03:22,121 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:03:53,211 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:04:02,246 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:04:33,388 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:04:42,429 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:05:13,511 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:05:22,542 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:05:53,630 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:06:02,673 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:06:33,792 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:06:42,836 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:07:13,910 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:07:22,952 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:07:54,076 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:08:03,123 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:08:34,236 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:08:43,269 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:09:14,344 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:09:23,380 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:09:54,478 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:10:03,522 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:10:34,586 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:10:43,626 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:11:14,739 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:11:23,774 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:11:54,917 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:12:03,960 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:12:35,032 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:12:44,068 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:13:15,197 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:13:24,244 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:13:55,303 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:14:04,327 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:14:35,435 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:14:44,485 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:15:15,594 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:15:24,633 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:15:55,763 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:16:04,814 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:16:35,880 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:16:44,911 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:17:16,035 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:17:25,088 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:17:56,146 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:18:05,184 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:18:36,313 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:18:45,353 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:19:16,425 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:19:25,458 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:19:56,563 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:20:05,599 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:20:36,960 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:20:46,007 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:21:16,841 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:21:25,888 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:21:56,956 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:22:06,004 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:22:37,128 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:22:46,173 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:23:17,276 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:23:26,318 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:23:57,394 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:24:06,418 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:24:37,565 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:24:46,612 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:25:17,692 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:25:26,739 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:25:57,837 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:26:06,876 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:26:37,961 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:26:47,006 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:27:18,086 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:27:27,120 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:27:58,248 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:28:07,293 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:28:38,360 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:28:47,386 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:29:18,524 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:29:27,569 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:29:58,649 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:30:07,695 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:30:38,802 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:30:47,845 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:31:18,920 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:31:27,947 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:31:59,517 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:32:08,584 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:32:39,207 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:32:48,253 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:33:19,363 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:33:28,400 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:33:59,482 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:34:08,522 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:34:39,652 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:34:48,694 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:35:20,210 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:35:29,258 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:35:59,935 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:36:08,976 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:36:40,053 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:36:49,097 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:37:20,216 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:37:29,303 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:38:00,420 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:38:09,462 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:38:40,530 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:38:49,567 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:39:20,651 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:39:29,691 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:40:00,819 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:40:09,862 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:40:40,940 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:40:49,987 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:41:21,056 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:41:30,096 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:42:02,231 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:42:11,266 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:42:41,470 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:42:50,513 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:43:21,486 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:43:30,519 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:44:01,593 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:44:10,625 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:44:41,779 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:44:50,824 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:45:21,892 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:45:30,934 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:46:02,052 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:46:11,094 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:46:42,162 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:46:51,192 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:47:22,301 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:47:31,348 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:48:02,874 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:48:11,915 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:48:42,855 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:48:51,893 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:49:22,732 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:49:31,764 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:50:02,866 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:50:11,900 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:50:43,176 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:50:52,221 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:51:23,172 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:51:32,211 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:52:03,289 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:52:12,323 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:52:43,431 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:52:52,465 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:53:24,169 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:53:33,207 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:54:03,783 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:54:12,824 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:54:43,869 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:54:52,914 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:55:24,026 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:55:33,072 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:56:04,137 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:56:13,174 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:56:44,300 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:56:53,346 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:57:24,539 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:57:33,583 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:58:04,574 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:58:13,622 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:58:45,149 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:58:54,180 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:59:24,856 - INFO - Mqtt Inserted to the Database
+2025-01-28 18:59:33,889 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:00:05,038 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:00:14,065 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:00:45,128 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:00:54,175 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:01:25,283 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:01:34,329 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:02:05,402 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:02:14,443 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:02:45,557 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:02:54,586 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:03:25,748 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:03:34,789 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:04:05,868 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:04:14,909 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:04:45,993 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:04:55,033 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:05:26,156 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:05:35,195 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:06:06,286 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:06:15,334 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:06:46,421 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:06:55,478 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:07:26,585 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:07:35,627 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:08:07,153 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:08:16,201 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:08:46,861 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:08:55,891 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:09:26,991 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:09:36,038 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:10:07,149 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:10:16,180 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:10:47,272 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:10:56,324 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:11:27,431 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:11:36,475 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:12:07,555 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:12:16,604 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:12:47,939 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:12:56,971 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:13:27,840 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:13:37,003 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:14:07,985 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:14:17,232 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:14:48,117 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:14:57,381 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:15:28,270 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:15:37,552 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:16:08,380 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:16:17,755 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:16:48,539 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:16:57,963 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:17:28,668 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:17:38,122 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:18:08,837 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:18:18,303 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:18:48,967 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:18:58,511 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:19:29,129 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:19:38,734 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:20:09,234 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:20:18,918 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:20:49,408 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:20:59,134 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:21:29,527 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:21:39,321 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:22:09,674 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:22:19,525 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:22:49,803 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:22:59,714 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:23:29,967 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:23:39,920 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:24:10,074 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:24:20,075 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:24:50,227 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:25:00,274 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:25:30,371 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:25:40,478 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:26:10,507 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:26:20,653 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:26:50,647 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:27:00,872 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:27:30,791 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:27:41,043 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:28:10,963 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:28:21,161 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:28:51,340 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:29:01,376 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:29:31,204 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:29:41,555 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:30:11,370 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:30:21,635 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:30:51,514 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:31:02,203 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:31:31,632 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:31:42,087 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:32:11,767 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:32:22,243 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:32:51,924 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:33:02,636 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:33:32,123 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:33:42,643 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:34:12,198 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:34:22,804 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:34:52,376 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:35:03,079 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:35:32,488 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:35:43,202 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:36:12,650 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:36:23,420 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:36:52,773 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:37:03,553 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:37:32,930 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:37:43,774 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:38:13,046 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:38:23,957 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:38:53,220 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:39:04,176 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:39:33,316 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:39:44,373 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:40:13,488 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:40:24,522 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:40:53,909 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:41:04,720 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:41:33,815 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:41:44,926 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:42:14,040 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:42:25,098 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:42:54,294 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:43:05,292 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:43:34,438 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:43:45,498 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:44:14,628 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:44:25,695 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:44:54,825 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:45:05,853 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:45:35,007 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:45:46,087 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:46:15,204 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:46:26,257 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:46:55,380 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:47:06,461 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:47:36,843 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:47:46,635 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:48:15,761 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:48:26,846 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:48:56,262 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:49:07,055 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:49:36,170 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:49:47,390 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:50:16,637 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:50:27,468 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:50:57,810 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:51:07,610 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:51:36,749 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:51:48,823 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:52:16,967 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:52:28,022 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:52:57,116 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:53:08,200 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:53:37,310 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:53:48,581 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:54:12,262 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:54:21,296 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:54:48,950 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:54:57,995 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:55:28,906 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:55:37,957 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:56:10,514 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:56:19,562 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:56:49,254 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:56:58,302 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:57:29,465 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:57:38,508 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:58:09,636 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:58:18,672 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:58:50,189 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:58:59,231 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:59:30,074 - INFO - Mqtt Inserted to the Database
+2025-01-28 19:59:39,121 - INFO - Mqtt Inserted to the Database
+2025-01-28 20:00:10,431 - INFO - Mqtt Inserted to the Database
+2025-01-28 20:00:19,480 - INFO - Mqtt Inserted to the Database
+2025-01-28 20:00:51,337 - INFO - Mqtt Inserted to the Database
+2025-01-28 20:01:00,383 - INFO - Mqtt Inserted to the Database
+2025-01-28 20:01:30,708 - INFO - Mqtt Inserted to the Database
+2025-01-28 20:01:39,747 - INFO - Mqtt Inserted to the Database
+2025-01-28 20:02:10,816 - INFO - Mqtt Inserted to the Database
+2025-01-28 20:02:19,865 - INFO - Mqtt Inserted to the Database
+2025-01-28 20:02:51,039 - INFO - Mqtt Inserted to the Database
+2025-01-28 20:03:00,081 - INFO - Mqtt Inserted to the Database
+2025-01-28 20:03:31,230 - INFO - Mqtt Inserted to the Database
+2025-01-28 20:03:40,273 - INFO - Mqtt Inserted to the Database
+2025-01-28 20:04:11,375 - INFO - Mqtt Inserted to the Database
+2025-01-28 20:04:20,410 - INFO - Mqtt Inserted to the Database
+2025-02-24 10:37:02,424 - INFO - package: mysql.connector.plugins
+2025-02-24 10:37:02,424 - INFO - plugin_name: mysql_native_password
+2025-02-24 10:37:02,432 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 10:37:02,995 - INFO - Connected to MQTT Broker!
+2025-02-24 10:37:07,336 - INFO - Mqtt Inserted to the Database
+2025-02-24 10:37:08,354 - INFO - Mqtt Inserted to the Database
+2025-02-24 10:37:09,360 - INFO - Mqtt Inserted to the Database
+2025-02-24 10:37:09,369 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 10:37:15,417 - INFO - Mqtt Inserted to the Database
+2025-02-24 10:37:16,435 - INFO - Mqtt Inserted to the Database
+2025-02-24 10:37:17,449 - INFO - Mqtt Inserted to the Database
+2025-02-24 10:37:21,482 - INFO - Mqtt Inserted to the Database
+2025-02-24 10:37:22,506 - INFO - Mqtt Inserted to the Database
+2025-02-24 10:37:23,520 - INFO - Mqtt Inserted to the Database
+2025-02-24 10:37:27,567 - INFO - Mqtt Inserted to the Database
+2025-02-24 10:37:28,574 - INFO - Mqtt Inserted to the Database
+2025-02-24 10:37:29,592 - INFO - Mqtt Inserted to the Database
+2025-02-24 10:37:29,600 - ERROR - event is not available in MQTT
+2025-02-24 10:37:29,610 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 10:37:29,635 - ERROR - event is not available in MQTT
+2025-02-24 10:37:29,648 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 10:37:29,661 - ERROR - event is not available in MQTT
+2025-02-24 10:37:29,662 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 10:37:31,668 - ERROR - event is not available in MQTT
+2025-02-24 10:37:31,668 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 10:37:31,682 - ERROR - event is not available in MQTT
+2025-02-24 10:37:31,686 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 10:37:31,698 - ERROR - event is not available in MQTT
+2025-02-24 10:37:31,698 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 10:37:31,713 - ERROR - event is not available in MQTT
+2025-02-24 10:37:31,713 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:07:20,196 - INFO - package: mysql.connector.plugins
+2025-02-24 11:07:20,197 - INFO - plugin_name: mysql_native_password
+2025-02-24 11:07:20,197 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 11:07:25,040 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:07:26,063 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:07:27,075 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:07:27,079 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:07:33,116 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:07:34,130 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:07:35,143 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:07:39,191 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:07:40,205 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:07:41,216 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:07:45,251 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:07:46,269 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:07:47,285 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:07:47,287 - ERROR - event is not available in MQTT
+2025-02-24 11:07:47,296 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:07:47,306 - ERROR - event is not available in MQTT
+2025-02-24 11:07:47,312 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 11:07:47,320 - ERROR - event is not available in MQTT
+2025-02-24 11:07:47,326 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:07:49,327 - ERROR - event is not available in MQTT
+2025-02-24 11:07:49,329 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 11:07:49,332 - ERROR - event is not available in MQTT
+2025-02-24 11:07:49,334 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:07:49,337 - ERROR - event is not available in MQTT
+2025-02-24 11:07:49,338 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 11:07:49,340 - ERROR - event is not available in MQTT
+2025-02-24 11:07:49,341 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:08:30,823 - INFO - package: mysql.connector.plugins
+2025-02-24 11:08:30,824 - INFO - plugin_name: mysql_native_password
+2025-02-24 11:08:30,824 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 11:08:35,681 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:08:35,687 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:08:41,711 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:08:45,733 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:08:49,751 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:08:49,751 - ERROR - event is not available in MQTT
+2025-02-24 11:08:49,755 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:08:49,757 - ERROR - event is not available in MQTT
+2025-02-24 11:08:49,759 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 11:08:49,760 - ERROR - event is not available in MQTT
+2025-02-24 11:08:49,761 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:08:51,762 - ERROR - event is not available in MQTT
+2025-02-24 11:08:51,764 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 11:08:51,770 - ERROR - event is not available in MQTT
+2025-02-24 11:08:51,784 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:08:51,792 - ERROR - event is not available in MQTT
+2025-02-24 11:08:51,799 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 11:08:51,805 - ERROR - event is not available in MQTT
+2025-02-24 11:08:51,808 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:10:53,240 - INFO - package: mysql.connector.plugins
+2025-02-24 11:10:53,241 - INFO - plugin_name: mysql_native_password
+2025-02-24 11:10:53,241 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 11:10:53,752 - INFO - Connected to MQTT Broker!
+2025-02-24 11:10:58,041 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:10:58,048 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:11:04,088 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:11:08,130 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:11:12,170 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:11:12,178 - ERROR - event is not available in MQTT
+2025-02-24 11:11:12,187 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:11:12,198 - ERROR - event is not available in MQTT
+2025-02-24 11:11:12,204 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 11:11:12,209 - ERROR - event is not available in MQTT
+2025-02-24 11:11:12,212 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:11:14,216 - ERROR - event is not available in MQTT
+2025-02-24 11:11:14,225 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 11:11:14,238 - ERROR - event is not available in MQTT
+2025-02-24 11:11:14,245 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:11:14,253 - ERROR - event is not available in MQTT
+2025-02-24 11:11:14,258 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 11:11:14,267 - ERROR - event is not available in MQTT
+2025-02-24 11:11:14,272 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:21:29,686 - INFO - package: mysql.connector.plugins
+2025-02-24 11:21:29,687 - INFO - plugin_name: mysql_native_password
+2025-02-24 11:21:29,687 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 11:21:34,524 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:21:35,540 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:21:36,558 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:21:36,566 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:21:42,605 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:21:43,617 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:21:44,634 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:21:48,670 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:21:49,682 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:21:50,699 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:21:54,737 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:21:55,747 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:21:56,762 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:21:56,762 - ERROR - event is not available in MQTT
+2025-02-24 11:21:56,768 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:21:56,777 - ERROR - event is not available in MQTT
+2025-02-24 11:21:56,783 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 11:21:56,792 - ERROR - event is not available in MQTT
+2025-02-24 11:21:56,797 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:21:58,799 - ERROR - event is not available in MQTT
+2025-02-24 11:21:58,804 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 11:21:58,812 - ERROR - event is not available in MQTT
+2025-02-24 11:21:58,817 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:21:58,827 - ERROR - event is not available in MQTT
+2025-02-24 11:21:58,833 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 11:21:58,840 - ERROR - event is not available in MQTT
+2025-02-24 11:21:58,845 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:25:23,975 - INFO - package: mysql.connector.plugins
+2025-02-24 11:25:23,976 - INFO - plugin_name: mysql_native_password
+2025-02-24 11:25:23,976 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 11:25:28,768 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:25:28,773 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:25:34,804 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:25:38,829 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:25:42,863 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:25:42,864 - ERROR - event is not available in MQTT
+2025-02-24 11:25:42,868 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:25:42,872 - ERROR - event is not available in MQTT
+2025-02-24 11:25:42,874 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 11:25:42,878 - ERROR - event is not available in MQTT
+2025-02-24 11:25:42,881 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:25:44,882 - ERROR - event is not available in MQTT
+2025-02-24 11:25:44,887 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 11:25:44,893 - ERROR - event is not available in MQTT
+2025-02-24 11:25:44,897 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:25:44,902 - ERROR - event is not available in MQTT
+2025-02-24 11:25:44,906 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 11:25:44,909 - ERROR - event is not available in MQTT
+2025-02-24 11:25:44,911 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:26:26,511 - INFO - package: mysql.connector.plugins
+2025-02-24 11:26:26,511 - INFO - plugin_name: mysql_native_password
+2025-02-24 11:26:26,512 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 11:26:31,299 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:26:31,306 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:26:37,350 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:26:41,375 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:26:45,405 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:26:45,407 - ERROR - event is not available in MQTT
+2025-02-24 11:26:45,411 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:26:45,417 - ERROR - event is not available in MQTT
+2025-02-24 11:26:45,419 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 11:26:45,425 - ERROR - event is not available in MQTT
+2025-02-24 11:26:45,430 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:26:47,431 - ERROR - event is not available in MQTT
+2025-02-24 11:26:47,433 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 11:26:47,435 - ERROR - event is not available in MQTT
+2025-02-24 11:26:47,437 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:26:47,440 - ERROR - event is not available in MQTT
+2025-02-24 11:26:47,441 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 11:26:47,444 - ERROR - event is not available in MQTT
+2025-02-24 11:26:47,446 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:26:58,671 - INFO - package: mysql.connector.plugins
+2025-02-24 11:26:58,671 - INFO - plugin_name: mysql_native_password
+2025-02-24 11:26:58,671 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 11:27:03,475 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:04,491 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:05,504 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:05,509 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:27:11,550 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:12,563 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:13,575 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:17,591 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:18,607 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:19,618 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:23,648 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:24,659 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:25,675 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:25,675 - ERROR - event is not available in MQTT
+2025-02-24 11:27:25,680 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:27:25,687 - ERROR - event is not available in MQTT
+2025-02-24 11:27:25,691 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 11:27:25,697 - ERROR - event is not available in MQTT
+2025-02-24 11:27:25,702 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:27:27,705 - ERROR - event is not available in MQTT
+2025-02-24 11:27:27,709 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 11:27:27,712 - ERROR - event is not available in MQTT
+2025-02-24 11:27:27,715 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:27:27,721 - ERROR - event is not available in MQTT
+2025-02-24 11:27:27,723 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 11:27:27,727 - ERROR - event is not available in MQTT
+2025-02-24 11:27:27,729 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:27:30,347 - INFO - package: mysql.connector.plugins
+2025-02-24 11:27:30,347 - INFO - plugin_name: mysql_native_password
+2025-02-24 11:27:30,348 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 11:27:35,153 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:35,162 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:27:41,192 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:45,217 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:49,249 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:27:49,250 - ERROR - event is not available in MQTT
+2025-02-24 11:27:49,252 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:27:49,255 - ERROR - event is not available in MQTT
+2025-02-24 11:27:49,257 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 11:27:49,259 - ERROR - event is not available in MQTT
+2025-02-24 11:27:49,262 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:27:51,262 - ERROR - event is not available in MQTT
+2025-02-24 11:27:51,270 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 11:27:51,279 - ERROR - event is not available in MQTT
+2025-02-24 11:27:51,287 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:27:51,294 - ERROR - event is not available in MQTT
+2025-02-24 11:27:51,299 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 11:27:51,304 - ERROR - event is not available in MQTT
+2025-02-24 11:27:51,309 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:28:43,084 - INFO - package: mysql.connector.plugins
+2025-02-24 11:28:43,084 - INFO - plugin_name: mysql_native_password
+2025-02-24 11:28:43,084 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 11:28:47,856 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:28:47,861 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:28:53,892 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:28:57,924 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:29:01,952 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:29:01,953 - ERROR - event is not available in MQTT
+2025-02-24 11:29:01,955 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:29:01,958 - ERROR - event is not available in MQTT
+2025-02-24 11:29:01,961 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 11:29:01,965 - ERROR - event is not available in MQTT
+2025-02-24 11:29:01,970 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:29:03,971 - ERROR - event is not available in MQTT
+2025-02-24 11:29:03,975 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 11:29:03,981 - ERROR - event is not available in MQTT
+2025-02-24 11:29:03,986 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:29:03,994 - ERROR - event is not available in MQTT
+2025-02-24 11:29:03,999 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 11:29:04,006 - ERROR - event is not available in MQTT
+2025-02-24 11:29:04,009 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:29:23,363 - INFO - package: mysql.connector.plugins
+2025-02-24 11:29:23,363 - INFO - plugin_name: mysql_native_password
+2025-02-24 11:29:23,363 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 11:29:28,165 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:29:28,173 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:29:34,210 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:29:38,247 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:29:42,273 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:29:42,273 - ERROR - event is not available in MQTT
+2025-02-24 11:29:42,275 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:29:42,278 - ERROR - event is not available in MQTT
+2025-02-24 11:29:42,280 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 11:29:42,284 - ERROR - event is not available in MQTT
+2025-02-24 11:29:42,286 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:29:44,287 - ERROR - event is not available in MQTT
+2025-02-24 11:29:44,293 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 11:29:44,300 - ERROR - event is not available in MQTT
+2025-02-24 11:29:44,305 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:29:44,313 - ERROR - event is not available in MQTT
+2025-02-24 11:29:44,319 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 11:29:44,326 - ERROR - event is not available in MQTT
+2025-02-24 11:29:44,330 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:30:09,743 - INFO - package: mysql.connector.plugins
+2025-02-24 11:30:09,743 - INFO - plugin_name: mysql_native_password
+2025-02-24 11:30:09,743 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 11:30:14,549 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:30:14,558 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:30:20,590 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:30:24,631 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:30:28,660 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:30:28,661 - ERROR - event is not available in MQTT
+2025-02-24 11:30:28,669 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:30:28,680 - ERROR - event is not available in MQTT
+2025-02-24 11:30:28,689 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 11:30:28,699 - ERROR - event is not available in MQTT
+2025-02-24 11:30:28,703 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:30:30,704 - ERROR - event is not available in MQTT
+2025-02-24 11:30:30,709 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 11:30:30,714 - ERROR - event is not available in MQTT
+2025-02-24 11:30:30,719 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:30:30,726 - ERROR - event is not available in MQTT
+2025-02-24 11:30:30,730 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 11:30:30,737 - ERROR - event is not available in MQTT
+2025-02-24 11:30:30,740 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:31:10,974 - INFO - package: mysql.connector.plugins
+2025-02-24 11:31:10,974 - INFO - plugin_name: mysql_native_password
+2025-02-24 11:31:10,975 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 11:31:15,777 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:31:15,782 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:31:21,816 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:31:25,857 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:31:29,949 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:31:29,951 - ERROR - event is not available in MQTT
+2025-02-24 11:31:29,957 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:31:29,967 - ERROR - event is not available in MQTT
+2025-02-24 11:31:29,972 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 11:31:29,980 - ERROR - event is not available in MQTT
+2025-02-24 11:31:29,987 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:31:31,988 - ERROR - event is not available in MQTT
+2025-02-24 11:31:31,996 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 11:31:32,005 - ERROR - event is not available in MQTT
+2025-02-24 11:31:32,012 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:31:32,024 - ERROR - event is not available in MQTT
+2025-02-24 11:31:32,030 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 11:31:32,036 - ERROR - event is not available in MQTT
+2025-02-24 11:31:32,041 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:35:07,905 - INFO - package: mysql.connector.plugins
+2025-02-24 11:35:07,905 - INFO - plugin_name: mysql_native_password
+2025-02-24 11:35:07,906 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 11:35:12,781 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:35:13,794 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:35:14,808 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:35:14,815 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:35:20,845 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:35:21,861 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:35:22,867 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:35:26,890 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:35:27,899 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:35:28,909 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:35:32,937 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:35:33,947 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:35:34,957 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:35:34,957 - ERROR - event is not available in MQTT
+2025-02-24 11:35:34,959 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:35:34,961 - ERROR - event is not available in MQTT
+2025-02-24 11:35:34,962 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 11:35:34,965 - ERROR - event is not available in MQTT
+2025-02-24 11:35:34,967 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:35:36,968 - ERROR - event is not available in MQTT
+2025-02-24 11:35:36,969 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 11:35:36,972 - ERROR - event is not available in MQTT
+2025-02-24 11:35:36,973 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:35:36,975 - ERROR - event is not available in MQTT
+2025-02-24 11:35:36,977 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 11:35:36,980 - ERROR - event is not available in MQTT
+2025-02-24 11:35:36,983 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:50:35,259 - INFO - package: mysql.connector.plugins
+2025-02-24 11:50:35,259 - INFO - plugin_name: mysql_native_password
+2025-02-24 11:50:35,260 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 11:50:40,074 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:50:41,088 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:50:42,101 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:50:42,107 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:50:48,142 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:50:49,148 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:50:50,152 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:50:54,176 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:50:55,181 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:50:56,186 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:51:00,212 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:51:01,220 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:51:02,227 - INFO - Mqtt Inserted to the Database
+2025-02-24 11:51:02,227 - ERROR - event is not available in MQTT
+2025-02-24 11:51:02,228 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:51:02,231 - ERROR - event is not available in MQTT
+2025-02-24 11:51:02,233 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 11:51:02,235 - ERROR - event is not available in MQTT
+2025-02-24 11:51:02,237 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:51:04,238 - ERROR - event is not available in MQTT
+2025-02-24 11:51:04,246 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 11:51:04,254 - ERROR - event is not available in MQTT
+2025-02-24 11:51:04,261 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:51:04,271 - ERROR - event is not available in MQTT
+2025-02-24 11:51:04,278 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 11:51:04,284 - ERROR - event is not available in MQTT
+2025-02-24 11:51:04,288 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 11:51:09,613 - ERROR - event is not available in MQTT
+2025-02-24 11:51:09,626 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:51:22,850 - ERROR - event is not available in MQTT
+2025-02-24 11:51:22,858 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:51:25,038 - ERROR - event is not available in MQTT
+2025-02-24 11:51:25,046 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:59:34,790 - ERROR - event is not available in MQTT
+2025-02-24 11:59:34,802 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:59:40,613 - ERROR - event is not available in MQTT
+2025-02-24 11:59:40,621 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 11:59:48,177 - ERROR - event is not available in MQTT
+2025-02-24 11:59:48,185 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:02:41,158 - ERROR - event is not available in MQTT
+2025-02-24 12:02:41,161 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:03:30,246 - ERROR - event is not available in MQTT
+2025-02-24 12:03:30,254 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:03:48,503 - ERROR - event is not available in MQTT
+2025-02-24 12:03:48,510 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:06:17,836 - ERROR - event is not available in MQTT
+2025-02-24 12:06:17,845 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:13:12,780 - ERROR - event is not available in MQTT
+2025-02-24 12:13:12,791 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:13:17,221 - ERROR - event is not available in MQTT
+2025-02-24 12:13:17,227 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:18:58,259 - ERROR - event is not available in MQTT
+2025-02-24 12:18:58,264 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:19:08,085 - ERROR - event is not available in MQTT
+2025-02-24 12:19:08,094 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:19:18,363 - ERROR - event is not available in MQTT
+2025-02-24 12:19:18,365 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:20:40,108 - ERROR - event is not available in MQTT
+2025-02-24 12:20:40,113 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:21:14,998 - ERROR - event is not available in MQTT
+2025-02-24 12:21:15,005 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:21:30,216 - INFO - package: mysql.connector.plugins
+2025-02-24 12:21:30,217 - INFO - plugin_name: mysql_native_password
+2025-02-24 12:21:30,217 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 12:21:30,836 - INFO - Connected to MQTT Broker!
+2025-02-24 12:21:35,140 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:21:36,154 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:21:37,169 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:21:37,176 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:21:43,210 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:21:44,218 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:21:45,233 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:21:49,262 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:21:50,272 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:21:51,293 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:21:55,336 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:21:56,350 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:21:57,363 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:21:57,365 - ERROR - event is not available in MQTT
+2025-02-24 12:21:57,371 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:21:57,379 - ERROR - event is not available in MQTT
+2025-02-24 12:21:57,382 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:21:57,390 - ERROR - event is not available in MQTT
+2025-02-24 12:21:57,394 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:21:59,395 - ERROR - event is not available in MQTT
+2025-02-24 12:21:59,404 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 12:21:59,413 - ERROR - event is not available in MQTT
+2025-02-24 12:21:59,421 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:21:59,430 - ERROR - event is not available in MQTT
+2025-02-24 12:21:59,437 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 12:21:59,443 - ERROR - event is not available in MQTT
+2025-02-24 12:21:59,447 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:22:09,686 - ERROR - event is not available in MQTT
+2025-02-24 12:22:09,689 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:22:54,341 - ERROR - event is not available in MQTT
+2025-02-24 12:22:54,352 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:22:56,270 - ERROR - event is not available in MQTT
+2025-02-24 12:22:56,275 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:23:11,539 - ERROR - event is not available in MQTT
+2025-02-24 12:23:11,544 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:23:13,885 - ERROR - event is not available in MQTT
+2025-02-24 12:23:13,895 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:23:23,323 - ERROR - event is not available in MQTT
+2025-02-24 12:23:23,327 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:23:47,803 - ERROR - event is not available in MQTT
+2025-02-24 12:23:47,806 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:24:17,205 - INFO - package: mysql.connector.plugins
+2025-02-24 12:24:17,207 - INFO - plugin_name: mysql_native_password
+2025-02-24 12:24:17,207 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 12:24:22,013 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:24:22,016 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:24:28,048 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:24:32,086 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:24:36,110 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:24:36,111 - ERROR - event is not available in MQTT
+2025-02-24 12:24:36,119 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:24:36,127 - ERROR - event is not available in MQTT
+2025-02-24 12:24:36,131 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:24:36,137 - ERROR - event is not available in MQTT
+2025-02-24 12:24:36,143 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:24:38,144 - ERROR - event is not available in MQTT
+2025-02-24 12:24:38,151 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 12:24:38,161 - ERROR - event is not available in MQTT
+2025-02-24 12:24:38,167 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:24:38,173 - ERROR - event is not available in MQTT
+2025-02-24 12:24:38,178 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 12:24:38,183 - ERROR - event is not available in MQTT
+2025-02-24 12:24:38,187 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:24:40,188 - ERROR - event is not available in MQTT
+2025-02-24 12:24:40,190 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:24:42,161 - ERROR - event is not available in MQTT
+2025-02-24 12:24:42,166 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:24:47,936 - ERROR - event is not available in MQTT
+2025-02-24 12:24:47,956 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:25:45,246 - ERROR - event is not available in MQTT
+2025-02-24 12:25:45,250 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:25:57,676 - ERROR - event is not available in MQTT
+2025-02-24 12:25:57,680 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:27:13,220 - ERROR - event is not available in MQTT
+2025-02-24 12:27:13,223 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:27:31,063 - ERROR - event is not available in MQTT
+2025-02-24 12:27:31,065 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:28:47,629 - ERROR - event is not available in MQTT
+2025-02-24 12:28:47,631 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:30:19,501 - INFO - package: mysql.connector.plugins
+2025-02-24 12:30:19,501 - INFO - plugin_name: mysql_native_password
+2025-02-24 12:30:19,502 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 12:30:24,339 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:30:25,353 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:30:26,368 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:30:26,380 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:30:32,426 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:30:33,440 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:30:34,456 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:30:38,492 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:30:39,503 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:30:40,515 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:30:44,546 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:30:45,555 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:30:46,563 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:30:46,563 - ERROR - event is not available in MQTT
+2025-02-24 12:30:46,566 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:30:46,569 - ERROR - event is not available in MQTT
+2025-02-24 12:30:46,571 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:30:46,573 - ERROR - event is not available in MQTT
+2025-02-24 12:30:46,573 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:30:48,575 - ERROR - event is not available in MQTT
+2025-02-24 12:30:48,578 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 12:30:48,583 - ERROR - event is not available in MQTT
+2025-02-24 12:30:48,587 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:30:48,591 - ERROR - event is not available in MQTT
+2025-02-24 12:30:48,595 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 12:30:48,599 - ERROR - event is not available in MQTT
+2025-02-24 12:30:48,602 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:31:01,535 - INFO - package: mysql.connector.plugins
+2025-02-24 12:31:01,535 - INFO - plugin_name: mysql_native_password
+2025-02-24 12:31:01,536 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 12:31:06,365 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:31:06,371 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:31:12,394 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:31:16,416 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:31:20,443 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:31:20,443 - ERROR - event is not available in MQTT
+2025-02-24 12:31:20,447 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:31:20,451 - ERROR - event is not available in MQTT
+2025-02-24 12:31:20,454 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:31:20,457 - ERROR - event is not available in MQTT
+2025-02-24 12:31:20,459 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:31:23,434 - INFO - package: mysql.connector.plugins
+2025-02-24 12:31:23,435 - INFO - plugin_name: mysql_native_password
+2025-02-24 12:31:23,435 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 12:31:28,223 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:31:28,231 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:31:34,267 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:31:38,297 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:31:42,329 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:31:42,330 - ERROR - event is not available in MQTT
+2025-02-24 12:31:42,337 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:31:42,346 - ERROR - event is not available in MQTT
+2025-02-24 12:31:42,353 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:31:42,363 - ERROR - event is not available in MQTT
+2025-02-24 12:31:42,369 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:31:44,370 - ERROR - event is not available in MQTT
+2025-02-24 12:31:44,378 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 12:31:44,387 - ERROR - event is not available in MQTT
+2025-02-24 12:31:44,394 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:31:44,403 - ERROR - event is not available in MQTT
+2025-02-24 12:31:44,408 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 12:31:44,413 - ERROR - event is not available in MQTT
+2025-02-24 12:31:44,417 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:32:24,293 - INFO - package: mysql.connector.plugins
+2025-02-24 12:32:24,293 - INFO - plugin_name: mysql_native_password
+2025-02-24 12:32:24,295 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 12:32:29,151 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:32:29,154 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:32:35,187 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:32:39,226 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:32:43,259 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:32:43,261 - ERROR - event is not available in MQTT
+2025-02-24 12:32:43,268 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:32:43,277 - ERROR - event is not available in MQTT
+2025-02-24 12:32:43,285 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:32:43,293 - ERROR - event is not available in MQTT
+2025-02-24 12:32:43,302 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:32:45,303 - ERROR - event is not available in MQTT
+2025-02-24 12:32:45,309 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 12:32:45,315 - ERROR - event is not available in MQTT
+2025-02-24 12:32:45,320 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:32:45,328 - ERROR - event is not available in MQTT
+2025-02-24 12:32:45,333 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 12:32:45,338 - ERROR - event is not available in MQTT
+2025-02-24 12:32:45,341 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:33:22,473 - INFO - package: mysql.connector.plugins
+2025-02-24 12:33:22,474 - INFO - plugin_name: mysql_native_password
+2025-02-24 12:33:22,474 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 12:33:22,505 - ERROR - MQTT Broker Connection Failed!
+2025-02-24 12:33:31,548 - INFO - package: mysql.connector.plugins
+2025-02-24 12:33:31,548 - INFO - plugin_name: mysql_native_password
+2025-02-24 12:33:31,549 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 12:33:36,333 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:33:36,336 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:33:42,360 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:33:46,392 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:33:50,423 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:33:50,424 - ERROR - event is not available in MQTT
+2025-02-24 12:33:50,432 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:33:50,438 - ERROR - event is not available in MQTT
+2025-02-24 12:33:50,443 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:33:50,448 - ERROR - event is not available in MQTT
+2025-02-24 12:33:50,453 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:33:52,455 - ERROR - event is not available in MQTT
+2025-02-24 12:33:52,460 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 12:33:52,465 - ERROR - event is not available in MQTT
+2025-02-24 12:33:52,470 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:33:52,476 - ERROR - event is not available in MQTT
+2025-02-24 12:33:52,478 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 12:33:52,481 - ERROR - event is not available in MQTT
+2025-02-24 12:33:52,483 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:34:47,051 - INFO - package: mysql.connector.plugins
+2025-02-24 12:34:47,051 - INFO - plugin_name: mysql_native_password
+2025-02-24 12:34:47,052 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 12:34:47,566 - INFO - Connected to MQTT Broker!
+2025-02-24 12:34:51,855 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:34:51,863 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:34:57,908 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:35:01,955 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:35:05,986 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:35:05,993 - ERROR - event is not available in MQTT
+2025-02-24 12:35:06,003 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:35:06,015 - ERROR - event is not available in MQTT
+2025-02-24 12:35:06,027 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:35:06,040 - ERROR - event is not available in MQTT
+2025-02-24 12:35:06,045 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:35:08,047 - ERROR - event is not available in MQTT
+2025-02-24 12:35:08,052 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 12:35:08,058 - ERROR - event is not available in MQTT
+2025-02-24 12:35:08,062 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:35:08,067 - ERROR - event is not available in MQTT
+2025-02-24 12:35:08,072 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 12:35:08,079 - ERROR - event is not available in MQTT
+2025-02-24 12:35:08,085 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:36:59,439 - INFO - package: mysql.connector.plugins
+2025-02-24 12:36:59,439 - INFO - plugin_name: mysql_native_password
+2025-02-24 12:36:59,440 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 12:37:00,031 - INFO - Connected to MQTT Broker!
+2025-02-24 12:37:04,319 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:37:05,332 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:37:06,344 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:37:06,350 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:37:12,387 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:37:13,401 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:37:14,419 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:37:18,460 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:37:19,477 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:37:20,493 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:37:24,537 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:37:25,549 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:37:26,559 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:37:26,561 - ERROR - event is not available in MQTT
+2025-02-24 12:37:26,563 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:37:26,566 - ERROR - event is not available in MQTT
+2025-02-24 12:37:26,568 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:37:26,571 - ERROR - event is not available in MQTT
+2025-02-24 12:37:26,573 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:37:28,578 - ERROR - event is not available in MQTT
+2025-02-24 12:37:28,587 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 12:37:28,600 - ERROR - event is not available in MQTT
+2025-02-24 12:37:28,611 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:37:28,625 - ERROR - event is not available in MQTT
+2025-02-24 12:37:28,633 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 12:37:28,640 - ERROR - event is not available in MQTT
+2025-02-24 12:37:28,645 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:39:11,712 - INFO - package: mysql.connector.plugins
+2025-02-24 12:39:11,712 - INFO - plugin_name: mysql_native_password
+2025-02-24 12:39:11,712 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 12:39:12,235 - INFO - Connected to MQTT Broker!
+2025-02-24 12:39:16,504 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:39:16,508 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:39:22,543 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:39:26,583 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:39:30,633 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:39:30,642 - ERROR - event is not available in MQTT
+2025-02-24 12:39:30,652 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:39:30,666 - ERROR - event is not available in MQTT
+2025-02-24 12:39:30,672 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:39:30,679 - ERROR - event is not available in MQTT
+2025-02-24 12:39:30,684 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:39:32,688 - ERROR - event is not available in MQTT
+2025-02-24 12:39:32,698 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 12:39:32,710 - ERROR - event is not available in MQTT
+2025-02-24 12:39:32,720 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:39:32,735 - ERROR - event is not available in MQTT
+2025-02-24 12:39:32,743 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 12:39:32,749 - ERROR - event is not available in MQTT
+2025-02-24 12:39:32,755 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:39:41,915 - INFO - package: mysql.connector.plugins
+2025-02-24 12:39:41,915 - INFO - plugin_name: mysql_native_password
+2025-02-24 12:39:41,915 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 12:39:42,439 - INFO - Connected to MQTT Broker!
+2025-02-24 12:39:46,739 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:39:46,747 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:39:52,784 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:39:56,823 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:40:00,865 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:40:00,867 - ERROR - event is not available in MQTT
+2025-02-24 12:40:00,870 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:40:00,876 - ERROR - event is not available in MQTT
+2025-02-24 12:40:00,879 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:40:00,883 - ERROR - event is not available in MQTT
+2025-02-24 12:40:00,887 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:40:02,889 - ERROR - event is not available in MQTT
+2025-02-24 12:40:02,892 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 12:40:02,894 - ERROR - event is not available in MQTT
+2025-02-24 12:40:02,896 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:40:02,899 - ERROR - event is not available in MQTT
+2025-02-24 12:40:02,901 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 12:40:02,904 - ERROR - event is not available in MQTT
+2025-02-24 12:40:02,906 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:40:28,940 - INFO - package: mysql.connector.plugins
+2025-02-24 12:40:28,940 - INFO - plugin_name: mysql_native_password
+2025-02-24 12:40:28,940 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 12:40:29,445 - INFO - Connected to MQTT Broker!
+2025-02-24 12:40:33,752 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:40:33,765 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:40:39,802 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:40:43,835 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:40:47,873 - INFO - Mqtt Inserted to the Database
+2025-02-24 12:40:47,875 - ERROR - event is not available in MQTT
+2025-02-24 12:40:47,878 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:40:47,880 - ERROR - event is not available in MQTT
+2025-02-24 12:40:47,882 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 12:40:47,885 - ERROR - event is not available in MQTT
+2025-02-24 12:40:47,887 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 12:40:49,891 - ERROR - event is not available in MQTT
+2025-02-24 12:40:49,898 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 12:40:49,907 - ERROR - event is not available in MQTT
+2025-02-24 12:40:49,916 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 12:40:49,928 - ERROR - event is not available in MQTT
+2025-02-24 12:40:49,931 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 12:40:49,936 - ERROR - event is not available in MQTT
+2025-02-24 12:40:49,941 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:22:24,885 - INFO - Connected to MQTT Broker!
+2025-02-24 14:22:29,166 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:22:30,178 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:22:31,181 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:22:31,181 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:22:37,211 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:22:38,217 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:22:39,222 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:22:43,239 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:22:44,245 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:22:45,254 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:22:49,312 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:22:50,316 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:22:51,323 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:22:51,324 - ERROR - event is not available in MQTT
+2025-02-24 14:22:51,327 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 14:22:51,335 - ERROR - event is not available in MQTT
+2025-02-24 14:22:51,337 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 14:22:51,338 - ERROR - event is not available in MQTT
+2025-02-24 14:22:51,341 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:22:53,343 - ERROR - event is not available in MQTT
+2025-02-24 14:22:53,345 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 14:22:53,348 - ERROR - event is not available in MQTT
+2025-02-24 14:22:53,351 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 14:22:53,354 - ERROR - event is not available in MQTT
+2025-02-24 14:22:53,357 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 14:22:53,360 - ERROR - event is not available in MQTT
+2025-02-24 14:22:53,363 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:23:12,590 - INFO - package: mysql.connector.plugins
+2025-02-24 14:23:12,590 - INFO - plugin_name: mysql_native_password
+2025-02-24 14:23:12,591 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 14:23:17,438 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:23:17,440 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:23:23,457 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:23:27,472 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:23:31,487 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:23:31,487 - ERROR - event is not available in MQTT
+2025-02-24 14:23:31,489 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 14:23:31,491 - ERROR - event is not available in MQTT
+2025-02-24 14:23:31,491 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 14:23:31,491 - ERROR - event is not available in MQTT
+2025-02-24 14:23:31,491 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:23:33,497 - ERROR - event is not available in MQTT
+2025-02-24 14:23:33,500 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 14:23:33,502 - ERROR - event is not available in MQTT
+2025-02-24 14:23:33,503 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 14:23:33,505 - ERROR - event is not available in MQTT
+2025-02-24 14:23:33,506 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 14:23:33,508 - ERROR - event is not available in MQTT
+2025-02-24 14:23:33,509 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:24:57,550 - ERROR - event is not available in MQTT
+2025-02-24 14:24:57,555 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 14:25:11,970 - ERROR - event is not available in MQTT
+2025-02-24 14:25:11,990 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 14:25:25,680 - INFO - package: mysql.connector.plugins
+2025-02-24 14:25:25,680 - INFO - plugin_name: mysql_native_password
+2025-02-24 14:25:25,681 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 14:25:30,485 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:25:30,488 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:25:36,523 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:25:40,549 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:25:44,577 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:25:44,578 - ERROR - event is not available in MQTT
+2025-02-24 14:25:44,586 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 14:25:44,595 - ERROR - event is not available in MQTT
+2025-02-24 14:25:44,602 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 14:25:44,611 - ERROR - event is not available in MQTT
+2025-02-24 14:25:44,618 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:25:46,619 - ERROR - event is not available in MQTT
+2025-02-24 14:25:46,625 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 14:25:46,631 - ERROR - event is not available in MQTT
+2025-02-24 14:25:46,636 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 14:25:46,643 - ERROR - event is not available in MQTT
+2025-02-24 14:25:46,649 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 14:25:46,655 - ERROR - event is not available in MQTT
+2025-02-24 14:25:46,659 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:26:57,541 - INFO - package: mysql.connector.plugins
+2025-02-24 14:26:57,541 - INFO - plugin_name: mysql_native_password
+2025-02-24 14:26:57,542 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 14:26:58,086 - INFO - Connected to MQTT Broker!
+2025-02-24 14:27:02,381 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:27:02,391 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:27:08,422 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:27:12,462 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:27:16,491 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:27:16,491 - ERROR - event is not available in MQTT
+2025-02-24 14:27:16,498 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 14:27:16,498 - ERROR - event is not available in MQTT
+2025-02-24 14:27:16,510 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 14:27:16,517 - ERROR - event is not available in MQTT
+2025-02-24 14:27:16,521 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:27:18,522 - ERROR - event is not available in MQTT
+2025-02-24 14:27:18,528 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 14:27:18,534 - ERROR - event is not available in MQTT
+2025-02-24 14:27:18,540 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 14:27:18,546 - ERROR - event is not available in MQTT
+2025-02-24 14:27:18,550 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 14:27:18,552 - ERROR - event is not available in MQTT
+2025-02-24 14:27:18,554 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:27:52,791 - INFO - package: mysql.connector.plugins
+2025-02-24 14:27:52,792 - INFO - plugin_name: mysql_native_password
+2025-02-24 14:27:52,792 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 14:27:53,325 - INFO - Connected to MQTT Broker!
+2025-02-24 14:27:57,592 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:27:58,605 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:27:59,614 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:27:59,618 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:28:05,676 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:28:06,693 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:28:07,707 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:28:11,774 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:28:12,786 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:28:13,794 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:28:17,826 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:28:18,840 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:28:19,854 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:28:19,855 - ERROR - event is not available in MQTT
+2025-02-24 14:28:19,863 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 14:28:19,872 - ERROR - event is not available in MQTT
+2025-02-24 14:28:19,881 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 14:28:19,891 - ERROR - event is not available in MQTT
+2025-02-24 14:28:19,899 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:28:21,900 - ERROR - event is not available in MQTT
+2025-02-24 14:28:21,905 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 14:28:21,909 - ERROR - event is not available in MQTT
+2025-02-24 14:28:21,912 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 14:28:21,916 - ERROR - event is not available in MQTT
+2025-02-24 14:28:21,918 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 14:28:21,920 - ERROR - event is not available in MQTT
+2025-02-24 14:28:21,922 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:28:23,923 - ERROR - event is not available in MQTT
+2025-02-24 14:28:23,926 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 14:28:23,929 - ERROR - event is not available in MQTT
+2025-02-24 14:28:23,931 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 14:28:23,934 - ERROR - event is not available in MQTT
+2025-02-24 14:28:23,936 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 14:28:28,879 - ERROR - event is not available in MQTT
+2025-02-24 14:28:28,884 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 14:30:24,581 - INFO - package: mysql.connector.plugins
+2025-02-24 14:30:24,581 - INFO - plugin_name: mysql_native_password
+2025-02-24 14:30:24,583 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 14:30:25,137 - INFO - Connected to MQTT Broker!
+2025-02-24 14:30:29,420 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:30:29,425 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:30:35,459 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:30:39,620 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:30:43,655 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:30:43,658 - ERROR - event is not available in MQTT
+2025-02-24 14:30:43,662 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 14:30:43,668 - ERROR - event is not available in MQTT
+2025-02-24 14:30:43,671 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 14:30:43,679 - ERROR - event is not available in MQTT
+2025-02-24 14:30:43,683 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:30:45,687 - ERROR - event is not available in MQTT
+2025-02-24 14:30:45,697 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 14:30:45,710 - ERROR - event is not available in MQTT
+2025-02-24 14:30:45,719 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 14:30:45,730 - ERROR - event is not available in MQTT
+2025-02-24 14:30:45,737 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 14:30:45,742 - ERROR - event is not available in MQTT
+2025-02-24 14:30:45,746 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:35:32,039 - INFO - package: mysql.connector.plugins
+2025-02-24 14:35:32,039 - INFO - plugin_name: mysql_native_password
+2025-02-24 14:35:32,040 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-24 14:35:32,582 - INFO - Connected to MQTT Broker!
+2025-02-24 14:35:36,875 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:35:37,892 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:35:38,908 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:35:38,917 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:35:44,963 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:35:45,979 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:35:46,989 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:35:51,033 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:35:52,044 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:35:53,054 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:35:57,099 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:35:58,113 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:35:59,125 - INFO - Mqtt Inserted to the Database
+2025-02-24 14:35:59,126 - ERROR - event is not available in MQTT
+2025-02-24 14:35:59,133 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 14:35:59,141 - ERROR - event is not available in MQTT
+2025-02-24 14:35:59,146 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 14:35:59,152 - ERROR - event is not available in MQTT
+2025-02-24 14:35:59,157 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 14:36:01,157 - ERROR - event is not available in MQTT
+2025-02-24 14:36:01,165 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 14:36:01,174 - ERROR - event is not available in MQTT
+2025-02-24 14:36:01,181 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 14:36:01,190 - ERROR - event is not available in MQTT
+2025-02-24 14:36:01,196 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 14:36:01,206 - ERROR - event is not available in MQTT
+2025-02-24 14:36:01,211 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 19:42:49,910 - INFO - Connected to MQTT Broker!
+2025-02-24 19:42:54,179 - INFO - Mqtt Inserted to the Database
+2025-02-24 19:42:55,184 - INFO - Mqtt Inserted to the Database
+2025-02-24 19:42:56,187 - INFO - Mqtt Inserted to the Database
+2025-02-24 19:42:56,187 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 19:43:02,204 - INFO - Mqtt Inserted to the Database
+2025-02-24 19:43:03,205 - INFO - Mqtt Inserted to the Database
+2025-02-24 19:43:04,209 - INFO - Mqtt Inserted to the Database
+2025-02-24 19:43:08,221 - INFO - Mqtt Inserted to the Database
+2025-02-24 19:43:09,225 - INFO - Mqtt Inserted to the Database
+2025-02-24 19:43:10,241 - INFO - Mqtt Inserted to the Database
+2025-02-24 19:43:14,251 - INFO - Mqtt Inserted to the Database
+2025-02-24 19:43:15,258 - INFO - Mqtt Inserted to the Database
+2025-02-24 19:43:16,262 - INFO - Mqtt Inserted to the Database
+2025-02-24 19:43:16,262 - ERROR - event is not available in MQTT
+2025-02-24 19:43:16,262 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 19:43:16,262 - ERROR - event is not available in MQTT
+2025-02-24 19:43:16,273 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 19:43:16,273 - ERROR - event is not available in MQTT
+2025-02-24 19:43:16,273 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 19:43:18,278 - ERROR - event is not available in MQTT
+2025-02-24 19:43:18,278 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 19:43:18,278 - ERROR - event is not available in MQTT
+2025-02-24 19:43:18,278 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 19:43:18,278 - ERROR - event is not available in MQTT
+2025-02-24 19:43:18,287 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 19:43:18,287 - ERROR - event is not available in MQTT
+2025-02-24 19:43:18,287 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 22:16:58,804 - INFO - Connected to MQTT Broker!
+2025-02-24 22:17:03,094 - INFO - Mqtt Inserted to the Database
+2025-02-24 22:17:04,104 - INFO - Mqtt Inserted to the Database
+2025-02-24 22:17:05,109 - INFO - Mqtt Inserted to the Database
+2025-02-24 22:17:05,118 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 22:17:11,127 - INFO - Mqtt Inserted to the Database
+2025-02-24 22:17:12,132 - INFO - Mqtt Inserted to the Database
+2025-02-24 22:17:13,140 - INFO - Mqtt Inserted to the Database
+2025-02-24 22:17:17,152 - INFO - Mqtt Inserted to the Database
+2025-02-24 22:17:18,156 - INFO - Mqtt Inserted to the Database
+2025-02-24 22:17:19,161 - INFO - Mqtt Inserted to the Database
+2025-02-24 22:17:23,280 - INFO - Mqtt Inserted to the Database
+2025-02-24 22:17:24,282 - INFO - Mqtt Inserted to the Database
+2025-02-24 22:17:25,288 - INFO - Mqtt Inserted to the Database
+2025-02-24 22:17:25,288 - ERROR - event is not available in MQTT
+2025-02-24 22:17:25,291 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 22:17:25,297 - ERROR - event is not available in MQTT
+2025-02-24 22:17:25,298 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-24 22:17:25,301 - ERROR - event is not available in MQTT
+2025-02-24 22:17:25,304 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-24 22:17:27,306 - ERROR - event is not available in MQTT
+2025-02-24 22:17:27,308 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-24 22:17:27,310 - ERROR - event is not available in MQTT
+2025-02-24 22:17:27,312 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-24 22:17:27,313 - ERROR - event is not available in MQTT
+2025-02-24 22:17:27,314 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-24 22:17:27,317 - ERROR - event is not available in MQTT
+2025-02-24 22:17:27,318 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-25 10:37:04,969 - INFO - Connected to MQTT Broker!
+2025-02-25 10:37:09,271 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:37:14,278 - INFO - package: mysql.connector.plugins
+2025-02-25 10:37:14,278 - INFO - plugin_name: mysql_native_password
+2025-02-25 10:37:14,278 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-25 10:37:14,795 - INFO - Connected to MQTT Broker!
+2025-02-25 10:37:19,068 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:37:20,073 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:37:20,075 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-25 10:37:26,096 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:37:27,101 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:37:28,111 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:37:32,124 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:37:33,137 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:37:34,146 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:37:38,158 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:37:39,170 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:37:40,171 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:37:40,171 - ERROR - event is not available in MQTT
+2025-02-25 10:37:40,171 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-25 10:37:40,183 - ERROR - event is not available in MQTT
+2025-02-25 10:37:40,183 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-25 10:37:40,183 - ERROR - event is not available in MQTT
+2025-02-25 10:37:40,183 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-25 10:37:42,188 - ERROR - event is not available in MQTT
+2025-02-25 10:37:42,190 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-25 10:37:42,190 - ERROR - event is not available in MQTT
+2025-02-25 10:37:42,190 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-25 10:37:42,190 - ERROR - event is not available in MQTT
+2025-02-25 10:37:42,190 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-25 10:37:42,190 - ERROR - event is not available in MQTT
+2025-02-25 10:37:42,190 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-25 10:40:21,020 - INFO - package: mysql.connector.plugins
+2025-02-25 10:40:21,020 - INFO - plugin_name: mysql_native_password
+2025-02-25 10:40:21,020 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-25 10:40:21,579 - INFO - Connected to MQTT Broker!
+2025-02-25 10:40:25,857 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:40:25,863 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-25 10:40:31,893 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:40:35,932 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:40:39,974 - INFO - Mqtt Inserted to the Database
+2025-02-25 10:40:39,975 - ERROR - event is not available in MQTT
+2025-02-25 10:40:39,981 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-25 10:40:39,991 - ERROR - event is not available in MQTT
+2025-02-25 10:40:39,997 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-25 10:40:40,003 - ERROR - event is not available in MQTT
+2025-02-25 10:40:40,003 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-25 10:40:42,011 - ERROR - event is not available in MQTT
+2025-02-25 10:40:42,013 - INFO - Device Power On Message : 5C:01:3B:6B:D6:74
+2025-02-25 10:40:42,013 - ERROR - event is not available in MQTT
+2025-02-25 10:40:42,013 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-25 10:40:42,020 - ERROR - event is not available in MQTT
+2025-02-25 10:40:42,021 - INFO - Device Power On Message : A0:A3:B3:2A:88:00
+2025-02-25 10:40:42,023 - ERROR - event is not available in MQTT
+2025-02-25 10:40:42,023 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-25 10:42:15,954 - ERROR - event is not available in MQTT
+2025-02-25 10:42:15,958 - INFO - Device Power On Message : 5C:01:3B:6C:25:8C
+2025-02-25 10:42:52,507 - ERROR - event is not available in MQTT
+2025-02-25 10:42:54,563 - ERROR - MQTT Broker Connection Failed!
+2025-02-25 10:43:11,594 - ERROR - Database Connection Faild
+2025-02-25 10:43:28,629 - ERROR - Database Connection Faild
+2025-02-25 10:43:45,653 - ERROR - Database Connection Faild
+2025-02-25 10:44:02,697 - ERROR - Database Connection Faild
+2025-02-25 10:44:19,744 - ERROR - Database Connection Faild
+2025-02-25 10:44:36,773 - ERROR - Database Connection Faild
+2025-02-25 10:44:53,796 - ERROR - Database Connection Faild
+2025-02-25 10:45:10,823 - ERROR - Database Connection Faild
+2025-02-25 10:45:27,828 - ERROR - Database Connection Faild
+2025-02-25 10:45:44,858 - ERROR - Database Connection Faild
+2025-02-25 10:46:01,879 - ERROR - Database Connection Faild
+2025-02-25 10:46:18,893 - ERROR - Database Connection Faild
+2025-02-25 10:46:35,911 - ERROR - Database Connection Faild
+2025-02-25 10:46:52,947 - ERROR - Database Connection Faild
+2025-02-25 10:47:09,962 - ERROR - Database Connection Faild
+2025-02-25 10:47:26,984 - ERROR - Database Connection Faild
+2025-02-25 10:47:44,012 - ERROR - Database Connection Faild
+2025-02-25 10:48:01,049 - ERROR - Database Connection Faild
+2025-02-25 10:48:18,075 - ERROR - Database Connection Faild
+2025-02-25 10:48:35,092 - ERROR - Database Connection Faild
+2025-02-25 10:48:44,013 - ERROR - Database Connection Faild
+2025-02-25 10:49:01,031 - ERROR - Database Connection Faild
+2025-02-25 10:49:18,063 - ERROR - Database Connection Faild
+2025-02-25 10:49:35,094 - ERROR - Database Connection Faild
+2025-02-25 10:49:52,113 - ERROR - Database Connection Faild

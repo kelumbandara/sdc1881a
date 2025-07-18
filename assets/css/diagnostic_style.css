@@ -1,0 +1,769 @@
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+#luwa_image{
+    margin-left: 50px;
+}
+
+
+
+  @keyframes blinkGreen {
+    0%, 100% { background-color: rgb(0, 255, 0); }
+    50% { background-color: transparent; }
+  }
+  
+  .blinkGreen {
+    animation: blinkGreen 1s infinite;
+  }
+
+
+  @keyframes blinkRed {
+    0%, 100% { background-color: rgb(248, 3, 3); }
+    50% { background-color: transparent; }
+  }
+  
+  .blinkRed {
+    animation: blinkRed 1s infinite;
+  }
+  .chartBox{
+    position: relative;
+    width: 10px;
+  }
+
+  
+
+
+  /* Luwa 1A Start */
+  #L1ASD_dot {
+    position: absolute;
+    left: 12%;
+    top: 97%;
+    border-radius: 50%;
+}
+
+#L1ASD_message {
+  position: absolute;
+  background-image: url('../../assets/images/msg2.svg');
+  width:35px;
+  height: 40px;
+  background-repeat: no-repeat;
+  color: black;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  font-size: x-small;
+  margin: 0%;
+  left: 12%;
+  top: 92%;
+ /* transform: rotate(90deg); */
+
+}
+
+  /* Luwa 1A End */
+ #L1AED_dot{
+    position: absolute;
+    left: 60%;
+    top: 97%;
+    border-radius: 50%;
+}
+#L1AED_message{
+    position: absolute;
+  background-image: url('../../assets/images/msg2.svg');
+  width:35px;
+  height: 40px;
+  background-repeat: no-repeat;
+  color: black;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  font-size: x-small;
+  left: 61%;
+  top: 91%;
+  
+  
+
+ }
+
+
+/* Luwa 1B Start */
+ #L1BSD_dot{
+    position: absolute;
+    left: 12%;
+    top: 87%;
+    border-radius: 50%;
+ }
+ #L1BSD_message{
+    position: absolute;
+  background-image: url('../../assets/images/msg5.svg');
+  width:35px;
+  height: 40px;
+  background-repeat: no-repeat;
+  color: black;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  font-size: x-small;
+  top:87%;
+  left: 9%;
+
+
+ }
+
+ /* Luwa 1B End */
+ #L1BED_dot{
+    position: absolute;
+    left: 60%;
+    top: 87%;
+    border-radius: 50%;
+ }
+ #L1BED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height: 40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:87%;
+    left: 57.5%;
+
+ }
+
+  /* Luwa 2A Start */
+ #L2ASD_dot{
+    position: absolute;
+    left: 12%;
+    top: 83%;
+    border-radius: 50%;
+ }
+
+ #L2ASD_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg2.svg');
+    width:35px;
+    height: 40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    left: 12%;
+    top: 79%;
+
+ }
+
+   /* Luwa 2A End */
+ #L2AED_dot{
+    position: absolute;
+    left: 60%;
+    top: 83%;
+    border-radius: 50%;
+ }
+
+ #L2AED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg2.svg');
+    width:35px;
+    height: 40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    left: 60.4%;
+    top: 79%;
+    
+ }
+
+
+  /* Luwa 2B Start */
+  #L2BSD_dot{
+  position: absolute;
+    left: 12%;
+    top: 76%;
+    border-radius: 50%;
+ }
+ #L2BSD_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:76%;
+    left: 9.5%;
+   
+ }
+   /* Luwa 2B End */
+   #L2BED_dot{
+  position: absolute;
+    left: 60%;
+    top: 75%;
+    border-radius: 50%;
+ }
+ #L2BED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:76%;
+    left: 58%;
+ }
+
+/* Luwa 3A Start */
+#L3ASD_dot{
+    position: absolute;
+    left: 12%;
+    top: 72%;
+    border-radius: 50%;
+ }
+ #L3ASD_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg2.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:67%;
+    left: 13%;
+ }
+
+
+/* Luwa 3A End */
+#L3AED_dot{
+    position: absolute;
+    left: 60%;
+    top: 72%;
+    border-radius: 50%;
+ }
+
+ #L3AED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg2.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:67%;
+    left: 60%;
+ }
+ 
+
+ /* Luwa 3B Start */
+ /* Line 3B Start Data Dot */
+#L3BSD_dot{
+    position: absolute;
+    left: 12%;
+    top: 65%;
+    border-radius: 50%;
+ }
+ /* Line 3B Start Data Message Box */
+ #L3BSD_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:65%;
+    left: 10%;
+ }
+
+  /* Luwa 3B End */
+ /* Line 3B End Data Dot */
+#L3BED_dot{
+    position: absolute;
+    left: 60%;
+    top: 65%;
+    border-radius: 50%;
+ }
+
+  /* Line 3B End Data Message Box */
+  #L3BED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:65%;
+    left: 57%;
+ }
+ 
+/* 4A */
+#L4ASD_dot{
+    position: absolute;
+    left: 12%;
+    top:61%;
+}
+#L4ASD_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg2.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:57%;
+    left: 13%;
+}
+
+
+
+
+/* 4A */
+#L4AED_dot{
+    position: absolute;
+    left: 60%;
+    top:61%;
+}   
+#L4AED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg2.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:57%;
+    left: 60%;
+}
+
+/* 4B */
+#L4BSD_dot{
+    position: absolute;
+    left: 12%;
+    top:53%;
+}
+#L4BSD_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:53%;
+    left: 10%;
+}
+
+/* 4B */
+#L4BED_dot{
+    position: absolute;
+    left: 60%;
+    top:53%;
+}
+#L4BED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:53%;
+    left: 58%;
+}
+
+
+
+/* 5A */
+#L5ASD_dot{
+    position: absolute;
+    left: 12%;
+    top:48%;
+}
+#L5ASD_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg2.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:43%;
+    left: 12%;
+}
+
+#L5AED_dot{
+    position: absolute;
+    left: 60%;
+    top:48%;
+}
+
+#L5AED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg2.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:43%;
+    left: 60%;
+}
+
+
+
+
+/* 5B */
+#L5BSD_dot{
+    position: absolute;
+    left: 12.5%;
+    top:38%;
+}
+
+#L5BSD_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:38%;
+    left: 10%;
+}
+
+
+/* 5B */
+#L5BED_dot{
+    position: absolute;
+    left: 60%;
+    top:38%;
+    
+}
+
+#L5BED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:38%;
+    left: 58%;
+}
+
+
+
+/* 6A */
+
+#L6ASD_dot{
+    position: absolute;
+    left: 12.5%;
+    top:34.5%;
+}
+#L6ASD_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg2.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:30%;
+    left: 12%;
+}
+
+
+#L6AED_dot{
+    position: absolute;
+    left: 60%;
+    top:34.5%;
+}
+
+#L6AED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg2.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:30%;
+    left: 60%;
+}
+
+
+
+/* 6B */
+
+#L6BSD_dot{
+    position: absolute;
+    left: 12%;
+    top:27%;
+}
+
+#L6BSD_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:27%;
+    left: 10%;
+}
+
+
+#L6BED_dot{
+    position: absolute;
+    left: 60%;
+    top:27%;
+}
+
+#L6BED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:27%;
+    left: 58%;
+}
+
+/* 7A */
+#L7ASD_dot{
+    position: absolute;
+    top:23.5%;
+    left: 12%;
+}
+#L7ASD_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg2.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:20%;
+    left: 12.5%;
+}
+
+#L7AED_dot{
+    position: absolute;
+    top:23.5%;
+    left: 60%;
+}
+
+#L7AED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg2.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:20%;
+    left: 60.5%;
+}
+
+/* 7B */
+#L7BSD_dot{
+    position: absolute;
+    top:15%;
+    left: 12%;
+}
+#L7BSD_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:15%;
+    left: 10%;
+}
+#L7BED_dot{
+    position: absolute;
+    top:15%;
+    left: 60%;
+}
+#L7BED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:15%;
+    left: 58%;
+}
+
+/* 8A */
+#L8ASD_dot{
+    position: absolute;
+    top:12%;
+    left: 12%;
+
+}
+#L8ASD_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg2.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:9%;
+    left: 12.5%;
+}
+#L8AED_dot{
+    position: absolute;
+    top:12%;
+    left: 60%;
+
+}
+#L8AED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg2.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:9%;
+    left: 60.5%;
+}
+
+/* 8B */
+#L8BSD_dot{
+    position: absolute;
+    top:1.5%;
+    left: 12%;
+}
+#L8BSD_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:3%;
+    left: 10%;
+}
+
+
+#L8BED_dot{
+    position: absolute;
+    top:1.5%;
+    left: 60%;
+}
+
+#L8BED_message{
+    position: absolute;
+    background-image: url('../../assets/images/msg5.svg');
+    width:35px;
+    height:40px;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    top:3%;
+    left: 58.5%;
+}
+
+ #Line_name{
+  color: rgb(0, 0, 0);
+  font-size:smaller;
+  background-position: center;
+  font-family: 'Inter', sans-serif;
+
+ 
+ }
+
+
+ #L1ASD,#L1AED,#L1BSD,#L1BED,#L2ASD,#L2AED,#L2BSD,#L2BED,
+ #L3ASD,#L3AED,#L3BSD,#L3BED, #L4ASD,#L4AED,#L4BSD,#L4BED,
+ #L5ASD,#L5AED,#L5BSD,#L5BED, #L6ASD,#L6AED,#L6BSD,#L6BED,
+ #L7ASD,#L7AED,#L7BSD,#L7BED,#L8ASD,#L8AED,#L8BSD,#L8BED
+
+ {
+   
+    font-size: smaller;
+ }
+ #luwa_container {
+    margin-left: 100px;
+   
+}
+
+ @media (max-width: 750px)
+ {
+    .dot{
+        width: 5px;
+        height: 5px;
+    }
+}
+
+

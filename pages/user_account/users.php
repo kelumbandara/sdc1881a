@@ -143,11 +143,14 @@
                     </div>          
                 </div><!-- /.container-fluid -->
                 <!-- Include Footer -->
-                <?php
-                    include '../../headers/footer-bar.php'
-                ?> 
+                <!-- <div style="margin-top:2vh" ></div> -->
+                
             </section>
         </div>    
+
+        <?php
+            include '../../headers/footer-bar.php'
+        ?> 
     </div>    
  
 <!-- Navbar -->
@@ -156,6 +159,10 @@
 ?>    
 <!-- Page specific script -->
 <script>
+
+    
+    funLoadUsers();  
+
     let intDebugEnable = 1;
     
     //--------------- Admin Panel Minimize ----------------------
