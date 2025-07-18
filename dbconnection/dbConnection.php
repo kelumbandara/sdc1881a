@@ -3,7 +3,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $database = "hvc1750b";  // Te
+    $database = "sdc1881a_debug_1";  // Te
 
     // $servername = "localhost";
     // $username = "root";

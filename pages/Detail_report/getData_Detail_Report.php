@@ -32,7 +32,7 @@
         //2024-03-13,2024-03-28,All,All,All,All,All
         $strStartDate       = $num[1];  
         $strEndDate         = $num[2]; 
-        $strFactory         = $num[3];   //$num[3];       
+        $strUnit            = $num[3];   //$num[3];       
         
         /*
         $strStartDate       = '2024-03-01'; //$num[1];  
@@ -45,21 +45,19 @@
         */
 
     
-        $whereClause = " DATE(ServerDatetime) BETWEEN :start_date AND :end_date";
+        $whereClause = " DATE(LastUpdatedTime) BETWEEN :start_date AND :end_date and WorkCenter=:Unit";
 
-        if ($strFactory !== "All") {
-            $whereClause .= " AND MeterNumber = '" . $strFactory . "'";
-        }
+      
         try 
         {           
             
             $sqlString = "
-            SELECT * FROM `btuevent` WHERE " . $whereClause;              
+            SELECT * FROM `tbl_summary_air_flow` WHERE " . $whereClause;              
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
             $stmt = $conn->prepare($sqlString);
             $stmt->bindParam(':start_date', $strStartDate); 
             $stmt->bindParam(':end_date', $strEndDate);
-            
+            $stmt->bindParam(':Unit', $strUnit);
             $stmt->execute();
             // set the resulting array to associative
             $stmt->setFetchMode(PDO::FETCH_ASSOC);        
@@ -68,15 +66,12 @@
   
             foreach($result as $row)
             {           
-                $ReturnData_ary2[$i][0] = $row['ServerDatetime'];
-                $ReturnData_ary2[$i][1] = $row['Unit'];
-                $ReturnData_ary2[$i][2] = $row['MeterNumber']; 
-                $ReturnData_ary2[$i][3] = $row['ThermalEnergyUnit']; 
-                $ReturnData_ary2[$i][4] = $row['ChilledWaterFlow']; 
-                $ReturnData_ary2[$i][5] = $row['ChilledWaterSupplyTemp']; 
-                $ReturnData_ary2[$i][6] = $row['ChilledWaterReturnTemp'];
-                $ReturnData_ary2[$i][7] = $row['Enet'];
-                 
+                $ReturnData_ary2[$i][0] = $row['LastUpdatedTime'];
+                $ReturnData_ary2[$i][1] = $row['WorkCenter'];
+                $ReturnData_ary2[$i][2] = $row['Airpressure'];
+                // $ReturnData_ary2[$i][3] = $row['State'];
+
+        
                 $i++;
             }  
             if($i === 0)    // No Data

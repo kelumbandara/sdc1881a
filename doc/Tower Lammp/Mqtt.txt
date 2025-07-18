@@ -1,0 +1,33 @@
+[11:25:48 AM] Topic: WMS1760A/TWL, Len: 99, Qos: 0
+Msg : {"MacAdd":"48:3F:DA:62:AD:63","MsgType":"EventTWL","EventNo":"2","Kpd_No":"1","Data":[0,0,1,0,0,0]}
+
+[11:25:48 AM] Topic: WMS1760A/TWL, Len: 99, Qos: 0
+Msg : {"MacAdd":"F4:CF:A2:D2:51:5A","MsgType":"EventTWL","EventNo":"2","Kpd_No":"1","Data":[0,0,1,0,0,0]}
+
+[11:25:48 AM] Topic: WMS1760A/TWL, Len: 99, Qos: 0
+Msg : {"MacAdd":"48:3F:DA:68:83:74","MsgType":"EventTWL","EventNo":"2","Kpd_No":"1","Data":[0,0,1,0,0,0]}
+
+[11:25:48 AM] Topic: WMS1760A/TWL, Len: 99, Qos: 0
+Msg : {"MacAdd":"48:3F:DA:03:DE:3D","MsgType":"EventTWL","EventNo":"2","Kpd_No":"1","Data":[0,0,1,0,0,0]}
+
+[11:25:48 AM] Topic: WMS1760A/TWL, Len: 99, Qos: 0
+Msg : {"MacAdd":"8C:AA:B5:15:C4:86","MsgType":"EventTWL","EventNo":"2","Kpd_No":"1","Data":[0,0,1,0,0,0]}
+
+[11:25:48 AM] Topic: WMS1760A/TWL, Len: 99, Qos: 0
+Msg : {"MacAdd":"F0:08:D1:02:00:56","MsgType":"EventTWL","EventNo":"2","Kpd_No":"1","Data":[0,0,1,0,0,0]}
+
+[11:25:48 AM] Topic: WMS1760A/TWL, Len: 99, Qos: 0
+Msg : {"MacAdd":"BC:DD:C2:79:C0:1B","MsgType":"EventTWL","EventNo":"2","Kpd_No":"1","Data":[0,0,1,0,0,0]}
+
+[11:25:48 AM] Topic: WMS1760A/TWL, Len: 99, Qos: 0
+Msg : {"MacAdd":"D8:BF:C0:11:49:4B","MsgType":"EventTWL","EventNo":"2","Kpd_No":"1","Data":[0,0,1,0,0,0]}
+
+[11:25:48 AM] Topic: WMS1760A/TWL, Len: 99, Qos: 0
+Msg : {"MacAdd":"24:A1:60:2D:0C:E6","MsgType":"EventTWL","EventNo":"2","Kpd_No":"1","Data":[0,0,1,0,0,0]}
+
+[11:25:48 AM] Topic: WMS1760A/TWL, Len: 99, Qos: 0
+Msg : {"MacAdd":"8C:AA:B5:15:F5:62","MsgType":"EventTWL","EventNo":"2","Kpd_No":"1","Data":[0,0,1,0,0,0]}
+
+[11:25:48 AM] Topic: WMS1760A/TWL, Len: 99, Qos: 0
+Msg : {"MacAdd":"48:3F:DA:63:54:D1","MsgType":"EventTWL","EventNo":"2","Kpd_No":"1","Data":[0,0,1,0,0,0]}
+Noyon lanka python code publish data set

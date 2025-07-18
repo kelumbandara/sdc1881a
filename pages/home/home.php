@@ -1,4 +1,10 @@
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
 <!--<?php
+  
     session_start();
     // Check if the user is logged in
     if (!isset($_SESSION["user_name"]))
@@ -15,9 +21,12 @@
 ?>-->
 
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
     require_once('../../headers/header.php');
 ?>
-<body class="hold-transition sidebar-mini layout-fixed dark-mode">   
+<body class="hold-transition sidebar-mini layout-fixed dark-mode">
 <div class="wrapper">
     <!-- Preloader -->
     <div class="preloader flex-column justify-content-center align-items-center">
@@ -35,564 +44,8559 @@
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <!-- Main content -->
-        <section class="content">
-            <div class="container-fluid">
-                <!-- /.card-header -->
-                <div class="card-body">
-                    <div class="text-center" style="display: flex; align-items: center; justify-content: center; color: #f5e342; padding: 10px; border-radius: 8px;">
-                        <h1 style="margin: 0; padding-right: 10px;">
-                            HVAC Performance Monitoring System of MFM & MFI
-                        </h1>                        
+        <section class="content" id="content">
+            <h5 style="margin-bottom:20px"><center>Luwa suction pressure monitoring dashboard</center></h5>
+
+
+            <!-- Modal -->
+
+                <!-- LUWA 1A -->
+                <div class="modal bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_1A" > </canvas>
+              
                     </div>
-                <div class="row my-1" id="id_homeDetails">
-                <div class="col-md-3">
-                    <div class="card" style="height: 225px; width: 100%;"> <!-- Set fixed height and width -->
-                        <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                            <!-- <p class="text-center"><strong>Work Order Details</strong></p> -->
-                            <p class="text-center"><strong>MFM kW</strong></p>
-                            <div class="js-gauge js-gauge--1 gauge"></div>
-                        </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+                </div>
+                 <!-- LUWA 1B -->
+                <div class="modal bd-example-modal-lg luwa_1B" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_1B" > </canvas>
+              
                     </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                 </div>
-                <div class="col-md-3">
-                    <div class="card" style="height: 225px; width: 100%;">
-                        <div class="card-body" style="font-size: 17px; font-weight: bold;">
-                            <p class="text-center py-1 border-bottom"><strong>MFM Real Time Data</strong></p>
-                            <div class="d-flex justify-content-between py-1 border-bottom">
-                                <span style="width: 55%;">Thermal energy</span>
-                                <span id="id_MFM_Thermal_energy_unit" style="width: 45%;">: -</span>
-                            </div>
-                            <div class="d-flex justify-content-between py-1 border-bottom">
-                                <span style="width: 55%;">CH Water Flow</span>
-                                <span id="id_MFM_Child_Water_Flow" style="width: 45%;">: -</span>
-                            </div>
-                            <div class="d-flex justify-content-between  py-1 border-bottom">
-                                <span style="width: 60%;">CH Water Sup Temp</span>
-                                  <span id="id_MFM_Child_Water_return_Temp" style="width: 40%;">: -</span>
-                            </div>
-                            <div class="d-flex justify-content-between  py-1 border-bottom">
-                                <span style="width: 60%;">CH Water Ret Temp</span>
-				<span id="id_MFM_Child_Water_Supply_Temp" style="width: 40%;">: -</span>
-                              
-                            </div>
-                        </div>
-                    </div>                        
                 </div>
-                <div class="col-md-3">
-                    <div class="card" style="height: 225px; width: 100%;"> <!-- Set fixed height and width -->
-                        <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                            <!-- <p class="text-center"><strong>Work Order Details</strong></p> -->
-                            <p class="text-center"><strong>MFI kW</strong></p>
-                            <div class="js-gauge js-gauge--2 gauge"></div>
-                        </div>
+                </div> 
+
+                
+                <!-- LUWA 2A -->
+                <div class="modal bd-example-modal-lg luwa_2A" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_2A" > </canvas>
+              
                     </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                 </div>
-                <div class="col-md-3">                        
-                    <div class="card" style="height: 225px; width: 100%;">
-                        <div class="card-body" style="font-size: 17px; font-weight: bold;">
-                            <p class="text-center py-1 border-bottom"><strong>MFI Real Time Data</strong></p>
-                            <div class="d-flex justify-content-between py-1 border-bottom">
-                                <span style="width: 55%;">Thermal energy</span>
-                                <span id="id_MFI_Thermal_energy_unit" style="width: 45%;">: -</span>
-                            </div>
-                            <div class="d-flex justify-content-between py-1 border-bottom">
-                                <span style="width: 55%;">CH Water Flow</span>
-                                <span id="id_MFI_Child_Water_Flow" style="width: 45%;">: -</span>
-                            </div>
-                            <div class="d-flex justify-content-between  py-1 border-bottom">
-                                <span style="width: 60%;">CH Water Sup Temp</span>
-                                 <span id="id_MFI_Child_Water_return_Temp" style="width: 40%;">: -</span>
-                            </div>
-                            <div class="d-flex justify-content-between  py-1 border-bottom">
-                                <span style="width: 60%;">CH Water Ret Temp</span>
-				<span id="id_MFI_Child_Water_Supply_Temp" style="width: 40%;">: -</span>
-                               
-                            </div>
-                        </div>
+                </div>
+                </div>
+
+                <div class="modal bd-example-modal-lg luwa_2B" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_2B" > </canvas>
+              
                     </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                 </div>
-            </div>
-            <div class="container-fluid">
+                </div>
+                </div>
+
+                <!-- LUWA 2B -->
+                <div class="modal bd-example-modal-lg luwa_3A" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_3A" > </canvas>
+              
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+                </div>
+
+                 <!-- LUWA 3A -->
+                 <div class="modal bd-example-modal-lg luwa_3A" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_3A" > </canvas>
+              
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+                </div>
+                 <!-- LUWA 3B-->
+                 <div class="modal bd-example-modal-lg luwa_3B" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_3B" > </canvas>
+              
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+                </div>
+
+                <!-- LUWA 4A -->
+                <div class="modal bd-example-modal-lg luwa_4A" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_4A" > </canvas>
+              
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+                </div>
+                 <!-- LUWA 4B-->
+                 <div class="modal bd-example-modal-lg luwa_4B" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_4B" > </canvas>
+              
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+                </div>
+
+                <!-- LUWA 5A -->
+                <div class="modal bd-example-modal-lg luwa_5A" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_5A" > </canvas>
+              
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+                </div>
+                 <!-- LUWA 5B-->
+                 <div class="modal bd-example-modal-lg luwa_5B" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_5B" > </canvas>
+              
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+                </div>
+
+                <!-- LUWA 6A -->
+                <div class="modal bd-example-modal-lg luwa_6A" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_6A" > </canvas>
+              
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+                </div>
+                 <!-- LUWA 6B-->
+                 <div class="modal bd-example-modal-lg luwa_6B" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_6B" > </canvas>
+              
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+                </div>
+
+                
+                <!-- LUWA 7A -->
+                <div class="modal bd-example-modal-lg luwa_7A" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_7A" > </canvas>
+              
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+                </div>
+                 <!-- LUWA 7B-->
+                 <div class="modal bd-example-modal-lg luwa_7B" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_7B" > </canvas>
+              
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+                </div>
+
+                
+                <!-- LUWA 8A -->
+                <div class="modal bd-example-modal-lg luwa_8A" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_8A" > </canvas>
+              
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+                </div>
+                 <!-- LUWA 8B-->
+                 <div class="modal bd-example-modal-lg luwa_8B" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <canvas id="myChart_Model_luwa_8B" > </canvas>
+              
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+                </div>
+                </div>
+
+                
+
+
+
+
+
+             
+            <div class="grid-container " id="main_content " style="padding-bottom:10px">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="card card-success" style="height: 380px; width: 100%;">
-                            <h6 class="text-center">MFM & MFI Cooling Load</h6>
-                            <div class="card-body" id="Id_DivBarChart_1"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">                            
-                       <div class="card card-success card-body d-flex flex-column justify-content-center align-items-center" style="height: 380px; width: 100%;">
-                            <div class="text-center" style="font-size: 32px; font-weight: bold;">Total kW</div>
-                            <div id="id_Home_units" class="text-center mt-3" style="font-size: 40px; font-weight: bold;">- -</div>
+                    
+                        
+                            
+                                <div class="chartBox col-sm" >
+                                    <canvas id="myChart" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="luwa_1A_model('Luwa_1A')"></canvas>
+                                </div>
+                                <div class="chartBox col-sm" >
+                                    <canvas id="myChart2" data-toggle="modal" data-target=".luwa_1B"></canvas>
+                                </div>
 
-                            <div class="text-center text-warning mt-5" style="font-size: 12px; font-weight: bold;">Last Updated Time MFM</div>
-                            <div id="id_Home_LstUpDateTime_MFM" class="text-center text-warning" style="font-size: 12px; font-weight: bold;">- -</div>
+                                <div class="chartBox col-sm">
+                                    <canvas id="myChart3" data-toggle="modal" data-target=".luwa_2A"></canvas>
+                                </div>
 
-                            <div class="text-center text-warning mt-3" style="font-size: 12px; font-weight: bold;">Last Updated Time MFI</div>
-                            <div id="id_Home_LstUpDateTime_MFI" class="text-center text-warning" style="font-size: 12px; font-weight: bold;">- -</div>
-                        </div>                           
-                    </div> 
-                    <div class="col-md-4">    
-                        <div class="card" style="height: 380px; width: 100%;">
-                            <div class="card-header" style="padding-top: 3px; padding-bottom: 3px; line-height: 1.2;">
-                                <center>Chiller Operations</center>
-                            </div>
-                            <div class="card-header" style="background-color: #707070 ; padding-top: 3px; padding-bottom: 3px; line-height: 1.2;"><center>CHILLERS</center>
-                                <table style="width: 80%; margin: 0 auto;">
-                                    <tr>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <div class="card-header" style="padding-top: 3px; padding-bottom: 3px; line-height: 1.2;"><center>CHILLER PUMP</center>
-                                <table style="width: 80%; margin: 0 auto;">
-                                    <tr>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <div class="card-header" style="background-color: #707070 ; padding-top: 3px; padding-bottom: 3px; line-height: 1.2;"><center>CILLER OUTER PUMP</center>
-                                <table style="width: 80%; margin: 0 auto;">
-                                    <tr>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <div class="card-header" style="padding-top: 3px; padding-bottom: 3px; line-height: 1.2;"><center>COOLING TOWER</center>
-                                <table style="width: 80%; margin: 0 auto;">
-                                    <tr>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td style=" font-size: 20px; font-weight: bold;">
-                                           <div class="small-box mx-2">
-                                                <div style="background-color: red; width:60px; height: 40px; border-radius: 10px; border: 1px solid black; display: flex; justify-content: center; align-items: center; color: black;">                                                    
-                                                    <center><h6>OFF</h6></center>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>                                                    
-                    </div> 
+                                <div class="chartBox col-sm" >
+                                    <canvas id="myChart4" data-toggle="modal" data-target=".luwa_2B"></canvas>
+                                </div>
+
+
+                            
+                        
+                    
                 </div>
+
+
+
+
+
+
+                <div class="row">
+                    
+
+                                 <div class="chartBox col-sm" >
+                                    <canvas id="myChart5" data-toggle="modal" data-target=".luwa_3A"></canvas>
+                                </div>
+                                 <div class="chartBox col-sm" >
+                                    <canvas id="myChart6" data-toggle="modal" data-target=".luwa_3B"></canvas>
+                                </div>
+
+                                 <div class="chartBox col-sm" >
+                                    <canvas id="myChart7" data-toggle="modal" data-target=".luwa_4A"> </canvas>
+                                </div>
+
+                                 <div class="chartBox col-sm" >
+                                    <canvas id="myChart8" data-toggle="modal" data-target=".luwa_4B"></canvas>
+                                </div>
+
+
+                           
+                </div>
+
+
+                <div class="row">
+                  
+
+                                 <div class="chartBox col-sm" >
+                                    <canvas id="myChart9" data-toggle="modal" data-target=".luwa_5A"></canvas>
+                                </div>
+                                 <div class="chartBox col-sm" >
+                                    <canvas id="myChart10" data-toggle="modal" data-target=".luwa_5B"></canvas>
+                                </div>
+
+                                 <div class="chartBox col-sm" >
+                                    <canvas id="myChart11" data-toggle="modal" data-target=".luwa_6A"></canvas>
+                                </div>
+
+                                 <div class="chartBox col-sm" >
+                                    <canvas id="myChart12" data-toggle="modal" data-target=".luwa_6B"></canvas>
+                                </div>
+
+
+                          
+                </div>
+
+                <div class="row">
+                    
+
+                                 <div class="chartBox col-sm" >
+                                    <canvas id="myChart13" data-toggle="modal" data-target=".luwa_7A"></canvas>
+                                </div>
+                                 <div class="chartBox col-sm" >
+                                    <canvas id="myChart14" data-toggle="modal" data-target=".luwa_7B"></canvas>
+                                </div>
+
+                                 <div class="chartBox col-sm" >
+                                    <canvas id="myChart15" data-toggle="modal" data-target=".luwa_8A"></canvas>
+                                </div>
+
+                                 <div class="chartBox col-sm" >
+                                    <canvas id="myChart16" data-toggle="modal" data-target=".luwa_8B"></canvas>
+                                </div>
+
+
+                          
+
+
             </div>
-        </section>
-    </div>
-    <?php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var Global_chart_model="";
+var ctx = null;
+let lineChart = null;
+let lineChart2 = null;
+let lineChart3 = null;
+let lineChart4 = null;
+let lineChart5 = null;
+let lineChart6 = null;
+let lineChart7 = null;
+let lineChart8 = null;
+let lineChart9 = null;
+let lineChart10 = null;
+let lineChart11 = null;
+let lineChart12 = null;
+let lineChart13 = null;
+let lineChart14 = null;
+let lineChart15 = null;
+let lineChart16 = null;
+let lineChart17 = null;
+let lineChart18 = null;
+let lineChart19 = null;
+let lineChart20 = null;
+let lineChart21 = null;
+let lineChart22 = null;
+let lineChart23 = null;
+let lineChart24 = null;
+let lineChart25 = null;
+let lineChart26 = null;
+let lineChart27 = null;
+let lineChart28 = null;
+let lineChart29 = null;
+let lineChart30 = null;
+let lineChart31 = null;
+let lineChart32 = null;
+let lineChart33 = null;
+let lineChart34 = null;
+let lineChart35 = null;
+let lineChart36 = null;
+
+let lineChart_Model_box_Luwa_1A = null;
+let lineChart_Model_box_Luwa_1B = null;
+let lineChart_Model_box_Luwa_2A = null;
+let lineChart_Model_box_Luwa_2B = null;
+let lineChart_Model_box_Luwa_3A = null;
+let lineChart_Model_box_Luwa_3B = null;
+let lineChart_Model_box_Luwa_4A = null;
+let lineChart_Model_box_Luwa_4B = null;
+let lineChart_Model_box_Luwa_5A = null;
+let lineChart_Model_box_Luwa_5B = null;
+let lineChart_Model_box_Luwa_6A = null;
+let lineChart_Model_box_Luwa_6B = null;
+let lineChart_Model_box_Luwa_7A = null;
+let lineChart_Model_box_Luwa_7B = null;
+let lineChart_Model_box_Luwa_8A = null;
+let lineChart_Model_box_Luwa_8B = null;
+
+var min_limit=6500;
+var max_limit=7000;
+var line4A_Time_count=0;
+var line4B_Time_count=0;
+var line4B_Data_new;
+var diff_min_low=-3;
+var diff_min_high=3;
+
+        function luwa_1A_model(chart)
+           {
+
+             Global_chart_model=chart;
+            //alert(Global_chart_model)
+
+            }
+
+        function funLoadUsers()
+            {
+                console.log("ctx ", ctx);
+                console.log("Reload:", new Date().toLocaleTimeString()); // Logs time in HH:MM:SS format
+
+                //------------ Load Line Setting --------------------------------------
+                const DataAry = [];
+                DataAry[0] = "funGetLineData";        // Table Name
+                DataAry[1] = "Active";
+               // alert(DataAry[1])
+               // alert(DataAry);
+                $.post('class/getData_HomeChart1.php', { userpara: DataAry }, function(json_data2)
+                {
+                    var res = $.parseJSON(json_data2);
+                   //alert(res.Data_Ary.join(", "));
+                   //alert(json_data2);
+                   console.log(json_data2);
+                  // console.log("Global_chart_model "+Global_chart_model);
+                   //alert(Global_chart_model);
+
+
+
+                        //Chart 1 [Luwa 1A] Array
+                   
+                        Data_Ary=(res.Data_Ary.join(", "));
+                        Data_Ary2=(res.Data_Ary2.join(", "));
+                        Data_Ary3=(res.Data_Ary3.join(", "));
+                        Data_Ary4=(res.Data_Ary4.join(", "));
+                        var New_1A_End=[];
+                        var Chart1_Display_Time=[];
+                        
+                        Luwa_1A_Start_Length= res.Data_Ary.length; //1
+                        Luwa_1A_End_Length= res.Data_Ary3.length;  //2
+
+                        Luwa_1A_Start_Data=[]; //1
+                        Luwa_1A_Start_Time=[];
+                        
+                        Luwa_1A_End_Data=[]; //2 
+                        Luwa_1A_End_Time=[];
+                        
+                        for (var i = 0; i < Luwa_1A_Start_Length; i++)
+                        {
+                           
+                            Luwa_1A_Start_Data.push(res.Data_Ary[i]);
+                            Luwa_1A_Start_Time.push(res.Data_Ary2[i]);
+                            last_index_Luwa_1A_Start=i
+                             
+                        }
+                        for (var i = 0; i < Luwa_1A_End_Length; i++)
+                        {
+                            Luwa_1A_End_Data.push(res.Data_Ary3[i]);
+                            Luwa_1A_End_Time.push(res.Data_Ary4[i]);
+                            last_index_line1A_End=i;
+
+                        }
+
+                        
+                        try{
+                            
+                            if(Luwa_1A_Start_Data.length >= 1)
+                            {
+                                //alert(Luwa_1A_Start_Data.length)
+                                Chart1_Display_Time=Luwa_1A_Start_Time;
+                                for(var x=0;x<Luwa_1A_Start_Data.length;x++)
+                                {
+
+                                    
+                                    //console.log(" ");
+                                    Time=Luwa_1A_Start_Time[x];
+                                    let h = Time.split(":"); // Splitting the input string
+                                    let hour =parseInt(h[0]); 
+                                    let min = parseInt(h[1]);
+                                    //console.log("Time 1A "+hour+":"+min);
+
+                                    
+                                    for(var a=0;a<Luwa_1A_End_Time.length;a++)
+                                    {
+                                        var Time2=Luwa_1A_End_Time[a];
+                                        let h2 = Time2.split(":"); // Splitting the input string
+                                        let hour2 =parseInt(h2[0]); 
+                                        let min2 = parseInt(h2[1]);
+                                        
+                                        var diff_Hour=parseInt(hour2-hour);
+                                        var diff_min=parseInt(min2-min);
+                                        //console.log("diff_min "+line1A_Time[x]+" "+Luwa_1A_End_Time[a]+" "+diff_min);
+
+                          
+                                     
+
+                                        if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                        {
+                                            New_1A_End[x]=Luwa_1A_End_Data[a];
+                                        }
+                                      
+                                    }
+                                }
+                            }
+
+                            if(Luwa_1A_Start_Data.length == 1 && Luwa_1A_End_Data.length > 1 )
+                            {
+                                
+                                Chart1_Display_Time=Luwa_1A_End_Time;
+                                New_1A_End=Luwa_1A_End_Data;
+
+                             
+
+                            }
+                          
+                        }
+                        catch(err)
+                        {
+                            // console.log("Error 1A: "+err)
+                            // console.log(line1A_Time);
+                            // console.log(line1A_Length);
+                            // console.log(line1B_Length);
+                            // console.log(line1B_Data);
+                            // console.log(line1B_Time);
+                            // console.log(" ");
+                                        
+                        }
+
+                     //Chart 2 Array [luwa 1B]
+                    Data_Ary=(res.Data_Ary5.join(", "));
+                    Data_Ary2=(res.Data_Ary6.join(", "));
+                    Data_Ary3=(res.Data_Ary7.join(", "));
+                    Data_Ary4=(res.Data_Ary8.join(", "));
+                    var New_1B_End=[];
+                    var Chart2_Display_Time=[];
+                    
+                    
+
+                    Luwa_1B_Start_Length= res.Data_Ary5.length;
+                    Luwa_1B_End_Length= res.Data_Ary7.length;
+
+
+                    Luwa_1B_Start_Data=[];
+                    Luwa_1B_Start_Time=[];
+                    Luwa_1B_End_Data=[];
+                    Luwa_1B_End_Time=[];
+
+                    for (var i = 0; i < Luwa_1B_Start_Length; i++)
+                     {
+                        Luwa_1B_Start_Data.push(res.Data_Ary5[i]);
+                        Luwa_1B_Start_Time.push(res.Data_Ary6[i]);
+                        last_index_line1B_Start=i;
+                    }
+
+                    for (var i = 0; i < Luwa_1B_End_Length; i++)
+                     {
+                        Luwa_1B_End_Data.push(res.Data_Ary7[i]);
+                        Luwa_1B_End_Time.push(res.Data_Ary8[i]);
+                        last_index_line1B_End=i;
+                     }
+
+
+                    try{
+
+                        for(var x=0;x<Luwa_1B_Start_Data.length;x++)
+                        {
+                            
+                            //console.log(" ");
+                            Time=Luwa_1B_Start_Time[x];
+                            let h = Time.split(":"); // Splitting the input string
+                            let hour =parseInt(h[0]); 
+                            let min = parseInt(h[1]);
+                            //console.log("Time 2A "+hour+":"+min);
+                            
+                            for(var a=0;a<Luwa_1B_End_Time.length;a++)
+                            {
+                                var Time2=Luwa_1B_End_Time[a];
+                                let h2 = Time2.split(":"); // Splitting the input string
+                                let hour2 =parseInt(h2[0]); 
+                                let min2 = parseInt(h2[1]);
+                                
+                                var diff_Hour=parseInt(hour2-hour);
+                                var diff_min=parseInt(min2-min);
+                                //console.log("diff_min "+Luwa_1B_Start_Time[x]+" "+Luwa_1B_End_Time[a]+" "+diff_min);
+
+
+                                if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                {
+                                    New_1B_End[x]=Luwa_1B_End_Data[a];
+                                }
+                            }
+                        }
+                        //console.log(New_1B_End)
+                    }
+
+                    catch(err)
+                    {
+                        console.log("Error Luwa 1B: "+err)
+                        // console.log(line2A_Time);
+                        // console.log(line2A_Length);
+                        // console.log(line2B_Length);
+                        // console.log(line2B_Data);
+                        // console.log(line2B_Time);
+                        // console.log(" ");
+                                    
+                    }
+              
+                    //Chart 3 Array [Luwa 2A] (5/2/24)
+                    Data_Ary=(res.Data_Ary9.join(", "));
+                    Data_Ary2=(res.Data_Ary10.join(", "));
+                    Data_Ary3=(res.Data_Ary11.join(", "));
+                    Data_Ary4=(res.Data_Ary12.join(", "));
+                    var New_2A_End=[];
+
+                    Luwa_2A_Start_Length= res.Data_Ary9.length;
+                    Luwa_2A_End_Length= res.Data_Ary9.length;
+
+
+                    Luwa_2A_Start_Data=[];
+                    Luwa_2A_Start_Time=[];
+                    
+                    Luwa_2A_End_Data=[];
+                    Luwa_2A_End_Time=[];
+
+                    for (var i = 0; i < Luwa_2A_Start_Length; i++)
+                     {
+                        Luwa_2A_Start_Data.push(res.Data_Ary9[i]);
+                        Luwa_2A_Start_Time.push(res.Data_Ary10[i]);
+                        last_index_Luwa_3A_Start=i;
+                     }
+                    for (var i = 0; i < Luwa_2A_End_Length; i++)
+                     {
+                        Luwa_2A_End_Data.push(res.Data_Ary11[i]);
+                        Luwa_2A_End_Time.push(res.Data_Ary12[i]);
+                        last_index_Luwa_3A_End=i;
+                     }
+                     try
+                     {
+
+                        for(var x=0;x<Luwa_2A_Start_Data.length;x++)
+                        {
+                            
+                            //console.log(" ");
+                            Time=Luwa_2A_Start_Time[x];
+                            let h = Time.split(":"); // Splitting the input string
+                            let hour =parseInt(h[0]); 
+                            let min = parseInt(h[1]);
+                            //console.log("Time 3A "+hour+":"+min);
+                            
+                            for(var a=0;a<Luwa_2A_End_Time.length;a++)
+                            {
+                                var Time2=Luwa_2A_End_Time[a];
+                                let h2 = Time2.split(":"); // Splitting the input string
+                                let hour2 =parseInt(h2[0]); 
+                                let min2 = parseInt(h2[1]);
+                                
+                                var diff_Hour=parseInt(hour2-hour);
+                                var diff_min=parseInt(min2-min);
+                                //console.log("diff_min "+Luwa_2A_Start_Time[x]+" "+Luwa_2A_End_Time[a]+" "+diff_min);
+
+
+                                if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                {
+                                    New_2A_End[x]=Luwa_2A_End_Data[a];
+                                }
+                            }
+                        }
+                        ////console.log(New_2B_End)
+                    }
+                    catch(err)
+                    {    console.log("Error Luwa 2A: "+err)
+                        // console.log(line3A_Time);
+                        // console.log(line3A_Length);
+                        // console.log(line3B_Length);
+                        // console.log(line3B_Data);
+                        // console.log(line3B_Time);
+                        // console.log(" ");
+            
+                    }
+
+                    //Chart 4 Array (Luwa 2B) (5/2/24)
+                    Data_Ary=(res.Data_Ary13.join(", "));
+                    Data_Ary2=(res.Data_Ary14.join(", "));
+                    Data_Ary3=(res.Data_Ary15.join(", "));
+                    Data_Ary4=(res.Data_Ary16.join(", "));
+                    var New_2B_End=[];
+
+                    Luwa_2B_Start_Length= res.Data_Ary13.length;
+                    Luwa_2B_End_Length= res.Data_Ary15.length;
+
+
+                    Luwa_2B_Start_Data=[];
+                    Luwa_2B_Start_Time=[];
+
+                    Luwa_2B_End_Data=[];
+                    Luwa_2B_End_Time=[];
+                    //console.log(Luwa_2B_Start_Length);
+                    //console.log(Luwa_2B_End_Length);
+
+
+                    for (var i = 0; i < Luwa_2B_Start_Length; i++)
+                    {
+                        // Skip every other row (i.e., push the 1st, 3rd, 5th, etc. rows)
+                    
+                            Luwa_2B_Start_Data.push(res.Data_Ary13[i]);
+                            Luwa_2B_Start_Time.push(res.Data_Ary14[i]);
+                            last_index_Luwa_1A_Start=i;
+                    }
+
+                    for (var i = 0; i < Luwa_2B_End_Length; i++)
+                    {
+                        Luwa_2B_End_Data.push(res.Data_Ary15[i]);
+                        Luwa_2B_End_Time.push(res.Data_Ary16[i]);
+                        last_index_Luwa_1A_End=i;
+                    }
+
+
+                    try{
+
+                    for(var x=0;x<Luwa_2B_Start_Time.length;x++){
+                        
+                        //console.log(" ");
+                        Time=Luwa_2B_Start_Time[x];
+                        let h = Time.split(":"); // Splitting the input string
+                        let hour =parseInt(h[0]); 
+                        let min = parseInt(h[1]);
+                        //console.log("Time A4 "+hour+":"+min);
+                        
+
+
+                    for(var a=0;a<Luwa_2B_End_Time.length;a++){
+                        var Time2=Luwa_2B_End_Time[a];
+                        let h2 = Time2.split(":"); // Splitting the input string
+                        let hour2 =parseInt(h2[0]); 
+                        let min2 = parseInt(h2[1]);
+                        
+                        var diff_Hour=parseInt(hour2-hour);
+                        var diff_min=parseInt(min2-min);
+                    // //console.log("diff_Hour "+diff_Hour);
+                        //console.log("diff_min 4 "+Luwa_2B_Start_Time[x]+" "+Luwa_2B_End_Time[a]+" "+diff_min);
+
+
+                        if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                        {
+                            New_2B_End[x]=Luwa_2B_End_Data[a];
+                        }
+                    }
+
+                    }
+                    //console.log(New_2B_End)
+                    }
+                    catch(err){
+
+                        console.log("Error Luwa 2B: "+err)
+                        // New_4B=line4B_Data;
+                        // console.log(line4A_Data);
+                        // console.log(line4A_Time);
+                        // console.log(" ");
+
+                        // console.log(line4B_Data);
+                        // console.log(line4B_Time);
+                    }
+
+
+
+                    //Chart 5 Array (5A) (6/2/24)
+                    Data_Ary=(res.Data_Ary17.join(", "));
+                    Data_Ary2=(res.Data_Ary18.join(", "));
+                    Data_Ary3=(res.Data_Ary19.join(", "));
+                    Data_Ary4=(res.Data_Ary20.join(", "));
+                    var New_3A_End=[];
+
+                    Luwa_3A_Start_Length= res.Data_Ary17.length;
+                    Luwa_3A_End_Length= res.Data_Ary19.length;
+
+
+                    Luwa_3A_Start_Data=[];
+                    Luwa_3A_Start_Time=[];
+                    Luwa_3A_End_Data=[];
+                    Luwa_3A_End_Time=[];
+
+                    for (var i = 0; i < Luwa_3A_Start_Length; i++)
+                     {
+                        
+                            Luwa_3A_Start_Data.push(res.Data_Ary17[i]);
+                            Luwa_3A_Start_Time.push(res.Data_Ary18[i]);
+                          last_index_Luwa_3A_Start=i;
+                       
+                    }
+                    for (var i = 0; i < Luwa_3A_End_Length; i++)
+                     {
+                        Luwa_3A_End_Data.push(res.Data_Ary19[i]);
+                        Luwa_3A_End_Time.push(res.Data_Ary20[i]);
+                        last_index_Luwa_3A_End=i;
+
+                     }
+
+                    try
+                    {
+
+                        for(var x=0;x<Luwa_3A_Start_Data.length;x++)
+                        {
+                            
+                            //console.log(" ");
+                            Time=Luwa_3A_Start_Time[x];
+                            let h = Time.split(":"); // Splitting the input string
+                            let hour =parseInt(h[0]); 
+                            let min = parseInt(h[1]);
+                            //console.log("Time 5A "+hour+":"+min);
+                            
+                            for(var a=0;a<Luwa_3A_End_Time.length;a++)
+                            {
+                                var Time2=Luwa_3A_End_Time[a];
+                                let h2 = Time2.split(":"); // Splitting the input string
+                                let hour2 =parseInt(h2[0]); 
+                                let min2 = parseInt(h2[1]);
+                                
+                                var diff_Hour=parseInt(hour2-hour);
+                                var diff_min=parseInt(min2-min);
+                                //console.log("diff_min "+Luwa_3A_Start_Time[x]+" "+Luwa_3A_End_Time[a]+" "+diff_min);
+
+
+                                if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                {
+                                    New_3A_End[x]=Luwa_3A_End_Data[a];
+                                }
+                            }
+                        }
+                        //  //console.log(New_1B_End)
+                    }
+
+                    catch(err)
+                    {
+                        console.log("Error Luwa 3A: "+err)
+                        // console.log(line5A_Time);
+                        // console.log(line5A_Length);
+                        // console.log(line5B_Length);
+                        // console.log(line5B_Data);
+                        // console.log(line5B_Time);
+                        // console.log(" ");
+                    }
+
+
+                   
+
+                    //Chart 6 Array [Luwa 3B] (6/2/24)
+                    Data_Ary=(res.Data_Ary21.join(", "));
+                    Data_Ary2=(res.Data_Ary22.join(", "));
+                    Data_Ary3=(res.Data_Ary23.join(", "));
+                    Data_Ary4=(res.Data_Ary24.join(", "));var New_3B_End=[];
+
+                    Luwa_3B_Start_Length= res.Data_Ary21.length;
+                    Luwa_3B_End_Length= res.Data_Ary23.length;
+
+
+                    Luwa_3B_Start_Data=[];
+                    Luwa_3B_Start_Time=[];
+                    Luwa_3B_End_Data=[];
+                    Luwa_3B_End_Time=[];
+
+                    for (var i = 0; i < Luwa_3B_Start_Length; i++)
+                    {
+                    
+                            Luwa_3B_Start_Data.push(res.Data_Ary21[i]);
+                            Luwa_3B_Start_Time.push(res.Data_Ary22[i]);
+                            last_index_Luwa_3B_Start=i;
+                    
+                    }
+
+                    for (var i = 0; i < Luwa_3B_End_Length; i++)
+                    {
+                        Luwa_3B_End_Data.push(res.Data_Ary23[i]);
+                        Luwa_3B_End_Time.push(res.Data_Ary24[i]);
+                        last_index_line_3B_End=i;   
+
+                    }
+
+
+
+
+                    let max_value_line6A = Math.max(...Luwa_3B_Start_Data);
+                    let max_value_line6B = Math.max(...Luwa_3B_End_Data);
+
+
+                    try{
+
+                        for(var x=0;x<Luwa_3B_Start_Data.length;x++)
+                        {
+                            
+                            //console.log(" ");
+                            Time=Luwa_3B_Start_Time[x];
+                            let h = Time.split(":"); // Splitting the input string
+                            let hour =parseInt(h[0]); 
+                            let min = parseInt(h[1]);
+                            //console.log("Time A "+hour+":"+min);
+                            
+                            for(var a=0;a<Luwa_3B_End_Time.length;a++)
+                            {
+                            var Time2=Luwa_3B_End_Time[a];
+                            let h2 = Time2.split(":"); // Splitting the input string
+                            let hour2 =parseInt(h2[0]); 
+                            let min2 = parseInt(h2[1]);
+                            
+                            var diff_Hour=parseInt(hour2-hour);
+                            var diff_min=parseInt(min2-min);
+                            // //console.log("diff_Hour "+diff_Hour);
+                            //console.log("diff_min "+Luwa_3B_Start_Time[x]+" "+Luwa_3B_End_Time[a]+" "+diff_min);
+
+
+                            if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                            {
+                                New_3B_End[x]=Luwa_3B_End_Data[a];
+                            }
+
+                        }
+
+                        }
+                        //console.log(New_3B_End)
+                        }
+                    catch(err){
+
+                        console.log("Error Luwa 3B: "+err)
+                        //New_6B=line6B_Data;
+                       // console.log(line6A_Data);
+                        // console.log(line6A_Time);
+                        
+                        // console.log(line6A_Length);
+                        // console.log(line6B_Length);
+                        
+
+                        // console.log(line6B_Data);
+                        // console.log(line6B_Time);
+                        // console.log(" ");
+                        }
+
+
+                    
+
+                
+                 
+
+                    //Chart 7 Array [Luwa 4A] (6/2/24)
+                    Data_Ary=(res.Data_Ary25.join(", "));
+                    Data_Ary2=(res.Data_Ary26.join(", "));
+                    Data_Ary3=(res.Data_Ary27.join(", "));
+                    Data_Ary4=(res.Data_Ary28.join(", "));
+                    var New_4A_End=[];
+
+                    Luwa_4A_Start_Length= res.Data_Ary25.length;
+                    Luwa_4A_End_Length= res.Data_Ary27.length;
+
+
+                    Luwa_4A_Start_Data=[];
+                    Luwa_4A_Start_Time=[];
+                    Luwa_4A_End_Data=[];
+                    Luwa_4A_End_Time=[];
+
+                    for (var i = 0; i < Luwa_4A_Start_Length; i++)
+                     {
+                            Luwa_4A_Start_Data.push(res.Data_Ary25[i]);
+                            Luwa_4A_Start_Time.push(res.Data_Ary26[i]);
+                          last_index_Luwa_4A_Start=i;
+                      
+                    }
+                    for (var i = 0; i < Luwa_4A_End_Length; i++)
+                    {
+                        Luwa_4A_End_Data.push(res.Data_Ary27[i]);
+                        Luwa_4A_End_Time.push(res.Data_Ary28[i]);
+                        last_index_line_4A_End=i;
+                    }
+
+                    try
+                    {
+
+                        for(var x=0;x<Luwa_4A_Start_Data.length;x++)
+                        {
+                            
+                            //console.log(" ");
+                            Time=Luwa_4A_Start_Time[x];
+                            let h = Time.split(":"); // Splitting the input string
+                            let hour =parseInt(h[0]); 
+                            let min = parseInt(h[1]);
+                            //console.log("Time 7A "+hour+":"+min);
+                            
+                            for(var a=0;a<Luwa_4A_End_Time.length;a++)
+                            {
+                                var Time2=Luwa_4A_End_Time[a];
+                                let h2 = Time2.split(":"); // Splitting the input string
+                                let hour2 =parseInt(h2[0]); 
+                                let min2 = parseInt(h2[1]);
+                                
+                                var diff_Hour=parseInt(hour2-hour);
+                                var diff_min=parseInt(min2-min);
+                                //console.log("diff_min "+Luwa_4A_Start_Time[x]+" "+Luwa_4A_End_Time[a]+" "+diff_min);
+
+
+                                if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                {
+                                    New_4A_End[x]=Luwa_4A_End_Data[a];
+                                }
+                            }
+                        }
+                        //  //console.log(New_1B_End)
+                    }
+                    catch(err)
+                    {
+                        console.log("Error Luwa 4A: "+err)
+                        // console.log(line8A_Time);
+                        // console.log(line8A_Length);
+                        // console.log(line8B_Length);
+                        // console.log(line8B_Data);
+                        // console.log(line8B_Time);
+                        console.log(" ");
+                                    
+                    }
+
+
+                    //Chart 8 Array (8A) (6/2/24)
+                    Data_Ary=(res.Data_Ary29.join(", "));
+                    Data_Ary2=(res.Data_Ary30.join(", "));
+                    Data_Ary3=(res.Data_Ary31.join(", "));
+                    Data_Ary4=(res.Data_Ary32.join(", "));
+                    var New_4B_End=[];
+
+                    Luwa_4B_Start_Length= res.Data_Ary29.length;
+                    Luwa_4B_End_Length= res.Data_Ary31.length;
+
+
+                    Luwa_4B_Start_Data=[];
+                    Luwa_4B_Start_Time=[];
+                    Luwa_4B_End_Data=[];
+                    Luwa_4B_End_Time=[];
+
+                    for (var i = 0; i < Luwa_4B_Start_Length; i++)
+                     {
+                        Luwa_4B_Start_Data.push(res.Data_Ary29[i]);
+                        Luwa_4B_Start_Time.push(res.Data_Ary30[i]);
+                      last_index_Luwa_4B_Start=i;
+                       
+                    }
+                    for (var i = 0; i < Luwa_4B_End_Length; i++)
+                    {
+                        Luwa_4B_End_Data.push(res.Data_Ary31[i]);
+                        Luwa_4B_End_Time.push(res.Data_Ary32[i]);
+                        last_index_line_4B_End=i;
+                    }
+
+                    try
+                    {
+
+                        for(var x=0;x<Luwa_4B_Start_Data.length;x++)
+                        {
+                            
+                            //console.log(" ");
+                            Time=Luwa_4B_Start_Time[x];
+                            let h = Time.split(":"); // Splitting the input string
+                            let hour =parseInt(h[0]); 
+                            let min = parseInt(h[1]);
+                            //console.log("Time 8A "+hour+":"+min);
+                            
+                            for(var a=0;a<Luwa_4B_End_Time.length;a++)
+                            {
+                                var Time2=Luwa_4B_End_Time[a];
+                                let h2 = Time2.split(":"); // Splitting the input string
+                                let hour2 =parseInt(h2[0]); 
+                                let min2 = parseInt(h2[1]);
+                                
+                                var diff_Hour=parseInt(hour2-hour);
+                                var diff_min=parseInt(min2-min);
+                                //console.log("diff_min "+Luwa_4B_Start_Time[x]+" "+Luwa_4B_End_Time[a]+" "+diff_min);
+
+
+                                if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                {
+                                    New_4B_End[x]=Luwa_4B_End_Data[a];
+                                }
+                            }
+                        }
+                        //  //console.log(New_1B_End)
+                    }
+                    catch(err)
+                    {    console.log("Error Lwua 4B: "+err)
+                        // console.log(line8A_Time);
+                        // console.log(line8A_Length);
+                        // console.log(line8B_Length);
+                        // console.log(line8B_Data);
+                        // console.log(line8B_Time);
+                        // console.log(" ");
+                                    
+                    }
+
+
+               
+
+
+
+                    //Chart 9 Array (9A) (6/2/24)
+                    Data_Ary=(res.Data_Ary33.join(", "));
+                    Data_Ary2=(res.Data_Ary34.join(", "));
+                    Data_Ary3=(res.Data_Ary35.join(", "));
+                    Data_Ary4=(res.Data_Ary36.join(", "));
+                    var New_5A_End=[];
+                    
+                    Luwa_5A_Start_Length= res.Data_Ary33.length;
+                    Luwa_5A_End_Length= res.Data_Ary35.length;
+                    
+                    Luwa_5A_Start_Data=[];
+                    Luwa_5A_Start_Time=[];
+                    Luwa_5A_End_Data=[];
+                    Luwa_5A_End_Time=[];
+
+                    for (var i = 0; i < Luwa_5A_Start_Length; i++)
+                     {
+                        Luwa_5A_Start_Data.push(res.Data_Ary33[i]);
+                        Luwa_5A_Start_Time.push(res.Data_Ary34[i]);
+                        last_index_line_5A_Start=i;
+                     }
+                    for (var i = 0; i < Luwa_5A_End_Length; i++)
+                    {
+                        Luwa_5A_End_Data.push(res.Data_Ary35[i]);
+                        Luwa_5A_End_Time.push(res.Data_Ary36[i]);
+                        last_index_line_5A_End=i;
+                    }
+
+                    try
+                    {
+                         for(var x=0;x<Luwa_5A_Start_Data.length;x++)
+                        {
+                            console.log(" ");
+                            Time=Luwa_5A_Start_Time[x];
+                            let h = Time.split(":"); // Splitting the input string
+                            let hour =parseInt(h[0]); 
+                            let min = parseInt(h[1]);
+                            console.log("Time A "+hour+":"+min);
+                            
+                            for(var a=0;a<Luwa_5A_End_Time.length;a++)
+                            {
+                                var Time2=Luwa_5A_End_Time[a];
+                                let h2 = Time2.split(":"); // Splitting the input string
+                                let hour2 =parseInt(h2[0]); 
+                                let min2 = parseInt(h2[1]);
+                            
+                                var diff_Hour=parseInt(hour2-hour);
+                                var diff_min=parseInt(min2-min);
+                                // console.log("diff_Hour "+diff_Hour);
+                                console.log("diff_min "+Luwa_5A_Start_Time[x]+" "+Luwa_5A_End_Time[a]+" "+diff_min);
+
+
+                               if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                {
+
+                                    New_5A_End[x]=Luwa_5A_End_Data[a];
+                               }
+                            }
+
+                        }
+                       // console.log(New_5A_End)
+                    }
+                    catch(err)
+                    {
+
+                        console.log("Error Luwa 5A: "+err)
+                        //New_6B=line6B_Data;
+                        // console.log(line6A_Data);
+                        // console.log(Luwa_5A_Start_Time);
+
+                        // console.log(Luwa_5A_Start_Length);
+                        // console.log(Luwa_5A_End_Length);
+
+
+                        // console.log(Luwa_5A_End_Data);
+                        // console.log(Luwa_5A_End_Time);
+                        // console.log(" ");
+                    }
+
+
+
+                   
+
+
+
+                    //Chart 10 Array [Luwa 5B] (6/2/24)
+                    Data_Ary=(res.Data_Ary37.join(", "));
+                    Data_Ary2=(res.Data_Ary38.join(", "));
+                    Data_Ary3=(res.Data_Ary39.join(", "));
+                    Data_Ary4=(res.Data_Ary40.join(", "));
+                    var New_5B_End=[];
+
+                    Luwa_5B_Start_Length= res.Data_Ary37.length;
+                    Luwa_5B_End_Length= res.Data_Ary39.length;
+
+
+
+                    Luwa_5B_Start_Data=[];
+                    Luwa_5B_Start_Time=[];
+                    Luwa_5B_End_Data=[];
+                    Luwa_5B_End_Time=[];
+
+                    for (var i = 0; i < Luwa_5B_Start_Length; i++)
+                    {
+                        Luwa_5B_Start_Data.push(res.Data_Ary37[i]);
+                        Luwa_5B_Start_Time.push(res.Data_Ary38[i]);
+                        last_index_line_5B_Start=i;
+                      
+                    }
+                    for (var i = 0; i < Luwa_5B_End_Length; i++)
+                    {
+                        Luwa_5B_End_Data.push(res.Data_Ary39[i]);
+                        Luwa_5B_End_Time.push(res.Data_Ary40[i]);
+                        last_index_line_5B_End=i;
+                    }
+                    try
+                    {
+                        for(var x=0;x<Luwa_5B_Start_Data.length;x++)
+                            {
+                                console.log(" ");
+                                Time=Luwa_5B_Start_Time[x];
+                                let h = Time.split(":"); // Splitting the input string
+                                let hour =parseInt(h[0]); 
+                                let min = parseInt(h[1]);
+                                console.log("Time 10A "+hour+":"+min);
+                                
+                                for(var a=0;a<Luwa_5B_End_Time.length;a++)
+                                {
+                                    var Time2=Luwa_5B_End_Time[a];
+                                    let h2 = Time2.split(":"); // Splitting the input string
+                                    let hour2 =parseInt(h2[0]); 
+                                    let min2 = parseInt(h2[1]);
+                                    var diff_Hour=parseInt(hour2-hour);
+                                    var diff_min=parseInt(min2-min);
+                                    // console.log("diff_Hour "+diff_Hour);
+                                    console.log("diff_min "+Luwa_5B_Start_Time[x]+" "+Luwa_5B_End_Time[a]+" "+diff_min);
+                                    
+                                   if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                    {
+                                        
+                                        New_5B_End[x]=Luwa_5B_End_Data[a];
+                                    }
+
+
+                                }
+
+                            }
+                           // console.log(New_5B_End)
+                        }
+                        catch(err)
+                        {
+                            console.log("Error Luwa 5B: "+err)
+                           
+                        }
+
+                        
+
+
+
+                   
+
+                    //Chart 11 Array [lUWA 6A] (17/2/24)
+                    Data_Ary=(res.Data_Ary41.join(", "));
+                    Data_Ary2=(res.Data_Ary42.join(", "));
+                    Data_Ary3=(res.Data_Ary43.join(", "));
+                    Data_Ary4=(res.Data_Ary44.join(", "));
+
+                    var New_6A_End=[];
+
+                    Luwa_6A_Start_Length= res.Data_Ary41.length;
+                    Luwa_6A_End_Length= res.Data_Ary43.length;
+
+
+                    Luwa_6A_Start_Data=[];
+                    Luwa_6A_Start_Time=[];
+                    
+                    Luwa_6A_End_Data=[];
+                    Luwa_6A_End_Time=[]
+
+                    for (var i = 0; i < Luwa_6A_Start_Length; i++)
+                     {
+                        Luwa_6A_Start_Data.push(res.Data_Ary41[i]);
+                        Luwa_6A_Start_Time.push(res.Data_Ary42[i]);
+                        last_index_line_6A_Start=i;
+                        
+                    }
+                    for (var i = 0; i < Luwa_6A_End_Length; i++)
+                     { 
+                        Luwa_6A_End_Data.push(res.Data_Ary43[i]);
+                        Luwa_6A_End_Time.push(res.Data_Ary44[i]);
+                        last_index_line_6A_End=i;
+
+                     }
+
+                     try
+                    {
+                        for(var x=0;x<Luwa_6A_Start_Data.length;x++)
+                            {
+                                console.log(" ");
+                                Time=Luwa_6A_Start_Time[x];
+                                let h = Time.split(":"); // Splitting the input string
+                                let hour =parseInt(h[0]); 
+                                let min = parseInt(h[1]);
+                                console.log("Time lUWA 6A "+hour+":"+min);
+                                
+                                for(var a=0;a<Luwa_6A_End_Time.length;a++)
+                                {
+                                    var Time2=Luwa_6A_End_Time[a];
+                                    let h2 = Time2.split(":"); // Splitting the input string
+                                    let hour2 =parseInt(h2[0]); 
+                                    let min2 = parseInt(h2[1]);
+                                    var diff_Hour=parseInt(hour2-hour);
+                                    var diff_min=parseInt(min2-min);
+                                    // console.log("diff_Hour "+diff_Hour);
+                                    console.log("diff_min "+Luwa_6A_Start_Time[x]+" "+Luwa_6A_End_Time[a]+" "+diff_min);
+                                    
+                                   if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                    {
+                                        
+                                        New_6A_End[x]=Luwa_6A_End_Data[a];
+                                    }
+
+
+                                }
+
+                            }
+                            console.log(New_6A_End)
+                        }
+                        catch(err)
+                        {
+                            console.log("Error LUWA 6A: "+err)
+                            //New_6B=line6B_Data;
+                            // console.log(line6A_Data);
+                            // console.log(Luwa_5B_Start_Time);
+
+                            // console.log(Luwa_5B_Start_Length);
+                            // console.log(line6B_Length);
+
+
+                            // console.log(Luwa_5B_End_Data);
+                            // console.log(Luwa_5B_End_Time);
+                            // console.log(" ");
+                        }
+
+
+
+
+
+                   
+                    //Chart 12 Array (12A) (18/2/24)
+                    Data_Ary=(res.Data_Ary45.join(", "));
+                    Data_Ary2=(res.Data_Ary46.join(", "));
+                    Data_Ar3=(res.Data_Ary47.join(", "));
+                    Data_Ary4=(res.Data_Ary48.join(", "));
+                    var New_6B_End=[];
+
+                    Luwa_6B_Start_Length= res.Data_Ary45.length;
+                    Luwa_6B_End_Length= res.Data_Ary47.length;
+
+
+                    Luwa_6B_Start_Data=[];
+                    Luwa_6B_Start_Time=[];
+                    Luwa_6B_End_Data=[];
+                    Luwa_6B_End_Time=[];
+
+                    for (var i = 0; i < Luwa_6B_Start_Length; i++)
+                     {
+                        Luwa_6B_Start_Data.push(res.Data_Ary45[i]);
+                        Luwa_6B_Start_Time.push(res.Data_Ary46[i]);
+                        last_index_line_6B_Start=i;
+                    }
+                    for (var i = 0; i < Luwa_6B_End_Length; i++)
+                     {
+                        Luwa_6B_End_Data.push(res.Data_Ary47[i]);
+                        Luwa_6B_End_Time.push(res.Data_Ary48[i]);
+                        last_index_line_6B_End=i;                     
+                    }
+
+                    try
+                    {
+                        for(var x=0;x<Luwa_6B_Start_Data.length;x++)
+                            {
+                                console.log(" ");
+                                Time=Luwa_6B_Start_Time[x];
+                                let h = Time.split(":"); // Splitting the input string
+                                let hour =parseInt(h[0]); 
+                                let min = parseInt(h[1]);
+                                console.log("Time LUWA 6B "+hour+":"+min);
+                                
+                                for(var a=0;a<Luwa_6B_End_Time.length;a++)
+                                {
+                                    var Time2=Luwa_6B_End_Time[a];
+                                    let h2 = Time2.split(":"); // Splitting the input string
+                                    let hour2 =parseInt(h2[0]); 
+                                    let min2 = parseInt(h2[1]);
+                                    var diff_Hour=parseInt(hour2-hour);
+                                    var diff_min=parseInt(min2-min);
+                                    // console.log("diff_Hour "+diff_Hour);
+                                    console.log("diff_min "+Luwa_6B_Start_Time[x]+" "+Luwa_6B_End_Time[a]+" "+diff_min);
+                                    
+                                   if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                    {
+                                        
+                                        New_6B_End[x]=Luwa_6B_End_Data[a];
+                                    }
+
+
+                                }
+
+                            }
+                          //  console.log(New_6B_End)
+                        }
+                        catch(err)
+                        {
+                            console.log("Error Luwa 6B: "+err)
+                            //New_6B=line6B_Data;
+                            // console.log(line6A_Data);
+                            // console.log(Luwa_5B_Start_Time);
+
+                            // console.log(Luwa_5B_Start_Length);
+                            // console.log(line6B_Length);
+
+
+                            // console.log(Luwa_5B_End_Data);
+                            // console.log(Luwa_5B_End_Time);
+                            // console.log(" ");
+                        }
+
+
+              
+                  
+                 
+
+
+                    //Chart 13 Array (13A) (18/2/24)
+                    Data_Ary=(res.Data_Ary49.join(", "));
+                    Data_Ary2=(res.Data_Ary50.join(", "));
+                    Data_Ary3=(res.Data_Ary51.join(", "));
+                    Data_Ary4=(res.Data_Ary52.join(", "));
+                    var New_7A_End=[];
+
+                    Luwa_7A_Start_Length= res.Data_Ary49.length;
+                    Luwa_7A_End_Length= res.Data_Ary51.length;
+
+
+                    Luwa_7A_Start_Data=[];
+                    Luwa_7A_Start_Time=[];
+                    Luwa_7A_End_Data=[];
+                    Luwa_7A_End_Time=[];
+
+                    for (var i = 0; i < Luwa_7A_Start_Length; i++)
+                    {
+                        Luwa_7A_Start_Data.push(res.Data_Ary49[i]);
+                        Luwa_7A_Start_Time.push(res.Data_Ary50[i]);
+                        last_index_line_7A_Start=i;
+                    }
+
+                    for (var i = 0; i < Luwa_7A_End_Length; i++)
+                    {
+                        Luwa_7A_End_Data.push(res.Data_Ary51[i]);
+                        Luwa_7A_End_Time.push(res.Data_Ary52[i]);
+                        last_index_line_7A_End=i;
+
+                    }
+
+                    try
+                    {
+                        for(var x=0;x<Luwa_7A_Start_Data.length;x++)
+                            {
+                                console.log(" ");
+                                Time=Luwa_7A_Start_Time[x];
+                                let h = Time.split(":"); // Splitting the input string
+                                let hour =parseInt(h[0]); 
+                                let min = parseInt(h[1]);
+                                console.log("Time Luwa 7A "+hour+":"+min);
+                                
+                                for(var a=0;a<Luwa_7A_End_Time.length;a++)
+                                {
+                                    var Time2=Luwa_7A_End_Time[a];
+                                    let h2 = Time2.split(":"); // Splitting the input string
+                                    let hour2 =parseInt(h2[0]); 
+                                    let min2 = parseInt(h2[1]);
+                                    var diff_Hour=parseInt(hour2-hour);
+                                    var diff_min=parseInt(min2-min);
+                                    // console.log("diff_Hour "+diff_Hour);
+                                    console.log("diff_min "+Luwa_7A_Start_Time[x]+" "+Luwa_7A_End_Time[a]+" "+diff_min);
+                                    
+                                   if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                    {
+                                        
+                                        New_7A_End[x]=Luwa_7A_End_Data[a];
+                                    }
+
+
+                                }
+
+                            }
+                           
+                        }
+                        catch(err)
+                        {
+                            console.log("Error Luwa 7A: "+err)
+                            
+                        }
+
+                        
+                    //Chart 14 Array (14A) (18/2/24)
+                    Data_Ary=(res.Data_Ary53.join(", "));
+                    Data_Ary2=(res.Data_Ary54.join(", "));
+                    Data_Ary=(res.Data_Ary55.join(", "));
+                    Data_Ary2=(res.Data_Ary56.join(", "));
+                    var New_7B_End=[];
+                    
+
+                    Luwa_7B_Start_Length= res.Data_Ary53.length;
+                    Luwa_7B_End_Length= res.Data_Ary55.length;
+                    
+                    Luwa_7B_Start_Data=[];
+                    Luwa_7B_Start_Time=[];
+                    Luwa_7B_End_Data=[];
+                    Luwa_7B_End_Time=[];
+
+                    for (var i = 0; i < Luwa_7B_Start_Length; i++)
+                    {
+                        Luwa_7B_Start_Data.push(res.Data_Ary53[i]);
+                        Luwa_7B_Start_Time.push(res.Data_Ary54[i]);
+                        last_index_line_7B_Start=i;
+                    }
+
+                    for (var i = 0; i < Luwa_7B_End_Length; i++)
+                    {
+                        Luwa_7B_End_Data.push(res.Data_Ary55[i]);
+                        Luwa_7B_End_Time.push(res.Data_Ary56[i]);
+                        last_index_line_7B_End=i;
+
+                    }
+
+                    try
+                    {
+                        for(var x=0;x<Luwa_7B_Start_Data.length;x++)
+                            {
+                                console.log(" ");
+                                Time=Luwa_7B_Start_Time[x];
+                                let h = Time.split(":"); // Splitting the input string
+                                let hour =parseInt(h[0]); 
+                                let min = parseInt(h[1]);
+                                console.log("Time 14A "+hour+":"+min);
+                                
+                                for(var a=0;a<Luwa_7B_End_Time.length;a++)
+                                {
+                                    var Time2=Luwa_7B_End_Time[a];
+                                    let h2 = Time2.split(":"); // Splitting the input string
+                                    let hour2 =parseInt(h2[0]); 
+                                    let min2 = parseInt(h2[1]);
+                                    var diff_Hour=parseInt(hour2-hour);
+                                    var diff_min=parseInt(min2-min);
+                                    // console.log("diff_Hour "+diff_Hour);
+                                    console.log("diff_min "+Luwa_7B_Start_Time[x]+" "+Luwa_7B_End_Time[a]+" "+diff_min);
+                                    
+                                    if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                    {
+                                        
+                                        New_7B_End[x]=Luwa_7B_End_Data[a];
+                                    }
+
+
+                                }
+
+                            }
+
+                        }
+                        catch(err)
+                        {
+                            console.log("Error Luwa 7B: "+err)
+                           
+                        }
+
+                        
+                    
+
+                        
+
+                    //Chart 15 Array (15A) (18/2/24)
+                    Data_Ary=(res.Data_Ary57.join(", "));
+                    Data_Ary2=(res.Data_Ary58.join(", "));
+                    Data_Ary=(res.Data_Ary59.join(", "));
+                    Data_Ary2=(res.Data_Ary60.join(", "));
+                    var New_8A_End=[];
+
+                    Luwa_8A_Start_Length= res.Data_Ary57.length;
+                    Luwa_8A_End_Length= res.Data_Ary59.length;
+
+
+                    Luwa_8A_Start_Data=[];
+                    Luwa_8A_Start_Time=[];
+                    Luwa_8A_End_Data=[];
+                    Luwa_8A_End_Time=[];
+
+                    for (var i = 0; i < Luwa_8A_Start_Length; i++)
+                        {
+                            Luwa_8A_Start_Data.push(res.Data_Ary57[i]);
+                            Luwa_8A_Start_Time.push(res.Data_Ary58[i]);
+                            last_index_line_8A_Start=i;
+                        
+                        }
+                    for (var i = 0; i < Luwa_8A_End_Length; i++)
+                        {
+                            Luwa_8A_End_Data.push(res.Data_Ary59[i]);
+                            Luwa_8A_End_Time.push(res.Data_Ary60[i]);
+                            last_index_line_8A_End=i;
+
+                        }
+
+                    try
+                    {
+                        for(var x=0;x<Luwa_8A_Start_Data.length;x++)
+                            {
+                                console.log(" ");
+                                Time=Luwa_8A_Start_Time[x];
+                                let h = Time.split(":"); // Splitting the input string
+                                let hour =parseInt(h[0]); 
+                                let min = parseInt(h[1]);
+                                console.log("Time 15A "+hour+":"+min);
+                                
+                                for(var a=0;a<Luwa_8A_End_Time.length;a++)
+                                {
+                                    var Time2=Luwa_8A_End_Time[a];
+                                    let h2 = Time2.split(":"); // Splitting the input string
+                                    let hour2 =parseInt(h2[0]); 
+                                    let min2 = parseInt(h2[1]);
+                                    var diff_Hour=parseInt(hour2-hour);
+                                    var diff_min=parseInt(min2-min);
+                                    // console.log("diff_Hour "+diff_Hour);
+                                    console.log("diff_min "+Luwa_8A_Start_Time[x]+" "+Luwa_8A_End_Time[a]+" "+diff_min);
+                                    
+                                   if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                    {
+                                        
+                                        New_8A_End[x]=Luwa_8A_End_Data[a];
+                                    }
+
+
+                                }
+
+                            }
+                            console.log(New_8A_End)
+                        }
+                        catch(err)
+                        {
+                            console.log("Error 15B: "+err)
+                           
+                        }
+
+
+
+                   
+               
+                   
+
+
+                    //Chart 16 Array (16A) (18/2/24)
+                    Data_Ary=(res.Data_Ary61.join(", "));
+                    Data_Ary2=(res.Data_Ary62.join(", "));
+                    Data_Ary3=(res.Data_Ary63.join(", "));
+                    Data_Ary4=(res.Data_Ary64.join(", "));
+                    var New_8B_End=[];
+                    
+
+                    Luwa_8B_Start_Length= res.Data_Ary61.length;
+                    Luwa_8B_End_Length= res.Data_Ary63.length;
+
+
+                    Luwa_8B_Start_Data=[];
+                    Luwa_8B_Start_Time=[];
+                    Luwa_8B_End_Data=[];
+                    Luwa_8B_End_Time=[];
+
+                    for (var i = 0; i < Luwa_8B_Start_Length; i++)
+                     {
+                        Luwa_8B_Start_Data.push(res.Data_Ary61[i]);
+                        Luwa_8B_Start_Time.push(res.Data_Ary62[i]);
+                        last_index_line_8B_Start=i;
+                    }
+
+                    for (var i = 0; i < Luwa_8B_End_Length; i++)
+                     {
+                        Luwa_8B_End_Data.push(res.Data_Ary63[i]);
+                        Luwa_8B_End_Time.push(res.Data_Ary64[i]);
+                        last_index_line_8B_End=i;
+                        
+                     }
+
+                     try
+                    {
+                        for(var x=0;x<Luwa_8B_Start_Data.length;x++)
+                            {
+                                console.log(" ");
+                                Time=Luwa_8B_Start_Time[x];
+                                let h = Time.split(":"); // Splitting the input string
+                                let hour =parseInt(h[0]); 
+                                let min = parseInt(h[1]);
+                                console.log("Time Luwa 8B "+hour+":"+min);
+                                
+                                for(var a=0;a<Luwa_8B_End_Time.length;a++)
+                                {
+                                    var Time2=Luwa_8B_End_Time[a];
+                                    let h2 = Time2.split(":"); // Splitting the input string
+                                    let hour2 =parseInt(h2[0]); 
+                                    let min2 = parseInt(h2[1]);
+                                    var diff_Hour=parseInt(hour2-hour);
+                                    var diff_min=parseInt(min2-min);
+                                    // console.log("diff_Hour "+diff_Hour);
+                                    console.log("diff_min "+Luwa_8B_Start_Time[x]+" "+Luwa_8B_End_Time[a]+" "+diff_min);
+                                    
+                                   if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                    {
+                                        
+                                        New_8B_End[x]=Luwa_8B_End_Data[a];
+                                    }
+
+
+                                }
+
+                            }
+                          
+                        }
+                        catch(err)
+                        {
+                            console.log("Error 16B: "+err)
+                           
+                        }
+
+
+                    //Chart 17 Array (17A) (18/2/24)
+                    Data_Ary=(res.Data_Ary65.join(", "));
+                    Data_Ary2=(res.Data_Ary66.join(", "));
+                    Data_Ary=(res.Data_Ary67.join(", "));
+                    Data_Ary2=(res.Data_Ary68.join(", "));
+                    var New_17B=[];
+
+                    line17A_Length= res.Data_Ary65.length;
+                    line17B_Length= res.Data_Ary67.length;
+
+
+                    line17A_Data=[];
+                    line17A_Time=[];
+                    line17B_Data=[];
+                    line17B_Time=[];
+
+                    for (var i = 0; i < line17A_Length; i++)
+                    {
+                        line17A_Data.push(res.Data_Ary65[i]);
+                        line17A_Time.push(res.Data_Ary66[i]);
+                        last_value_line17A=i;
+                    }
+
+                    for (var i = 0; i < line17B_Length; i++)
+                    {
+                        line17B_Data.push(res.Data_Ary67[i]);
+                        line17B_Time.push(res.Data_Ary68[i]);
+                        last_value_line17B=i;
+                    }
+
+                    try
+                    {
+                        for(var x=0;x<line17A_Data.length;x++)
+                            {
+                                console.log(" ");
+                                Time=line17A_Time[x];
+                                let h = Time.split(":"); // Splitting the input string
+                                let hour =parseInt(h[0]); 
+                                let min = parseInt(h[1]);
+                                console.log("Time 17A "+hour+":"+min);
+                                
+                                for(var a=0;a<line17B_Time.length;a++)
+                                {
+                                    var Time2=line17B_Time[a];
+                                    let h2 = Time2.split(":"); // Splitting the input string
+                                    let hour2 =parseInt(h2[0]); 
+                                    let min2 = parseInt(h2[1]);
+                                    var diff_Hour=parseInt(hour2-hour);
+                                    var diff_min=parseInt(min2-min);
+                                    // console.log("diff_Hour "+diff_Hour);
+                                    console.log("diff_min "+line17A_Time[x]+" "+line17B_Time[a]+" "+diff_min);
+                                    
+                                   if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                    {
+                                        New_17B[x]=line17B_Data[a];
+                                    }
+
+
+                                }
+
+                            }
+                            console.log(New_17B)
+                        }
+                        catch(err)
+                        {
+                            console.log("Error 17B: "+err)
+                           
+                        }
+
+                    //Chart 18 Array (18A) (18/2/24)
+                    Data_Ary=(res.Data_Ary69.join(", "));
+                    Data_Ary2=(res.Data_Ary70.join(", "));
+                    Data_Ary3=(res.Data_Ary71.join(", "));
+                    Data_Ary4=(res.Data_Ary72.join(", "));
+                    var New_18B=[];
+                    
+
+                    line18A_Length= res.Data_Ary69.length;
+                    line18B_Length= res.Data_Ary71.length;
+
+                    line18A_Data=[];
+                    line18A_Time=[];
+                    line18B_Data=[];
+                    line18B_Time=[];
+
+                    for (var i = 0; i < line18A_Length; i++)
+                     {
+                        line18A_Data.push(res.Data_Ary69[i]);
+                        line18A_Time.push(res.Data_Ary70[i]);
+                        last_value_line18A=i;
+                    }
+                    for (var i = 0; i < line18B_Length; i++)
+                     {
+                        line18B_Data.push(res.Data_Ary71[i]);
+                        line18B_Time.push(res.Data_Ary72[i]);
+                        last_value_line18B=i;
+                    }
+                    try
+                    {
+                        for(var x=0;x<line18A_Data.length;x++)
+                            {
+                                console.log(" ");
+                                Time=line18A_Time[x];
+                                let h = Time.split(":"); // Splitting the input string
+                                let hour =parseInt(h[0]); 
+                                let min = parseInt(h[1]);
+                                console.log("Time 18A "+hour+":"+min);
+                                
+                                for(var a=0;a<line18B_Time.length;a++)
+                                {
+                                    var Time2=line18B_Time[a];
+                                    let h2 = Time2.split(":"); // Splitting the input string
+                                    let hour2 =parseInt(h2[0]); 
+                                    let min2 = parseInt(h2[1]);
+                                    var diff_Hour=parseInt(hour2-hour);
+                                    var diff_min=parseInt(min2-min);
+                                    // console.log("diff_Hour "+diff_Hour);
+                                    console.log("diff_min "+line18A_Time[x]+" "+line18B_Time[a]+" "+diff_min);
+                                    
+                                   if (diff_Hour == 0 && diff_min >= 0 && diff_min < diff_min_high || diff_Hour == 0 && diff_min < 0 && diff_min > diff_min_low ) 
+                                    {
+                                        New_18B[x]=line18B_Data[a];
+                                    }
+
+
+                                }
+
+                            }
+                            console.log(New_18B)
+                        }
+                        catch(err)
+                        {
+                            console.log("Error 18B: "+err)
+                           
+                        }
+
+                       
+
+                        //Find Last Value   
+
+
+                            let Luwa_1A_Start_lastValue = Luwa_1A_Start_Data[Luwa_1A_Start_Data.length - 1] === undefined ? 0 : Luwa_1A_Start_Data[Luwa_1A_Start_Data.length - 1];
+                            let Luwa_1A_Start_last_Time = Luwa_1A_Start_Time[Luwa_1A_Start_Time.length - 1] === undefined ? 0 : Luwa_1A_Start_Time[Luwa_1A_Start_Time.length - 1];
+
+                            let Luwa_1B_Start_lastValue = Luwa_1B_Start_Data[Luwa_1B_Start_Data.length - 1] === undefined ? 0 : Luwa_1B_Start_Data[Luwa_1B_Start_Data.length - 1];
+                            let Luwa_2A_Start_lastValue = Luwa_2A_Start_Data[Luwa_2A_Start_Data.length - 1] === undefined ? 0 : Luwa_2A_Start_Data[Luwa_2A_Start_Data.length - 1];
+                            let Luwa_2B_Start_lastValue = Luwa_2B_Start_Data[Luwa_2B_Start_Data.length - 1] === undefined ? 0 : Luwa_2B_Start_Data[Luwa_2B_Start_Data.length - 1];
+                            let Luwa_3A_Start_lastValue = Luwa_3A_Start_Data[Luwa_3A_Start_Data.length - 1] === undefined ? 0 : Luwa_3A_Start_Data[Luwa_3A_Start_Data.length - 1];
+                            let Luwa_3B_Start_lastValue = Luwa_3B_Start_Data[Luwa_3B_Start_Data.length - 1] === undefined ? 0 : Luwa_3B_Start_Data[Luwa_3B_Start_Data.length - 1];
+                            let Luwa_4A_Start_lastValue = Luwa_4A_Start_Data[Luwa_4A_Start_Data.length - 1] === undefined ? 0 : Luwa_4A_Start_Data[Luwa_4A_Start_Data.length - 1];
+                            let Luwa_4B_Start_lastValue = Luwa_4B_Start_Data[Luwa_4B_Start_Data.length - 1] === undefined ? 0 : Luwa_4B_Start_Data[Luwa_4B_Start_Data.length - 1];
+                            let Luwa_5A_Start_lastValue = Luwa_5A_Start_Data[Luwa_5A_Start_Data.length - 1] === undefined ? 0 : Luwa_5A_Start_Data[Luwa_5A_Start_Data.length - 1];
+                            let Luwa_5B_Start_lastValue = Luwa_5B_Start_Data[Luwa_5B_Start_Data.length - 1] === undefined ? 0 : Luwa_5B_Start_Data[Luwa_5B_Start_Data.length - 1];
+                            let Luwa_6A_Start_lastValue = Luwa_6A_Start_Data[Luwa_6A_Start_Data.length - 1] === undefined ? 0 : Luwa_6A_Start_Data[Luwa_6A_Start_Data.length - 1];
+                            let Luwa_6B_Start_lastValue = Luwa_6B_Start_Data[Luwa_6B_Start_Data.length - 1] === undefined ? 0 : Luwa_6B_Start_Data[Luwa_6B_Start_Data.length - 1];
+                            let Luwa_7A_Start_lastValue = Luwa_7A_Start_Data[Luwa_7A_Start_Data.length - 1] === undefined ? 0 : Luwa_7A_Start_Data[Luwa_7A_Start_Data.length - 1];
+                            let Luwa_7B_Start_lastValue = Luwa_7B_Start_Data[Luwa_7B_Start_Data.length - 1] === undefined ? 0 : Luwa_7B_Start_Data[Luwa_7B_Start_Data.length - 1];
+                            let Luwa_8A_Start_lastValue = Luwa_8A_Start_Data[Luwa_8A_Start_Data.length - 1] === undefined ? 0 : Luwa_8A_Start_Data[Luwa_8A_Start_Data.length - 1];
+                            let Luwa_8B_Start_lastValue = Luwa_8B_Start_Data[Luwa_8B_Start_Data.length - 1] === undefined ? 0 : Luwa_8B_Start_Data[Luwa_8B_Start_Data.length - 1];
+
+
+                            let New_1A_End_lastValue = New_1A_End[New_1A_End.length - 1] === undefined ? 0 : New_1A_End[New_1A_End.length - 1];
+                            let New_1B_End_lastValue = New_1B_End[New_1B_End.length - 1] === undefined ? 0 : New_1B_End[New_1B_End.length - 1];
+                            let New_2A_End_lastValue = New_2A_End[New_2A_End.length - 1] === undefined ? 0 : New_2A_End[New_2A_End.length - 1];
+                          
+                            let New_2B_End_lastValue = New_2B_End[New_2B_End.length - 1] === undefined ? 0 : New_2B_End[New_2B_End.length - 1];
+                            let New_3A_End_lastValue = New_3A_End[New_3A_End.length - 1] === undefined ? 0 : New_3A_End[New_3A_End.length - 1];
+                            let New_3B_End_lastValue = New_3B_End[New_3B_End.length - 1] === undefined ? 0 : New_3B_End[New_3B_End.length - 1];
+                            let New_4A_End_lastValue = New_4A_End[New_4A_End.length - 1] === undefined ? 0 : New_4A_End[New_4A_End.length - 1];
+                            let New_4B_End_lastValue = New_4B_End[New_4B_End.length - 1] === undefined ? 0 : New_4B_End[New_4B_End.length - 1];
+                            let New_5A_End_lastValue = New_5A_End[New_5A_End.length - 1] === undefined ? 0 : New_5A_End[New_5A_End.length - 1];
+                            let New_5B_End_lastValue = New_5B_End[New_5B_End.length - 1] === undefined ? 0 : New_5B_End[New_5B_End.length - 1];
+                            let New_6A_End_lastValue = New_6A_End[New_6A_End.length - 1] === undefined ? 0 : New_6A_End[New_6A_End.length - 1];
+                            let New_6B_End_lastValue = New_6B_End[New_6B_End.length - 1] === undefined ? 0 : New_6B_End[New_6B_End.length - 1];
+                            let New_7A_End_lastValue = New_7A_End[New_7A_End.length - 1] === undefined ? 0 : New_7A_End[New_7A_End.length - 1];
+                            let New_7B_End_lastValue = New_7B_End[New_7B_End.length - 1] === undefined ? 0 : New_7B_End[New_7B_End.length - 1];
+                            let New_8A_End_lastValue = New_8A_End[New_8A_End.length - 1] === undefined ? 0 : New_8A_End[New_8A_End.length - 1];
+                            let New_8B_End_lastValue = New_8B_End[New_8B_End.length - 1] === undefined ? 0 : New_8B_End[New_8B_End.length - 1];
+
+
+                        // Create an object to store the arrays dynamically
+                        var New_B_arrays = {};
+
+                        // Populate New_B_arrays with arrays dynamically
+                        for (var i = 1; i <= 18; i++) {
+                            New_B_arrays[i] = window["New_" + i + "B"];
+                        }
+
+                        // Now, log the entire New_B_arrays object
+                        console.log(New_B_arrays);  
+
+
+
+                          
+                       
+                          
+
+
+                      
+
+
+
+
+                 //Chart JS
+
+                
+                    //Chart 1
+                 
+                    const ctx = document.getElementById('myChart');
+                    ctx.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+
+
+                    if (lineChart) {
+                        lineChart.destroy(); // Destroy existing chart
+                    }
+
+                        
+                        
+                     lineChart = new Chart(ctx, {
+                        
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Chart1_Display_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_1A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_1A_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line2 color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                        
+                        
+                        
+                        ]
+                    },
+
+                    
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        animation: {
+                            duration: 0
+                        },
+                        
+
+                        maintainAspectRatio: false,
+                        responsive: true,
+
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 1A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+                                    left:20,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    //max:100,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                        plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+
+                                  //  ctx.fillText(res.Data_Ary[last_value_Line_1A]+' Pa', chart.width - 10, 30); // Adjust position as needed
+
+                                    ctx.fillText(Luwa_1A_Start_lastValue+' Pa', chart.width -100, 20); // Adjust position as needed
+
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_1A_End_lastValue+ ' Pa', chart.width -10, 20); // Adjust position
+
+
+
+
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                        // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                //Chart 1 [Model box]
+                 
+                const ctx1_model_box = document.getElementById('myChart_Model_luwa_1A');
+                    ctx1_model_box.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+
+
+                    if (lineChart_Model_box_Luwa_1A) {
+                        lineChart_Model_box_Luwa_1A.destroy(); // Destroy existing chart
+                    }
+
+                        
+                        
+                    lineChart_Model_box_Luwa_1A = new Chart(ctx1_model_box, {
+                        
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Chart1_Display_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_1A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_1A_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line2 color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                        
+                        
+                        
+                        ]
+                    },
+
+                    
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        animation: {
+                            duration: 0
+                        },
+                        
+
+                        maintainAspectRatio: false,
+                        responsive: true,
+
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 1A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+                                    left:20,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    //max:100,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                        plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+
+                                  //  ctx.fillText(res.Data_Ary[last_value_Line_1A]+' Pa', chart.width - 10, 30); // Adjust position as needed
+
+                                    ctx.fillText(Luwa_1A_Start_lastValue+' Pa', chart.width -100, 20); // Adjust position as needed
+
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_1A_End_lastValue+ ' Pa', chart.width -10, 20); // Adjust position
+
+
+
+
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                        // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+
+                 //Chart 2 [Luwa 1B]
+                 const ctx2 = document.getElementById('myChart2');
+                 ctx2.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+
+                 if (lineChart2) {
+                    lineChart2.destroy(); // Destroy existing chart
+                }
+
+
+                    lineChart2 = new Chart(ctx2, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_1B_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_1B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_1B_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                        
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 1B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_1B_Start_lastValue +' Pa', chart.width - 100, 20); // Adjust position as needed
+
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_1B_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                        // Horizontal lines data
+                                        const lines = [
+                                            { yValue: min_limit, color: 'red' },
+                                            { yValue: max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+                 //Chart 2 [Luwa 1B Model]
+                 const ctx1_model_box_Luwa_1B = document.getElementById('myChart_Model_luwa_1B');
+                 ctx1_model_box_Luwa_1B.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+
+                 if (lineChart_Model_box_Luwa_1B) {
+                    lineChart_Model_box_Luwa_1B.destroy(); // Destroy existing chart
+                }
+
+
+                lineChart_Model_box_Luwa_1B = new Chart(ctx1_model_box_Luwa_1B, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_1B_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_1B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_1B_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                        
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 1B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_1B_Start_lastValue +' Pa', chart.width - 100, 20); // Adjust position as needed
+
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_1B_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                        // Horizontal lines data
+                                        const lines = [
+                                            { yValue: min_limit, color: 'red' },
+                                            { yValue: max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+
+                  //Chart 3 (Line 2A)
+                  const ctx3 = document.getElementById('myChart3');
+                    ctx3.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                    if (lineChart3) {
+                        lineChart3.destroy(); // Destroy existing chart
+                    }
+
+                     lineChart3 = new Chart(ctx3, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_2A_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_2A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                            ,
+                            {
+                                label: 'End',
+                                data: Luwa_2A_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 2A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_2A_Start_lastValue+' Pa', chart.width - 100, 20); // Adjust position as needed
+
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_2A_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                //Chart 3 [Line 2A Model]
+                const ctx1_model_box_Luwa_2A = document.getElementById('myChart_Model_luwa_2A');
+                ctx1_model_box_Luwa_2A.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                    if (lineChart_Model_box_Luwa_2A) {
+                        lineChart_Model_box_Luwa_2A.destroy(); // Destroy existing chart
+                    }
+
+                    lineChart_Model_box_Luwa_2A = new Chart(ctx1_model_box_Luwa_2A, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_2A_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_2A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                            ,
+                            {
+                                label: 'End',
+                                data: Luwa_2A_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 2A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_2A_Start_lastValue+' Pa', chart.width - 100, 20); // Adjust position as needed
+
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_2A_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+                
+
+
+
+
+                //Chart 4 (LUWA 2B )
+                    const ctx4 = document.getElementById('myChart4');
+                    ctx4.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+                   // line6B_Data=[7000,7000,7000,7000]
+
+
+                    if (lineChart4) {
+                        lineChart4.destroy(); // Destroy existing chart
+                    }
+                     lineChart4 = new Chart(ctx4, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                       
+                        labels: Luwa_2B_Start_Time,
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_2B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                           
+                            {
+                                label: 'End',
+                                data: Luwa_2B_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        
+                        
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 2B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_2B_Start_lastValue+' Pa', chart.width -100, 20); // Adjust position as needed
+
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_2B_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+
+                                    ctx.restore();
+
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                //Chart 4 [ LUWA 2B Modal ]
+                const ctx1_model_box_Luwa_2B = document.getElementById('myChart_Model_luwa_2B');
+                ctx1_model_box_Luwa_2B.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+                   // line6B_Data=[7000,7000,7000,7000]
+
+
+                    if (lineChart_Model_box_Luwa_2B) {
+                        lineChart_Model_box_Luwa_2B.destroy(); // Destroy existing chart
+                    }
+                    lineChart_Model_box_Luwa_2B = new Chart(ctx1_model_box_Luwa_2B, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                       
+                        labels: Luwa_2B_Start_Time,
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_2B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                           
+                            {
+                                label: 'End',
+                                data: Luwa_2B_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        
+                        
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 2B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_2B_Start_lastValue+' Pa', chart.width -100, 20); // Adjust position as needed
+
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_2B_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+
+                                    ctx.restore();
+
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                     //5 ,6
+
+                    //Chart 5 (Luwa 3A)
+                    const ctx5 = document.getElementById('myChart5');
+                    ctx5.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+
+    
+                    if (lineChart5) {
+                        lineChart5.destroy(); // Destroy existing chart
+                    }
+                     lineChart5 = new Chart(ctx5, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_3A_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_3A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_3A_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 3A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_3A_Start_lastValue+' Pa', chart.width - 100, 20); // Adjust position as needed
+
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_3A_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                        // Horizontal lines data
+                                         
+                                         const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                //Chart 5 (Luwa 3A Modal)
+                const ctx1_model_box_Luwa_3A = document.getElementById('myChart_Model_luwa_3A');
+                ctx1_model_box_Luwa_3A.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+
+    
+                    if (lineChart_Model_box_Luwa_3A) {
+                        lineChart_Model_box_Luwa_3A.destroy(); // Destroy existing chart
+                    }
+                    lineChart_Model_box_Luwa_3A = new Chart(ctx1_model_box_Luwa_3A, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_3A_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_3A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_3A_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 3A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_3A_Start_lastValue+' Pa', chart.width - 100, 20); // Adjust position as needed
+
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_3A_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                        // Horizontal lines data
+                                         
+                                         const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+
+                //Chart 6 (Luwa 3B)
+                const ctx6 = document.getElementById('myChart6');
+                    ctx6.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+
+    
+                    if (lineChart6) {
+                        lineChart6.destroy(); // Destroy existing chart
+                    }
+                     lineChart6 = new Chart(ctx6, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_3B_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_3B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_3B_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 3B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_3B_Start_lastValue+' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_3B_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                 //Chart 6 (Luwa 3B Modal)
+                 const ctx6_model_box_Luwa_3B = document.getElementById('myChart_Model_luwa_3B');
+                 ctx6_model_box_Luwa_3B.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+
+    
+                    if (lineChart_Model_box_Luwa_3B) {
+                        lineChart_Model_box_Luwa_3B.destroy(); // Destroy existing chart
+                    }
+                    lineChart_Model_box_Luwa_3B = new Chart(ctx6_model_box_Luwa_3B, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_3B_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_3B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_3B_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 3B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_3B_Start_lastValue+' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_3B_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+
+
+
+
+                //Chart 7 (Luwa 4A)
+                
+                    const ctx7 = document.getElementById('myChart7');
+                    ctx7.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                    if (lineChart7) {
+                        lineChart7.destroy(); // Destroy existing chart
+                    }
+
+                     lineChart7 = new Chart(ctx7, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_4A_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_4A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_4A_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                                
+                            }
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                        
+                            
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 4A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+                    
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 10// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_4A_Start_lastValue+' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_4A_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                          const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                
+                //Chart 7 [Luwa 4A Modal]
+                
+                const ctx7_model_box_Luwa_4A = document.getElementById('myChart_Model_luwa_4A');
+                ctx7_model_box_Luwa_4A.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                    if (lineChart_Model_box_Luwa_4A) {
+                        lineChart_Model_box_Luwa_4A.destroy(); // Destroy existing chart
+                    }
+
+                    lineChart_Model_box_Luwa_4A = new Chart(ctx7_model_box_Luwa_4A, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_4A_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_4A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_4A_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                                
+                            }
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                        
+                            
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 4A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+                    
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 10// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_4A_Start_lastValue+' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_4A_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                          const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                
+                //Chart 8 (Luwa 4B)
+                const ctx8 = document.getElementById('myChart8');
+                    ctx8.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                    if (lineChart8) {
+                        lineChart8.destroy(); // Destroy existing chart
+                    }
+
+                    lineChart8 = new Chart(ctx8, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_4B_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_4B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data:Luwa_4B_End_Data ,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 4B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_4B_Start_lastValue+' Pa', chart.width -100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_4B_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                //Chart 8 [Luwa 4B Modal]
+                const ctx8model_box_Luwa_4B = document.getElementById('myChart_Model_luwa_4B');
+                ctx8model_box_Luwa_4B.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                    if (lineChart_Model_box_Luwa_4B) {
+                        lineChart_Model_box_Luwa_4B.destroy(); // Destroy existing chart
+                    }
+
+                    lineChart_Model_box_Luwa_4B = new Chart(ctx8model_box_Luwa_4B, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_4B_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_4B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data:Luwa_4B_End_Data ,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 4B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_4B_Start_lastValue+' Pa', chart.width -100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_4B_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+
+
+
+                //Chart 9 [Line 5A Modal]
+                const ctx9 = document.getElementById('myChart9');
+                ctx9.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                    if (lineChart9) {
+                        lineChart9.destroy(); // Destroy existing chart
+                    }
+
+                     lineChart9 = new Chart(ctx9, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_5A_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_5A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_5A_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 5A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_5A_Start_lastValue+' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_5A_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                        // Horizontal lines data
+                                        const lines = [
+                                            { yValue: min_limit, color: 'red' },
+                                            { yValue: max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                 //Chart 9 ([ine 5A MODAL]
+                 const ctx9_model_box_Luwa_5A = document.getElementById('myChart_Model_luwa_5A');
+                 ctx9_model_box_Luwa_5A.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                    if (lineChart_Model_box_Luwa_5A) {
+                        lineChart_Model_box_Luwa_5A.destroy(); // Destroy existing chart
+                    }
+
+                    lineChart_Model_box_Luwa_5A = new Chart(ctx9_model_box_Luwa_5A, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_5A_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_5A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_5A_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 5A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_5A_Start_lastValue+' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_5A_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                        // Horizontal lines data
+                                        const lines = [
+                                            { yValue: min_limit, color: 'red' },
+                                            { yValue: max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+
+                 //Chart 10 (Line 5B)
+                 const ctx10 = document.getElementById('myChart10');
+                    ctx10.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+
+    
+                    if (lineChart10) {
+                        lineChart10.destroy(); // Destroy existing chart
+                    }
+                     lineChart10 = new Chart(ctx10, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_5B_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_5B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_5B_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 13 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 5B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_5B_Start_lastValue+' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_5B_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                        // Horizontal lines data
+                                        const lines = [
+                                            { yValue: min_limit, color: 'red' },
+                                            { yValue: max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                //Chart 10 [Line 5B Modal]
+                const ctx10_model_box_Luwa_5B = document.getElementById('myChart_Model_luwa_5B');
+                ctx10_model_box_Luwa_5B.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+
+    
+                    if (lineChart_Model_box_Luwa_5B) {
+                        lineChart_Model_box_Luwa_5B.destroy(); // Destroy existing chart
+                    }
+                    lineChart_Model_box_Luwa_5B = new Chart(ctx10_model_box_Luwa_5B, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_5B_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_5B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_5B_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 13 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 5B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_5B_Start_lastValue+' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_5B_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                        // Horizontal lines data
+                                        const lines = [
+                                            { yValue: min_limit, color: 'red' },
+                                            { yValue: max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+
+
+
+                //Chart 11 (Line 6A)
+                const ctx11 = document.getElementById('myChart11');
+                    ctx11.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                    if (lineChart11) {
+                        lineChart11.destroy(); // Destroy existing chart
+                    }
+
+                     lineChart11 = new Chart(ctx11, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_6A_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_6A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: New_6A_End,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 6A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(res.Data_Ary41[last_index_line_6A_Start]+' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_6A_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                 //Chart 11 [Line 6A MODAL]
+                 const ctx6_model_box_Luwa_6A = document.getElementById('myChart_Model_luwa_6A');
+                 ctx6_model_box_Luwa_6A.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                    if (lineChart_Model_box_Luwa_6A) {
+                        lineChart_Model_box_Luwa_6A.destroy(); // Destroy existing chart
+                    }
+
+                    lineChart_Model_box_Luwa_6A = new Chart(ctx6_model_box_Luwa_6A, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_6A_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_6A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: New_6A_End,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 6A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(res.Data_Ary41[last_index_line_6A_Start]+' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_6A_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+
+
+
+                //Chart 12 (Line 6B)
+                const ctx12 = document.getElementById('myChart12');
+                    ctx12.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+
+    
+                    if (lineChart12) {
+                        lineChart12.destroy(); // Destroy existing chart
+                    }
+                     lineChart12 = new Chart(ctx12, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_6B_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_6B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: New_6B_End,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 6B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(res.Data_Ary45[last_index_line_6B_Start]+' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_6B_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                //Chart 12 [Line 6B MODAL]
+                const ctx12_model_box_Luwa_6B = document.getElementById('myChart_Model_luwa_6B');
+                ctx12_model_box_Luwa_6B.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+
+    
+                    if (lineChart_Model_box_Luwa_6B) {
+                        lineChart_Model_box_Luwa_6B.destroy(); // Destroy existing chart
+                    }
+                    lineChart_Model_box_Luwa_6B = new Chart(ctx12_model_box_Luwa_6B, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_6B_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_6B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: New_6B_End,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 6B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(res.Data_Ary45[last_index_line_6B_Start]+' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_6B_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+
+
+                //Chart 13 (Line 7A)
+                const ctx13 = document.getElementById('myChart13');
+                    ctx13.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                    if (lineChart13) {
+                        lineChart13.destroy(); // Destroy existing chart
+                    }
+
+                     lineChart13 = new Chart(ctx13, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_7A_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_7A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: New_7A_End,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 7A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_7A_Start_lastValue +' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_7A_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                //Chart 13 [Line 7A MODAL]
+                const ctx13_model_box_Luwa_7A = document.getElementById('myChart_Model_luwa_7A');
+                ctx13_model_box_Luwa_7A.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                    if (lineChart_Model_box_Luwa_7A) {
+                        lineChart_Model_box_Luwa_7A.destroy(); // Destroy existing chart
+                    }
+
+                    lineChart_Model_box_Luwa_7A = new Chart(ctx13_model_box_Luwa_7A, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_7A_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_7A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: New_7A_End,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            }]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 7A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_7A_Start_lastValue +' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_7A_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+
+                //Chart 14 (Line 7B)
+                const ctx14 = document.getElementById('myChart14');
+                ctx14.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                if (lineChart14) {
+                        lineChart14.destroy(); // Destroy existing chart
+                    }
+
+                     lineChart14 = new Chart(ctx14, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_7B_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_7B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_7B_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 7B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_7B_Start_lastValue +' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_7B_End_lastValue  + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                //Chart 14 [Line 7B MODAL]
+                const ctx14_model_box_Luwa_7B = document.getElementById('myChart_Model_luwa_7B');
+                ctx14_model_box_Luwa_7B.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                if (lineChart_Model_box_Luwa_7B) {
+                    lineChart_Model_box_Luwa_7B.destroy(); // Destroy existing chart
+                    }
+
+                    lineChart_Model_box_Luwa_7B = new Chart(ctx14_model_box_Luwa_7B, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_7B_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_7B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_7B_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 7B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_7B_Start_lastValue +' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_7B_End_lastValue  + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+
+
+                //Chart 15 (Line 15A)
+                const ctx15 = document.getElementById('myChart15');
+                ctx15.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                if (lineChart15) {
+                        lineChart15.destroy(); // Destroy existing chart
+                    }
+
+                     lineChart15 = new Chart(ctx15, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_8A_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_8A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_8A_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 8A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_8A_Start_lastValue +' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_8A_End_lastValue  + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                //Chart 15 (Line 15A)
+                const ctx15_model_box_Luwa_8A = document.getElementById('myChart_Model_luwa_8A');
+                ctx15_model_box_Luwa_8A.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                if (lineChart_Model_box_Luwa_8A) {
+                    lineChart_Model_box_Luwa_8A.destroy(); // Destroy existing chart
+                    }
+
+                    lineChart_Model_box_Luwa_8A = new Chart(ctx15_model_box_Luwa_8A, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_8A_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_8A_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_8A_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 8A', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_8A_Start_lastValue +' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_8A_End_lastValue  + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+
+
+
+                 //Chart 16 (Line 16A)
+                const ctx16 = document.getElementById('myChart16');
+                ctx16.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                if (lineChart16) {
+                        lineChart16.destroy(); // Destroy existing chart
+                    }
+
+                     lineChart16 = new Chart(ctx16, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_8B_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_8B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_8B_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+
+                           
+                        
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 8B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_8B_Start_lastValue +' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_8B_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+
+                //Chart 16 [Line 16A MODAL]
+                const ctx16_model_box_Luwa_8B = document.getElementById('myChart_Model_luwa_8B');
+                ctx16_model_box_Luwa_8B.style.backgroundColor = 'rgba(24, 24, 24, 0.71)';
+    
+                if (lineChart_Model_box_Luwa_8B) {
+                    lineChart_Model_box_Luwa_8B.destroy(); // Destroy existing chart
+                    }
+
+                    lineChart_Model_box_Luwa_8B = new Chart(ctx16_model_box_Luwa_8B, {
+                    type: 'line', // Line chart type
+                    data:
+                    {
+                        labels: Luwa_8B_Start_Time, // X-axis labels
+                        datasets:
+                            [{
+                                label: 'Start',
+                                data: Luwa_8B_Start_Data,
+                                borderColor: 'rgb(255, 255, 255)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+                            {
+                                label: 'End',
+                                data: Luwa_8B_End_Data,
+                                borderColor: 'rgb(0, 255, 8)', // Line color
+                                borderWidth: 3, // Line border width
+                                backgroundColor: 'rgba(1, 1, 1, 0.06)', // Area under the line
+                                tension: 0.4, // Curve effect on the line
+                                pointRadius:0.1,
+                                pointBorderColor: 'rgb(19, 141, 255)',
+                            },
+
+                           
+                        
+                        ]
+                    },
+                     options:
+                    {
+                        animation: {
+                            duration: 0
+                        },
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        plugins:
+                        {
+                            legend:
+                            {
+                                labels:
+                                {
+                                    color: 'white', // Legend labels color
+                                
+                                    font: {
+                                    size: 10 // Optional: Change font size
+                                    }
+
+                                   
+                                }
+                            },
+
+                            title:
+                            {
+                                display: true, // Display the title
+                                text: 'Luwa 8B', // Title text
+                                position: 'top',
+                                font: {
+                                    size: 13 ,// Font size for the title
+                                    color: 'white'
+                                },
+                                color: 'white', // Optional title color
+                                align: 'start',
+                                padding:{
+                                    top:10,
+
+                                }
+
+                            },
+
+                        },
+
+                            footer:
+                            {
+                                display: true,
+                                text: 'This is footer text', // Footer text
+
+                            },
+
+                            scales:
+                            {
+                                y:
+                                {
+                                    max: 7500,
+                                    min:6400,
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-axis font color
+                                        },font:
+                                            {
+                                                size: 10 // Optional: Change font size
+                                            },
+
+                                    title:
+                                        {
+                                            display: true,
+                                            color: 'Azure',
+                                            text: 'Negative pressure',
+
+                                            font:
+                                            {
+                                                size: 11 // Optional: Change font size
+                                            }
+                                        },
+
+                                    beginAtZero: true, // Start Y-axis from zero
+                                            grid:
+                                            {
+                                                color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                                borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                            }
+                                },
+
+                                x:
+                                {
+                                    ticks:
+                                        {
+                                            color: 'rgb(235, 235, 235)' // X-ax
+                                        },
+
+                                    title:
+                                    {
+                                        display: false,
+                                        color: 'white',
+                                        text: 'Time',
+
+                                        font:
+                                        {
+                                        size: 12// Optional: Change font size
+                                        }
+                                    },
+
+
+
+                                    grid:
+                                    {
+                                        color: 'rgba(5, 5, 5, 0.23)', // Gridline color
+                                        borderColor: 'rgba(219, 219, 219, 0.44)' // Y-axis border color
+                                    }
+                                }
+                            },
+
+                    },
+
+                    plugins:
+                        [
+                            {
+                                id: 'customRightText',
+                                beforeDraw: (chart) =>
+                                {
+                                    const ctx = chart.ctx;
+                                    ctx.save();
+                                    ctx.font = '15px Arial';
+                                    ctx.fillStyle = 'white';
+                                    ctx.textAlign = 'right';
+                                    ctx.fontWeight = 'bold'; // corrected
+                                    ctx.fillText(Luwa_8B_Start_lastValue +' Pa', chart.width - 100, 20); // Adjust position as needed
+                                    // Additional Drawing
+                                    ctx.fillStyle = 'rgb(0, 255, 8)'; // Change color for distinction
+                                    ctx.fillText(New_8B_End_lastValue + ' Pa', chart.width -10, 20); // Adjust position
+                                    ctx.restore();
+                                }
+
+                                ,id: 'horizontalLine', // Combine logic under a single plugin
+                                    afterDraw: (chart) =>
+                                    {
+                                        const ctx = chart.ctx;
+
+                                          // Horizontal lines data
+                                        const lines = [
+                                            { yValue:min_limit , color: 'red' },
+                                            { yValue:max_limit, color: 'red' }
+                                        ];
+
+                                        lines.forEach((line) =>
+                                        {
+                                            const yValue = chart.scales.y.getPixelForValue(line.yValue);
+
+                                            ctx.save();
+                                            ctx.beginPath();
+                                            ctx.moveTo(chart.chartArea.left, yValue);
+                                            ctx.lineTo(chart.chartArea.right, yValue);
+                                            ctx.strokeStyle = line.color; // Line color
+                                            ctx.lineWidth = 2; // Line width
+                                            ctx.stroke();
+                                            ctx.restore();
+                                        });
+                            }}
+
+                        ]
+
+                });
+                          });
+
+
+
+            }
+
+            function refreshFrontEnd() {
+                console.log("refreshFrontEnd");
+
+              //  $("#content").load(location.href + " #content");
+                funLoadUsers();
+
+            }
+
+            function ReloadContent(){
+                // console.log("Reload FrontEnd And BackeEnd");
+                // document.querySelectorAll("canvas").forEach(canvas => {
+                //     const ctx = canvas.getContext("2d");
+                //     ctx.clearRect(0, 0, canvas.width, canvas.height);
+                // });
+              //  $("#content").load(location.href + " #content");
+            //   document.querySelectorAll("canvas").forEach(canvas => {
+            //     const ctx = canvas.getContext("2d");
+            //     ctx.clearRect(0, 0, canvas.width, canvas.height);
+            // });
+
+
+
+                funLoadUsers();
+               // $("#main_content").load(location.href + " #main_content");
+
+                //window.top.location = window.top.location;
+
+
+            }
+
+
+
+            funLoadUsers();
+            setInterval(ReloadContent, 5000);
+            //setInterval(funLoadUsers, 5000);
+
+           // funLoadUsers();
+
+
+
+
+
+
+</script>
+
+
+
+<style>
+
+
+
+</style>
+
+<div style="margin-top: 100px;">
+<?php
         include '../../headers/footer-bar.php'
     ?> 
-</div>    
- 
-<script> 
-//--------------- Admin Panel Minimize ----------------------
-    $('[data-widget="pushmenu"]').PushMenu("collapse");
-    
-    $('#id_table1').DataTable({
-    "paging": true,
-    "lengthChange": true,
-    "searching": true,
-    "ordering": true,
-    "info": true,
-    "autoWidth": false,
-    "responsive": true,
-    "dom": 'Bfrtip',
-    "buttons": [
-               { extend: 'copyHtml5', footer: true },
-               { extend: 'excelHtml5', footer: true },
-               { extend: 'csvHtml5', footer: true },
-               { extend: 'pdfHtml5', footer: true },
-               { extend: 'print', footer: true }
-           ]
-});
-    var i;
-    var j;
-    
-    var dtbl1;
-    var dtbl2;
-    var dtbl3;
-    var strReceiptNo    = "0";
-    //var intDebugEnable  = "1";
-    
-    //------------- PHP Session Variable to JS variables ---------------------     
-    var SESSION_CurrentUserName     = "<?php echo htmlspecialchars($_SESSION["user_name"]); ?>";
-    var SESSION_CurrentUserEPF      = "<?php echo htmlspecialchars($_SESSION["user_epf"]); ?>";
-    var SESSION_CurrentUserContact      = "<?php echo htmlspecialchars($_SESSION["user_contactno"]); ?>";
-    var SESSION_CurrentUserDepartment   = "<?php echo htmlspecialchars($_SESSION["user_department"]); ?>";      
-    var SESSION_CurrentUserType   = "<?php echo htmlspecialchars($_SESSION["user_type"]); ?>";
-          
-          
-    var roll_areas_ary      = <?php echo json_encode($roll_areas); ?>;
-    var roll_other_ary      = <?php echo json_encode($roll_other); ?>;
-           
-    var strNextModelID = "NA";
-    //alert(roll_areas_ary);
-    //alert(roll_other_ary);
-    
-    $('.js-gauge--1').kumaGauge({
-            value : Math.floor((Math.random() * 599) + 1),
-            max: 1200
-        });
-	
-    function updateKnobValue(newValue)
-    {
-        $('.js-gauge--1').kumaGauge('update', {	value : newValue});
-    }
-    //----------------- Second Gage --------------------------------------------------
-    $('.js-gauge--2').kumaGauge({
-		value : Math.floor((Math.random() * 800) + 1),
-		max: 1200
-	});
-    function updateKnobValue2(newValue)
-    {
-        $('.js-gauge--2').kumaGauge('update', {	value : newValue});
-    }
-    //alert("Start Code.- 2");
-    $(function () 
-    {        
-        //alert("Start Code..");
-        // Start automatic scrolling Andon Dashboard 
-        //autoScroll();  
-        //Date and time picker
-        //$('#ModOtherProjectCre_dtmDateTime').datetimepicker({
-        //    format: 'YYYY-MM-DD HH:mm:ss',
-        //    icons: { time: 'far fa-clock' } 
-        //});
-        //------------ Hide home Details, When MC Login -----------------------
-        
-        //alert("Start Code.- 3");
-        //
-        //----------------------------------------------------------------------
-        //Initialize Select2 Elements
-        //$('.select2').select2({ closeOnSelect: true});
-        //Initialize Select2 Elements
-        //$('.select2bs4').select2({
-        //  theme: 'bootstrap4', closeOnSelect: true
-        //});  
-        //alert("Start Code.- 4");
-        //------------ Home DataTable Initialize -------------------
-        let intTableHeight = 160;
-        if(roll_other_ary.includes("90012")){intTableHeight = 400;}
 
-        //--- Load Tables --------------------------------------            
-               
-        fun_MFM_RealTimeData();
-        fun_MFI_RealTimeData();
-        funRefresh_Chart();
-        //alert("Hooi");
-    }); 
-    
-    
-    
-    // Function to automatically scroll the dashboard container
-    function autoScroll() 
-    {
-        if (cardContainer.scrollWidth > cardContainer.clientWidth) 
-        {
-            const cardWidth = 150; // Adjust as needed
-            const totalWidth = cardContainer.scrollWidth;
-            const remainingWidth = totalWidth - cardContainer.scrollLeft - cardContainer.clientWidth;  
-            if (remainingWidth > 0) 
-            {
-                cardContainer.scrollLeft += 1; // Adjust scrolling direction and speed as needed
-                setTimeout(autoScroll, scrollSpeed); // Repeat the scrolling process
-            }
-            else 
-            {
-                // Reset scroll position to the beginning to create continuous scrolling effect
-                cardContainer.scrollLeft = 0;
-                setTimeout(autoScroll, 1000); // Wait for 1 second before restarting scrolling
-            }
-        }
-        else 
-        {
-            // No scrolling needed, wait for 1 second before checking again
-            setTimeout(autoScroll, 1000);
-        }
-    }
-    //$('#button').click(function () 
-    //{
-    //    var table = $('#example1').DataTable();
-    //    alert(table.rows('.selected').data().length + ' row(s) selected');
-    //});
-    // Update the count down every 1 second
-    var x = setInterval(function() 
-    {
-        //alert("Timer running..");
-        //-------------- Show Time -------------------------------------------------
-        //var today = new Date();
-        //var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-        //var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-        //document.getElementById("id_datetime").innerHTML = date+' '+time;
-        //--------------- Update Data ----------------------------------------------
-        //------------ Refresh Home Page Parts ----------------------
-        
-                fun_MFM_RealTimeData();
-            
-                //alert("Location : 9001314"); 
-                fun_MFI_RealTimeData();
-            
-                //alert("Location : 9001315"); 
-                funRefresh_Chart();
-              
-    }, 60000); 
-    
-    //function showAlert(button)
-    //{
-    //    alert("Test");
-    //}
-     //-------------------- Refresh Home Chart -------------------
-     function funRefresh_Chart() 
-     {
-        let intDebugEnable = 0;        
-        if(intDebugEnable === 1)    alert("funRefresh_Chart");
-        //-------------- Update Home page Chart ---------------------------------------------
-        var vblSendPara =  "1234"; 
-        $.post('class/getData_HomeChart.php', { userpara: vblSendPara }, function(json_data2) 
-        {
-            if(intDebugEnable === 1)    alert("json_data2 : " +json_data2);           
-            var res = $.parseJSON(json_data2);        
-            //const varDate = ["08/12/2023", "09/12/2023", "10/12/2023","12/12/2023", "14/12/2023", "16/12/2023","17/12/2023", "19/12/2023", "20/12/2023"];
-            //const varWoCount = [10,18,11,20,23,19,16,21,11];  
+</div>
 
-            var varDate = new Array();
-            var varWoCount = new Array();
 
-            varDate = res.Date_Ary;          
-            varWoCount = res.TotPlacedWorkOrders_Ary;              
-            //-------------------------------------------------------------
-            //- BAR CHART:1 - Line Wise Downtime Summary  
-            //-------------------------------------------------------------     
-            document.getElementById("Id_DivBarChart_1").innerHTML = '&nbsp;';
-            document.getElementById("Id_DivBarChart_1").innerHTML = '<canvas id="id_barChart_1" style="height: 280px; max-width: 120%;"></canvas>';
-            var barChartCanvas = document.getElementById('id_barChart_1').getContext('2d');
-
-            var barChart1_Data = {
-                labels: res.Date_Ary,
-                datasets: [
-                    {
-                        label: 'MFM',                        
-                        borderColor: '#008080',             // Teal line color
-                        pointBackgroundColor: '#008080',    // Matching teal for data points
-                        backgroundColor: 'rgba(60,141,188,0.9)',
-                        //borderColor: 'rgba(60,141,188,0.8)',
-                        pointRadius: false,
-                        pointColor: '#3b8bba',
-                        pointStrokeColor: 'rgba(60,141,188,1)',
-                        pointHighlightFill: '#fff',
-                        pointHighlightStroke: 'rgba(60,141,188,1)',
-                        data: res.MeterNumber1,
-                        fill: false // Disable fill to show only the line
-                    }, 
-                    {
-                        label: 'MFI',
-                        borderColor: '#DAA520',             // Goldenrod line color
-                        pointBackgroundColor: '#DAA520',    // Matching goldenrod for data points
-                        backgroundColor: 'rgba(210, 44, 44, 0.9)',
-                        //borderColor: 'rgba(210, 44, 44, 0.8)',
-                        pointRadius: false,
-                        pointColor: '#3b8bba',
-                        pointStrokeColor: 'rgba(210, 44, 44, 1)',
-                        pointHighlightFill: '#fff',
-                        pointHighlightStroke: 'rgba(210, 44, 44, 1)',
-                        data: res.MeterNumber2,
-                        fill: false // Disable fill to show only the line
-                    }
-                ]    
-            };
-
-            var barChartOptions = {
-                responsive: true,
-                maintainAspectRatio: false,
-                datasetFill: false,
-                chartArea: { backgroundColor: 'rgba(255, 0, 0, 0.1)' }, // Change the background color of the chart area
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            fontSize: 8, // Adjust the font size for y-axis ticks
-                            fontColor: 'white' // Change the font color for y-axis ticks to white
-                        }
-                    }],
-                    xAxes: [{
-                        ticks: {
-                            fontSize: 8, // Adjust the font size for x-axis ticks
-                            fontColor: 'white' // Change the font color for x-axis ticks to white
-                        }
-                    }]
-                }    
-            };
-
-            new Chart(barChartCanvas, {
-                type: 'line',
-                data: barChart1_Data,
-                options: barChartOptions
-            });
-        });
-    }
-
-    //-------------------- Refresh Home Downtime Summary -----------------
-    function fun_MFM_RealTimeData() 
-    {
-        let intDebugEnable = 0;        
-        if(intDebugEnable === 1)    alert("fun_MFM_RealTimeData");
-        //alert("Refresh Downtime Summary");
-        //var formattedTime; 
-        const DataAry = []; 
-        //----------------- Home Downtime Summary-----------------------------------        
-        DataAry[0] = "MFM_Real_Time_Data";        // Function Name    
-        DataAry[1] = "NA";
-        if(intDebugEnable === 1)    alert("DataAry :" + DataAry);   
-        $.post('class/getData_HomeSummary.php', { userpara: DataAry }, function(json_data2) 
-        {
-            if(intDebugEnable === 1)    alert("json_data2 :" + json_data2); 
-            var res = $.parseJSON(json_data2); 
-           
-            updateKnobValue(res.Data_Ary[0]);
-            
-            if(res.Status_Ary[0] === "true")
-            {
-                document.getElementById("id_MFM_Thermal_energy_unit").innerHTML     = ": " + parseFloat(res.Data_Ary[0]).toFixed(1) + " KW";
-                document.getElementById("id_MFM_Child_Water_Flow").innerHTML        = ": " + parseFloat(res.Data_Ary[1]).toFixed(1) + " m3/h";
-                document.getElementById("id_MFM_Child_Water_Supply_Temp").innerHTML = ": " + parseFloat(res.Data_Ary[2]).toFixed(1) + " °C";
-                document.getElementById("id_MFM_Child_Water_return_Temp").innerHTML = ": " + parseFloat(res.Data_Ary[3]).toFixed(1) + " °C";
-                document.getElementById("id_Home_units").innerHTML         =  res.Data_Ary[4];
-                document.getElementById("id_Home_LstUpDateTime_MFM").innerHTML         =  res.Data_Ary[5];
-            }                  
-        });
-    }
-    //-------------------- Refresh Home Work Order Summary -----------------
-    function fun_MFI_RealTimeData() 
-    {
-        let intDebugEnable = 0;        
-        if(intDebugEnable === 1)    alert("fun_MFI_RealTimeData");
-        const DataAry = []; 
-        //----------------- Home Downtime Summary-----------------------------------        
-        DataAry[0] = "MFI_Real_Time_Data";        // Function Name    
-        DataAry[1] = "NA";
-        if(intDebugEnable === 1)    alert("DataAry : " + DataAry);    
-        $.post('class/getData_HomeSummary.php', { userpara: DataAry }, function(json_data2) 
-        {
-            if(intDebugEnable === 1)    alert("json_data2 : " + json_data2); 
-            var res = $.parseJSON(json_data2);   
-            updateKnobValue2(res.Data_Ary[0]);  
-            if(res.Status_Ary[0] === "true")
-            {
-                document.getElementById("id_MFI_Thermal_energy_unit").innerHTML     = ": " + parseFloat(res.Data_Ary[0]).toFixed(1) + " KW";
-                document.getElementById("id_MFI_Child_Water_Flow").innerHTML        = ": " + parseFloat(res.Data_Ary[1]).toFixed(1) + " m3/h";
-                document.getElementById("id_MFI_Child_Water_Supply_Temp").innerHTML = ": " + parseFloat(res.Data_Ary[2]).toFixed(1) + " °C";
-                document.getElementById("id_MFI_Child_Water_return_Temp").innerHTML = ": " + parseFloat(res.Data_Ary[3]).toFixed(1) + " °C";
-                document.getElementById("id_Home_LstUpDateTime_MFI").innerHTML      =  res.Data_Ary[4];                
-            }                     
-        });  
-    }
-    //----------- fun Refresh All Areas ---------------------------------
-    function funRefresh_HomePage()
-    {         
-        fun_MFM_RealTimeData();
-        fun_MFI_RealTimeData();
-        funRefresh_Chart();        
-    }
-    
-</script>
+</div>
 </body>
 </html>

@@ -60,11 +60,42 @@
                                 </div>
                             </div>
                             <div class="col-md-2">                   
-                                    <label style="font-weight: bolder;" >Factory</label>    
-                                    <select class="form-control select2" onchange="funLoadTable()" id="id_Select_Factory" style="width: 100%;">
-                                        <option value="All">MFI & MFM</option> 
-                                        <option value="2">MFI</option> 
-                                        <option value="1">MFM</option> 
+                                    <label style="font-weight: bolder;" >Unit</label>    
+                                    <select class="form-control select2" onchange="funLoadTable()" id="id_Select_Unit" style="width: 100%;">
+                                        <option value="Luwa_1A_Start">Luwa 1A Start</option> 
+                                        <option value="Luwa_1A_End">Luwa 1A End</option>
+                                        <option value="Luwa_1B_Start">Luwa 1B Start </option> 
+                                        <option value="Luwa_1B_End">Luwa 1B End</option>
+                                        <option value="Luwa_2A_Start">Luwa 2A Start</option> 
+                                        <option value="Luwa_2A_End">Luwa 2A End</option>
+                                        <option value="Luwa_2B_Start">Luwa 2B Start</option> 
+                                        <option value="Luwa_2B_End">Luwa 2B End</option>
+                                        <option value="Luwa_3A_Start">Luwa 3A Start</option> 
+                                        <option value="Luwa_3A_End">Luwa 3A End</option>
+                                        <option value="Luwa_3B_Start">Luwa 3B Start</option> 
+                                        <option value="Luwa_3B_End">Luwa 3B End</option>
+                                        <option value="Luwa_4A_Start">Luwa 4A Start</option> 
+                                        <option value="Luwa_4A_End">Luwa 4A End</option>
+                                        <option value="Luwa_4B_Start">Luwa 4B Start</option> 
+                                        <option value="Luwa_4B_End">Luwa 4B End</option>
+                                        <option value="Luwa_5A_Start">Luwa 5A Start</option> 
+                                        <option value="Luwa_5A_End">Luwa 5A End</option>
+                                        <option value="Luwa_5B_Start">Luwa 5B Start</option> 
+                                        <option value="Luwa_5B_End">Luwa 5B End</option>
+                                        <option value="Luwa_6A_Start">Luwa 6A Start</option> 
+                                        <option value="Luwa_6A_End">Luwa 6A End</option>
+                                        <option value="Luwa_6B_Start">Luwa 6B Start</option> 
+                                        <option value="Luwa_6B_End">Luwa 6B End</option>
+                                        <option value="Luwa_7A_Start">Luwa 7A Start</option> 
+                                        <option value="Luwa_7A_End">Luwa 7A End</option>
+                                        <option value="Luwa_7B_Start">Luwa 7B Start</option> 
+                                        <option value="Luwa_7B_End">Luwa 7B End</option>
+                                        <option value="Luwa_8A_Start">Luwa 8A Start</option> 
+                                        <option value="Luwa_8A_End">Luwa 8A End</option>
+                                        <option value="Luwa_8B_Start">Luwa 8B Start</option> 
+                                        <option value="Luwa_8B_End">Luwa 8B End</option>
+                                       
+                                         
                                         
                                     </select>
                                 </div>
@@ -94,12 +125,10 @@
                                                     <th>#</th>
                                                     <th>ServerDateTime</th>
                                                     <th>Unit</th>
-                                                    <th>Meter No</th>
-                                                    <th>ThermalEnergyUnit</th>
-                                                    <th>ChilledWaterFlow</th>
-                                                    <th>ChilledWaterSupplyTemp</th> 
-                                                    <th>ChilledWaterReturnTemp</th> 
-                                                    <th>ENET</th>                                                    
+                                                    <th>Airflow</th>
+                                                    <!-- <th>State</th> -->
+                                                  
+                                                              
                                                 </tr>
                                             </thead>
                                             <tbody>                                            
@@ -111,16 +140,31 @@
                         </div>
                     </section>
                 </div>              
-            </section>
-        </div> 
-        <!-- Include Footer -->
-        <?php
-            include '../../headers/footer-bar.php'
-        ?> 
-</div>    
- 
+
+   
+         
+
 <!-- Page specific script -->
 <script>
+
+//Today 
+// document.addEventListener("DOMContentLoaded", function() {
+//         let today = new Date().toISOString().split('T')[0];
+//         document.getElementById('id_sdate').value = today;
+//         document.getElementById('id_edate').value = today;
+//     });
+
+function toDateInputValue(dateObject){
+    const local = new Date(dateObject);
+    local.setMinutes(dateObject.getMinutes() - dateObject.getTimezoneOffset());
+    return local.toJSON().slice(0,10);
+};
+
+document.getElementById('id_sdate').value = toDateInputValue(new Date());
+document.getElementById('id_edate').value = toDateInputValue(new Date());
+
+  
+
     //--------------- Admin Panel Minimize ----------------------
     $('[data-widget="pushmenu"]').PushMenu("collapse");
     
@@ -160,13 +204,16 @@
         DataAry[0] = "funGetData_Table";        // Table Name
         DataAry[1] = document.getElementById("id_sdate").value;
         DataAry[2] = document.getElementById("id_edate").value;
-        DataAry[3] = document.getElementById("id_Select_Factory").value;
+        DataAry[3] = document.getElementById("id_Select_Unit").value;
+        
 
         if(intDebugEnable === 1) alert("DataAry :" + DataAry);
         $.post('getData_Detail_Report.php', { userpara: DataAry }, function(json_data2) 
         {
+            
             if(intDebugEnable === 1) alert("json_data2 :" + json_data2);           
             var res = $.parseJSON(json_data2);
+           // alert(json_data2);
 
             var dtbl2 = $('#id_table1').DataTable();
             dtbl2.clear().draw();
@@ -184,13 +231,8 @@
                         intTmp.toString(), 
                         res.Data_Ary2[i][0], 
                         res.Data_Ary2[i][1], 
-                        res.Data_Ary2[i][2], 
-                        res.Data_Ary2[i][3], 
-                        res.Data_Ary2[i][4],
-                        res.Data_Ary2[i][5],
-                        res.Data_Ary2[i][6],
-                        res.Data_Ary2[i][7],
-
+                        res.Data_Ary2[i][2],
+                        // res.Data_Ary2[i][3],
                     ]).draw(false);
                 }
             } else if(res.Status_Ary[0] === "false") { // No data available
@@ -202,5 +244,18 @@
     }
 
 </script>
+
+        <!-- Include Footer -->
+        
+        </div> 
+
+
+
+        <?php
+                include '../../headers/footer-bar.php'
+            ?> 
+    </section>
+        </div>  
+        
 </body>
 </html>

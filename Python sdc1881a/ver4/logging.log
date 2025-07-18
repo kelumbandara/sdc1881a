@@ -1,0 +1,621 @@
+2025-03-09 17:17:54,613 - ERROR - Database Connection Faild
+2025-03-09 17:18:14,844 - INFO - package: mysql.connector.plugins
+2025-03-09 17:18:14,844 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:18:14,845 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:18:14,847 - ERROR - Database Connection Faild
+2025-03-09 17:18:35,078 - INFO - package: mysql.connector.plugins
+2025-03-09 17:18:35,078 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:18:35,079 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:18:35,080 - ERROR - Database Connection Faild
+2025-03-09 17:18:55,318 - INFO - package: mysql.connector.plugins
+2025-03-09 17:18:55,318 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:18:55,319 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:18:55,321 - ERROR - Database Connection Faild
+2025-03-09 17:19:15,554 - INFO - package: mysql.connector.plugins
+2025-03-09 17:19:15,554 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:19:15,554 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:19:15,556 - ERROR - Database Connection Faild
+2025-03-09 17:19:35,787 - INFO - package: mysql.connector.plugins
+2025-03-09 17:19:35,787 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:19:35,788 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:19:35,790 - ERROR - Database Connection Faild
+2025-03-09 17:19:56,036 - INFO - package: mysql.connector.plugins
+2025-03-09 17:19:56,036 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:19:56,037 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:19:56,039 - ERROR - Database Connection Faild
+2025-03-09 17:20:16,273 - INFO - package: mysql.connector.plugins
+2025-03-09 17:20:16,273 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:20:16,274 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:20:16,276 - ERROR - Database Connection Faild
+2025-03-09 17:20:36,512 - INFO - package: mysql.connector.plugins
+2025-03-09 17:20:36,513 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:20:36,513 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:20:36,515 - ERROR - Database Connection Faild
+2025-03-09 17:20:56,866 - INFO - package: mysql.connector.plugins
+2025-03-09 17:20:56,866 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:20:56,866 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:20:56,872 - ERROR - Database Connection Faild
+2025-03-09 17:21:17,106 - INFO - package: mysql.connector.plugins
+2025-03-09 17:21:17,107 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:21:17,107 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:21:17,109 - ERROR - Database Connection Faild
+2025-03-09 17:21:37,357 - INFO - package: mysql.connector.plugins
+2025-03-09 17:21:37,358 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:21:37,358 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:21:37,361 - ERROR - Database Connection Faild
+2025-03-09 17:21:57,613 - INFO - package: mysql.connector.plugins
+2025-03-09 17:21:57,613 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:21:57,613 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:21:57,615 - ERROR - Database Connection Faild
+2025-03-09 17:22:17,847 - INFO - package: mysql.connector.plugins
+2025-03-09 17:22:17,847 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:22:17,848 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:22:17,849 - ERROR - Database Connection Faild
+2025-03-09 17:22:38,081 - INFO - package: mysql.connector.plugins
+2025-03-09 17:22:38,081 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:22:38,082 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:22:38,083 - ERROR - Database Connection Faild
+2025-03-09 17:22:58,320 - INFO - package: mysql.connector.plugins
+2025-03-09 17:22:58,320 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:22:58,320 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:22:58,322 - ERROR - Database Connection Faild
+2025-03-09 17:23:18,575 - INFO - package: mysql.connector.plugins
+2025-03-09 17:23:18,575 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:23:18,576 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:23:18,577 - ERROR - Database Connection Faild
+2025-03-09 17:23:38,816 - INFO - package: mysql.connector.plugins
+2025-03-09 17:23:38,816 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:23:38,817 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:23:38,818 - ERROR - Database Connection Faild
+2025-03-09 17:23:59,053 - INFO - package: mysql.connector.plugins
+2025-03-09 17:23:59,053 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:23:59,053 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:23:59,055 - ERROR - Database Connection Faild
+2025-03-09 17:24:19,291 - INFO - package: mysql.connector.plugins
+2025-03-09 17:24:19,291 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:24:19,292 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:24:19,294 - ERROR - Database Connection Faild
+2025-03-09 17:24:39,529 - INFO - package: mysql.connector.plugins
+2025-03-09 17:24:39,530 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:24:39,530 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:24:39,532 - ERROR - Database Connection Faild
+2025-03-09 17:24:59,871 - INFO - package: mysql.connector.plugins
+2025-03-09 17:24:59,871 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:24:59,871 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:24:59,873 - ERROR - Database Connection Faild
+2025-03-09 17:25:20,113 - INFO - package: mysql.connector.plugins
+2025-03-09 17:25:20,114 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:25:20,114 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:25:20,116 - ERROR - Database Connection Faild
+2025-03-09 17:25:40,412 - INFO - package: mysql.connector.plugins
+2025-03-09 17:25:40,413 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:25:40,414 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:25:40,416 - ERROR - Database Connection Faild
+2025-03-09 17:26:00,695 - INFO - package: mysql.connector.plugins
+2025-03-09 17:26:00,695 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:26:00,696 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:26:00,697 - ERROR - Database Connection Faild
+2025-03-09 17:26:20,985 - INFO - package: mysql.connector.plugins
+2025-03-09 17:26:20,986 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:26:20,987 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:26:20,990 - ERROR - Database Connection Faild
+2025-03-09 17:26:41,439 - INFO - package: mysql.connector.plugins
+2025-03-09 17:26:41,440 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:26:41,440 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:26:41,447 - ERROR - Database Connection Faild
+2025-03-09 17:27:01,998 - INFO - package: mysql.connector.plugins
+2025-03-09 17:27:01,998 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:27:01,999 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:27:02,000 - ERROR - Database Connection Faild
+2025-03-09 17:27:22,242 - INFO - package: mysql.connector.plugins
+2025-03-09 17:27:22,242 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:27:22,243 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:27:22,245 - ERROR - Database Connection Faild
+2025-03-09 17:27:30,423 - INFO - package: mysql.connector.plugins
+2025-03-09 17:27:30,423 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:27:30,424 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:28:08,447 - ERROR - Database Connection Faild
+2025-03-09 17:28:10,644 - INFO - package: mysql.connector.plugins
+2025-03-09 17:28:10,644 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:28:10,645 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:28:39,737 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 17:28:54,738 - ERROR - Database Connection Faild
+2025-03-09 17:29:14,966 - INFO - package: mysql.connector.plugins
+2025-03-09 17:29:14,966 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:29:14,967 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:36:21,029 - ERROR - Database Connection Faild
+2025-03-09 17:37:14,346 - INFO - package: mysql.connector.plugins
+2025-03-09 17:37:14,346 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:37:14,347 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:37:18,269 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 17:37:20,292 - ERROR - Database Connection Faild
+2025-03-09 17:37:56,681 - ERROR - Database Connection Faild
+2025-03-09 17:39:13,642 - ERROR - Database Connection Faild
+2025-03-09 17:39:33,869 - INFO - package: mysql.connector.plugins
+2025-03-09 17:39:33,869 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:39:33,870 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:41:58,921 - ERROR - Database Connection Faild
+2025-03-09 17:42:00,308 - INFO - package: mysql.connector.plugins
+2025-03-09 17:42:00,309 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:42:00,309 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:42:00,310 - INFO - Database is connected
+2025-03-09 17:42:00,981 - INFO - Connected to MQTT Broker!
+2025-03-09 17:43:49,907 - ERROR - Database Connection Faild
+2025-03-09 17:43:51,515 - INFO - package: mysql.connector.plugins
+2025-03-09 17:43:51,515 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:43:51,516 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:43:51,516 - INFO - Database is connected
+2025-03-09 17:43:52,176 - INFO - Connected to MQTT Broker!
+2025-03-09 17:43:56,028 - ERROR - Database Connection Faild
+2025-03-09 17:44:18,663 - INFO - package: mysql.connector.plugins
+2025-03-09 17:44:18,664 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:44:18,664 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:44:18,665 - INFO - Database is connected
+2025-03-09 17:44:19,338 - INFO - Connected to MQTT Broker!
+2025-03-09 17:46:05,277 - ERROR - Database Connection Faild
+2025-03-09 17:46:06,666 - INFO - package: mysql.connector.plugins
+2025-03-09 17:46:06,666 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:46:06,667 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:46:06,667 - INFO - Database is connected
+2025-03-09 17:46:07,310 - INFO - Connected to MQTT Broker!
+2025-03-09 17:46:49,939 - ERROR - Database Connection Faild
+2025-03-09 17:47:40,328 - INFO - package: mysql.connector.plugins
+2025-03-09 17:47:40,328 - INFO - plugin_name: mysql_native_password
+2025-03-09 17:47:40,329 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 17:47:40,329 - INFO - Database is connected
+2025-03-09 17:47:40,986 - INFO - Connected to MQTT Broker!
+2025-03-09 17:48:10,468 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 17:48:25,470 - ERROR - Database Connection Faild
+2025-03-09 17:48:47,726 - ERROR - Database Connection Faild
+2025-03-09 17:49:10,045 - ERROR - Database Connection Faild
+2025-03-09 17:49:32,311 - ERROR - Database Connection Faild
+2025-03-09 17:49:54,620 - ERROR - Database Connection Faild
+2025-03-09 17:50:16,915 - ERROR - Database Connection Faild
+2025-03-09 17:50:39,179 - ERROR - Database Connection Faild
+2025-03-09 17:51:01,432 - ERROR - Database Connection Faild
+2025-03-09 17:51:23,687 - ERROR - Database Connection Faild
+2025-03-09 17:51:45,953 - ERROR - Database Connection Faild
+2025-03-09 17:52:08,206 - ERROR - Database Connection Faild
+2025-03-09 17:52:30,469 - ERROR - Database Connection Faild
+2025-03-09 17:52:52,728 - ERROR - Database Connection Faild
+2025-03-09 17:53:15,043 - ERROR - Database Connection Faild
+2025-03-09 17:53:37,318 - ERROR - Database Connection Faild
+2025-03-09 17:53:59,590 - ERROR - Database Connection Faild
+2025-03-09 17:54:21,852 - ERROR - Database Connection Faild
+2025-03-09 17:54:44,103 - ERROR - Database Connection Faild
+2025-03-09 17:55:06,379 - ERROR - Database Connection Faild
+2025-03-09 17:55:28,649 - ERROR - Database Connection Faild
+2025-03-09 17:55:50,927 - ERROR - Database Connection Faild
+2025-03-09 17:56:13,236 - ERROR - Database Connection Faild
+2025-03-09 17:56:35,508 - ERROR - Database Connection Faild
+2025-03-09 17:56:57,775 - ERROR - Database Connection Faild
+2025-03-09 17:57:20,073 - ERROR - Database Connection Faild
+2025-03-09 17:57:42,386 - ERROR - Database Connection Faild
+2025-03-09 17:58:04,694 - ERROR - Database Connection Faild
+2025-03-09 17:58:26,957 - ERROR - Database Connection Faild
+2025-03-09 17:58:49,216 - ERROR - Database Connection Faild
+2025-03-09 17:59:11,525 - ERROR - Database Connection Faild
+2025-03-09 17:59:33,788 - ERROR - Database Connection Faild
+2025-03-09 17:59:56,042 - ERROR - Database Connection Faild
+2025-03-09 18:00:18,299 - ERROR - Database Connection Faild
+2025-03-09 18:00:40,563 - ERROR - Database Connection Faild
+2025-03-09 18:01:02,837 - ERROR - Database Connection Faild
+2025-03-09 18:01:25,139 - ERROR - Database Connection Faild
+2025-03-09 18:11:20,121 - ERROR - Database Connection Faild
+2025-03-09 18:11:54,902 - ERROR - Database Connection Faild
+2025-03-09 18:12:56,391 - ERROR - Database Connection Faild
+2025-03-09 18:13:13,427 - ERROR - Database Connection Faild
+2025-03-09 18:13:30,450 - ERROR - Database Connection Faild
+2025-03-09 18:13:47,474 - ERROR - Database Connection Faild
+2025-03-09 18:14:04,509 - ERROR - Database Connection Faild
+2025-03-09 18:14:21,530 - ERROR - Database Connection Faild
+2025-03-09 18:14:38,558 - ERROR - Database Connection Faild
+2025-03-09 18:14:55,587 - ERROR - Database Connection Faild
+2025-03-09 18:15:12,638 - ERROR - Database Connection Faild
+2025-03-09 18:15:29,662 - ERROR - Database Connection Faild
+2025-03-09 18:15:46,699 - ERROR - Database Connection Faild
+2025-03-09 18:16:03,728 - ERROR - Database Connection Faild
+2025-03-09 18:16:20,748 - ERROR - Database Connection Faild
+2025-03-09 18:16:37,784 - ERROR - Database Connection Faild
+2025-03-09 18:16:54,816 - ERROR - Database Connection Faild
+2025-03-09 18:17:11,847 - ERROR - Database Connection Faild
+2025-03-09 18:17:28,866 - ERROR - Database Connection Faild
+2025-03-09 18:17:45,898 - ERROR - Database Connection Faild
+2025-03-09 18:18:02,916 - ERROR - Database Connection Faild
+2025-03-09 18:18:19,952 - ERROR - Database Connection Faild
+2025-03-09 18:18:36,976 - ERROR - Database Connection Faild
+2025-03-09 18:18:54,005 - ERROR - Database Connection Faild
+2025-03-09 18:19:11,027 - ERROR - Database Connection Faild
+2025-03-09 18:20:32,641 - ERROR - Database Connection Faild
+2025-03-09 18:20:49,671 - ERROR - Database Connection Faild
+2025-03-09 18:20:56,924 - ERROR - Database Connection Faild
+2025-03-09 18:21:13,959 - ERROR - Database Connection Faild
+2025-03-09 18:21:30,987 - ERROR - Database Connection Faild
+2025-03-09 18:21:48,003 - ERROR - Database Connection Faild
+2025-03-09 18:21:51,875 - ERROR - Database Connection Faild
+2025-03-09 18:22:08,898 - ERROR - Database Connection Faild
+2025-03-09 18:22:25,931 - ERROR - Database Connection Faild
+2025-03-09 18:22:41,550 - INFO - package: mysql.connector.plugins
+2025-03-09 18:22:41,550 - INFO - plugin_name: mysql_native_password
+2025-03-09 18:22:41,551 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 18:22:41,551 - INFO - Database is connected
+2025-03-09 18:22:42,210 - INFO - Connected to MQTT Broker!
+2025-03-09 18:24:44,632 - INFO - Connected to MQTT Broker!
+2025-03-09 18:26:46,990 - INFO - Connected to MQTT Broker!
+2025-03-09 18:28:49,354 - INFO - Connected to MQTT Broker!
+2025-03-09 18:30:51,626 - INFO - Connected to MQTT Broker!
+2025-03-09 18:31:27,982 - INFO - Connected to MQTT Broker!
+2025-03-09 18:32:28,481 - INFO - Connected to MQTT Broker!
+2025-03-09 18:32:35,878 - ERROR - Database Connection Faild
+2025-03-09 18:32:44,886 - INFO - package: mysql.connector.plugins
+2025-03-09 18:32:44,886 - INFO - plugin_name: mysql_native_password
+2025-03-09 18:32:44,887 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 18:32:44,887 - INFO - Database is connected
+2025-03-09 18:32:44,930 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 18:32:59,931 - ERROR - Database Connection Faild
+2025-03-09 18:33:20,180 - INFO - package: mysql.connector.plugins
+2025-03-09 18:33:20,180 - INFO - plugin_name: mysql_native_password
+2025-03-09 18:33:20,181 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 18:33:20,181 - INFO - Database is connected
+2025-03-09 18:33:20,245 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 18:33:35,246 - ERROR - Database Connection Faild
+2025-03-09 18:33:55,473 - INFO - package: mysql.connector.plugins
+2025-03-09 18:33:55,473 - INFO - plugin_name: mysql_native_password
+2025-03-09 18:33:55,474 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 18:33:55,475 - INFO - Database is connected
+2025-03-09 18:33:55,526 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 18:34:10,527 - ERROR - Database Connection Faild
+2025-03-09 18:34:30,760 - INFO - package: mysql.connector.plugins
+2025-03-09 18:34:30,760 - INFO - plugin_name: mysql_native_password
+2025-03-09 18:34:30,761 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 18:34:30,761 - INFO - Database is connected
+2025-03-09 18:34:30,809 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 18:34:45,810 - ERROR - Database Connection Faild
+2025-03-09 18:35:02,196 - INFO - package: mysql.connector.plugins
+2025-03-09 18:35:02,196 - INFO - plugin_name: mysql_native_password
+2025-03-09 18:35:02,197 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 18:35:02,197 - INFO - Database is connected
+2025-03-09 18:35:02,846 - INFO - Connected to MQTT Broker!
+2025-03-09 18:37:05,098 - INFO - Connected to MQTT Broker!
+2025-03-09 18:39:07,512 - INFO - Connected to MQTT Broker!
+2025-03-09 18:41:09,949 - INFO - Connected to MQTT Broker!
+2025-03-09 18:43:12,683 - INFO - Connected to MQTT Broker!
+2025-03-09 18:45:15,282 - INFO - Connected to MQTT Broker!
+2025-03-09 18:47:17,986 - INFO - Connected to MQTT Broker!
+2025-03-09 18:49:20,464 - INFO - Connected to MQTT Broker!
+2025-03-09 18:51:22,864 - INFO - Connected to MQTT Broker!
+2025-03-09 18:53:25,213 - INFO - Connected to MQTT Broker!
+2025-03-09 18:55:27,488 - INFO - Connected to MQTT Broker!
+2025-03-09 18:57:29,940 - INFO - Connected to MQTT Broker!
+2025-03-09 18:59:32,353 - INFO - Connected to MQTT Broker!
+2025-03-09 19:01:34,755 - INFO - Connected to MQTT Broker!
+2025-03-09 19:03:37,091 - INFO - Connected to MQTT Broker!
+2025-03-09 19:05:39,523 - INFO - Connected to MQTT Broker!
+2025-03-09 19:07:41,838 - INFO - Connected to MQTT Broker!
+2025-03-09 19:09:44,109 - INFO - Connected to MQTT Broker!
+2025-03-09 19:11:46,535 - INFO - Connected to MQTT Broker!
+2025-03-09 19:13:48,806 - INFO - Connected to MQTT Broker!
+2025-03-09 19:15:52,445 - INFO - Connected to MQTT Broker!
+2025-03-09 19:17:53,676 - INFO - Connected to MQTT Broker!
+2025-03-09 19:19:56,081 - INFO - Connected to MQTT Broker!
+2025-03-09 19:21:58,510 - INFO - Connected to MQTT Broker!
+2025-03-09 19:24:00,986 - INFO - Connected to MQTT Broker!
+2025-03-09 19:26:03,315 - INFO - Connected to MQTT Broker!
+2025-03-09 19:28:05,741 - INFO - Connected to MQTT Broker!
+2025-03-09 19:30:08,114 - INFO - Connected to MQTT Broker!
+2025-03-09 19:32:10,583 - INFO - Connected to MQTT Broker!
+2025-03-09 19:34:13,004 - INFO - Connected to MQTT Broker!
+2025-03-09 19:36:15,369 - INFO - Connected to MQTT Broker!
+2025-03-09 19:38:17,663 - INFO - Connected to MQTT Broker!
+2025-03-09 19:40:19,898 - INFO - Connected to MQTT Broker!
+2025-03-09 19:42:22,473 - INFO - Connected to MQTT Broker!
+2025-03-09 19:44:25,153 - INFO - Connected to MQTT Broker!
+2025-03-09 19:46:27,727 - INFO - Connected to MQTT Broker!
+2025-03-09 19:48:30,576 - INFO - Connected to MQTT Broker!
+2025-03-09 19:50:31,827 - INFO - Connected to MQTT Broker!
+2025-03-09 19:52:34,668 - INFO - Connected to MQTT Broker!
+2025-03-09 19:54:37,125 - INFO - Connected to MQTT Broker!
+2025-03-09 19:56:39,855 - INFO - Connected to MQTT Broker!
+2025-03-09 19:58:40,643 - INFO - Connected to MQTT Broker!
+2025-03-09 20:00:43,608 - INFO - Connected to MQTT Broker!
+2025-03-09 20:02:46,626 - INFO - Connected to MQTT Broker!
+2025-03-09 20:04:49,654 - INFO - Connected to MQTT Broker!
+2025-03-09 20:06:52,236 - INFO - Connected to MQTT Broker!
+2025-03-09 20:08:55,216 - INFO - Connected to MQTT Broker!
+2025-03-09 20:10:58,329 - INFO - Connected to MQTT Broker!
+2025-03-09 20:13:02,276 - INFO - Connected to MQTT Broker!
+2025-03-09 20:15:03,442 - INFO - Connected to MQTT Broker!
+2025-03-09 20:17:04,586 - INFO - Connected to MQTT Broker!
+2025-03-09 20:19:07,581 - INFO - Connected to MQTT Broker!
+2025-03-09 20:21:10,506 - INFO - Connected to MQTT Broker!
+2025-03-09 20:23:13,238 - INFO - Connected to MQTT Broker!
+2025-03-09 20:25:16,148 - INFO - Connected to MQTT Broker!
+2025-03-09 20:27:19,631 - INFO - Connected to MQTT Broker!
+2025-03-09 20:29:22,393 - INFO - Connected to MQTT Broker!
+2025-03-09 20:31:25,267 - INFO - Connected to MQTT Broker!
+2025-03-09 20:33:28,283 - INFO - Connected to MQTT Broker!
+2025-03-09 20:35:29,354 - INFO - Connected to MQTT Broker!
+2025-03-09 20:37:32,251 - INFO - Connected to MQTT Broker!
+2025-03-09 20:39:35,267 - INFO - Connected to MQTT Broker!
+2025-03-09 20:41:37,602 - INFO - Connected to MQTT Broker!
+2025-03-09 20:43:39,999 - INFO - Connected to MQTT Broker!
+2025-03-09 20:45:42,864 - INFO - Connected to MQTT Broker!
+2025-03-09 20:47:45,500 - INFO - Connected to MQTT Broker!
+2025-03-09 20:49:48,352 - INFO - Connected to MQTT Broker!
+2025-03-09 20:51:51,465 - INFO - Connected to MQTT Broker!
+2025-03-09 20:53:54,457 - INFO - Connected to MQTT Broker!
+2025-03-09 20:55:57,472 - INFO - Connected to MQTT Broker!
+2025-03-09 20:58:00,409 - INFO - Connected to MQTT Broker!
+2025-03-09 21:00:03,306 - INFO - Connected to MQTT Broker!
+2025-03-09 21:02:06,188 - INFO - Connected to MQTT Broker!
+2025-03-09 21:04:12,431 - INFO - Connected to MQTT Broker!
+2025-03-09 21:06:11,094 - INFO - Connected to MQTT Broker!
+2025-03-09 21:08:12,740 - INFO - Connected to MQTT Broker!
+2025-03-09 21:10:15,727 - INFO - Connected to MQTT Broker!
+2025-03-09 21:12:18,670 - INFO - Connected to MQTT Broker!
+2025-03-09 21:14:21,724 - INFO - Connected to MQTT Broker!
+2025-03-09 21:16:24,733 - INFO - Connected to MQTT Broker!
+2025-03-09 21:18:27,458 - INFO - Connected to MQTT Broker!
+2025-03-09 21:20:30,275 - INFO - Connected to MQTT Broker!
+2025-03-09 21:22:33,383 - INFO - Connected to MQTT Broker!
+2025-03-09 21:24:36,179 - INFO - Connected to MQTT Broker!
+2025-03-09 21:26:39,280 - INFO - Connected to MQTT Broker!
+2025-03-09 21:28:41,856 - INFO - Connected to MQTT Broker!
+2025-03-09 21:30:45,912 - INFO - Connected to MQTT Broker!
+2025-03-09 21:32:47,002 - INFO - Connected to MQTT Broker!
+2025-03-09 21:54:55,641 - INFO - Connected to MQTT Broker!
+2025-03-09 21:56:57,487 - INFO - Connected to MQTT Broker!
+2025-03-09 21:58:59,868 - INFO - Connected to MQTT Broker!
+2025-03-09 22:01:02,199 - INFO - Connected to MQTT Broker!
+2025-03-09 22:03:04,652 - INFO - Connected to MQTT Broker!
+2025-03-09 22:05:08,132 - INFO - Connected to MQTT Broker!
+2025-03-09 22:07:08,513 - INFO - Connected to MQTT Broker!
+2025-03-09 22:09:10,959 - INFO - Connected to MQTT Broker!
+2025-03-09 22:11:13,484 - INFO - Connected to MQTT Broker!
+2025-03-09 22:13:15,902 - INFO - Connected to MQTT Broker!
+2025-03-09 22:15:20,131 - INFO - Connected to MQTT Broker!
+2025-03-09 22:17:22,867 - INFO - Connected to MQTT Broker!
+2025-03-09 22:19:25,590 - INFO - Connected to MQTT Broker!
+2025-03-09 22:21:28,300 - INFO - Connected to MQTT Broker!
+2025-03-09 22:23:30,943 - INFO - Connected to MQTT Broker!
+2025-03-09 22:25:32,766 - INFO - Connected to MQTT Broker!
+2025-03-09 22:27:34,108 - INFO - Connected to MQTT Broker!
+2025-03-09 22:29:37,248 - INFO - Connected to MQTT Broker!
+2025-03-09 22:31:39,930 - INFO - Connected to MQTT Broker!
+2025-03-09 22:33:42,445 - INFO - Connected to MQTT Broker!
+2025-03-09 22:35:43,277 - INFO - Connected to MQTT Broker!
+2025-03-09 22:37:45,751 - INFO - Connected to MQTT Broker!
+2025-03-09 22:39:48,215 - INFO - Connected to MQTT Broker!
+2025-03-09 22:41:50,684 - INFO - Connected to MQTT Broker!
+2025-03-09 22:43:53,120 - INFO - Connected to MQTT Broker!
+2025-03-09 22:45:55,618 - INFO - Connected to MQTT Broker!
+2025-03-09 22:47:57,987 - INFO - Connected to MQTT Broker!
+2025-03-09 22:50:00,372 - INFO - Connected to MQTT Broker!
+2025-03-09 22:52:02,718 - INFO - Connected to MQTT Broker!
+2025-03-09 22:54:05,165 - INFO - Connected to MQTT Broker!
+2025-03-09 22:56:07,491 - INFO - Connected to MQTT Broker!
+2025-03-09 22:58:09,848 - INFO - Connected to MQTT Broker!
+2025-03-09 23:00:12,118 - INFO - Connected to MQTT Broker!
+2025-03-09 23:02:14,376 - INFO - Connected to MQTT Broker!
+2025-03-09 23:04:16,625 - INFO - Connected to MQTT Broker!
+2025-03-09 23:06:18,857 - INFO - Connected to MQTT Broker!
+2025-03-09 23:08:21,174 - INFO - Connected to MQTT Broker!
+2025-03-09 23:10:23,543 - INFO - Connected to MQTT Broker!
+2025-03-09 23:12:25,784 - INFO - Connected to MQTT Broker!
+2025-03-09 23:14:28,165 - INFO - Connected to MQTT Broker!
+2025-03-09 23:16:30,381 - INFO - Connected to MQTT Broker!
+2025-03-09 23:18:32,651 - INFO - Connected to MQTT Broker!
+2025-03-09 23:20:34,902 - INFO - Connected to MQTT Broker!
+2025-03-09 23:22:37,199 - INFO - Connected to MQTT Broker!
+2025-03-09 23:24:39,515 - INFO - Connected to MQTT Broker!
+2025-03-09 23:26:41,838 - INFO - Connected to MQTT Broker!
+2025-03-09 23:28:44,162 - INFO - Connected to MQTT Broker!
+2025-03-09 23:30:46,529 - INFO - Connected to MQTT Broker!
+2025-03-09 23:32:48,878 - INFO - Connected to MQTT Broker!
+2025-03-09 23:34:51,133 - INFO - Connected to MQTT Broker!
+2025-03-09 23:36:53,520 - INFO - Connected to MQTT Broker!
+2025-03-09 23:38:55,875 - INFO - Connected to MQTT Broker!
+2025-03-09 23:39:00,231 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:39:21,221 - INFO - Connected to MQTT Broker!
+2025-03-09 23:39:25,526 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:39:46,467 - INFO - Connected to MQTT Broker!
+2025-03-09 23:39:50,772 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:40:11,708 - INFO - Connected to MQTT Broker!
+2025-03-09 23:40:16,068 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:40:37,091 - INFO - Connected to MQTT Broker!
+2025-03-09 23:40:41,411 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:41:02,394 - INFO - Connected to MQTT Broker!
+2025-03-09 23:41:06,732 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:41:27,668 - INFO - Connected to MQTT Broker!
+2025-03-09 23:41:31,974 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:41:52,973 - INFO - Connected to MQTT Broker!
+2025-03-09 23:41:57,292 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:42:18,245 - INFO - Connected to MQTT Broker!
+2025-03-09 23:42:22,565 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:42:43,530 - INFO - Connected to MQTT Broker!
+2025-03-09 23:42:47,836 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:43:08,778 - INFO - Connected to MQTT Broker!
+2025-03-09 23:43:13,087 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:43:34,014 - INFO - Connected to MQTT Broker!
+2025-03-09 23:43:38,356 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:43:59,299 - INFO - Connected to MQTT Broker!
+2025-03-09 23:44:03,609 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:44:24,591 - INFO - Connected to MQTT Broker!
+2025-03-09 23:44:28,934 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:44:49,914 - INFO - Connected to MQTT Broker!
+2025-03-09 23:44:54,261 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:45:15,219 - INFO - Connected to MQTT Broker!
+2025-03-09 23:45:19,575 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:45:40,559 - INFO - Connected to MQTT Broker!
+2025-03-09 23:45:44,895 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:46:05,862 - INFO - Connected to MQTT Broker!
+2025-03-09 23:46:10,188 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:46:31,150 - INFO - Connected to MQTT Broker!
+2025-03-09 23:46:35,496 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:46:56,503 - INFO - Connected to MQTT Broker!
+2025-03-09 23:47:00,820 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:47:21,785 - INFO - Connected to MQTT Broker!
+2025-03-09 23:47:26,097 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:47:47,066 - INFO - Connected to MQTT Broker!
+2025-03-09 23:47:51,375 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:48:12,362 - INFO - Connected to MQTT Broker!
+2025-03-09 23:48:16,697 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:48:37,663 - INFO - Connected to MQTT Broker!
+2025-03-09 23:48:42,018 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:49:03,009 - INFO - Connected to MQTT Broker!
+2025-03-09 23:49:07,344 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:49:28,300 - INFO - Connected to MQTT Broker!
+2025-03-09 23:49:32,616 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:49:53,583 - INFO - Connected to MQTT Broker!
+2025-03-09 23:49:57,906 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:50:18,947 - INFO - Connected to MQTT Broker!
+2025-03-09 23:50:23,261 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:50:44,267 - INFO - Connected to MQTT Broker!
+2025-03-09 23:50:48,616 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:51:09,542 - INFO - Connected to MQTT Broker!
+2025-03-09 23:51:13,896 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:51:34,927 - INFO - Connected to MQTT Broker!
+2025-03-09 23:51:39,298 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:52:00,290 - INFO - Connected to MQTT Broker!
+2025-03-09 23:52:04,657 - ERROR - MQTT Broker Connection Failed!
+2025-03-09 23:52:25,608 - INFO - Connected to MQTT Broker!
+2025-03-09 23:52:31,887 - INFO - package: mysql.connector.plugins
+2025-03-09 23:52:31,887 - INFO - plugin_name: mysql_native_password
+2025-03-09 23:52:31,894 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 23:52:31,894 - INFO - Database is connected
+2025-03-09 23:52:32,524 - INFO - Connected to MQTT Broker!
+2025-03-09 23:52:38,733 - ERROR - Database Connection Faild
+2025-03-09 23:52:53,012 - INFO - package: mysql.connector.plugins
+2025-03-09 23:52:53,012 - INFO - plugin_name: mysql_native_password
+2025-03-09 23:52:53,013 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-09 23:52:53,013 - INFO - Database is connected
+2025-03-09 23:52:53,650 - INFO - Connected to MQTT Broker!
+2025-03-09 23:54:55,780 - INFO - Connected to MQTT Broker!
+2025-03-09 23:56:58,095 - INFO - Connected to MQTT Broker!
+2025-03-09 23:59:00,422 - INFO - Connected to MQTT Broker!
+2025-03-09 23:59:56,526 - ERROR - Database Connection Faild
+2025-03-10 00:00:25,118 - INFO - package: mysql.connector.plugins
+2025-03-10 00:00:25,119 - INFO - plugin_name: mysql_native_password
+2025-03-10 00:00:25,120 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 00:00:25,120 - INFO - Database is connected
+2025-03-10 00:00:25,739 - INFO - Connected to MQTT Broker!
+2025-03-10 00:01:18,062 - ERROR - Database Connection Faild
+2025-03-10 00:01:23,304 - INFO - package: mysql.connector.plugins
+2025-03-10 00:01:23,304 - INFO - plugin_name: mysql_native_password
+2025-03-10 00:01:23,305 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 00:01:23,305 - INFO - Database is connected
+2025-03-10 00:01:23,962 - INFO - Connected to MQTT Broker!
+2025-03-10 00:03:26,576 - INFO - Connected to MQTT Broker!
+2025-03-10 00:03:45,455 - ERROR - Database Connection Faild
+2025-03-10 00:05:08,516 - INFO - package: mysql.connector.plugins
+2025-03-10 00:05:08,516 - INFO - plugin_name: mysql_native_password
+2025-03-10 00:05:08,517 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 00:05:08,517 - INFO - Database is connected
+2025-03-10 00:05:09,315 - INFO - Connected to MQTT Broker!
+2025-03-10 00:05:21,250 - ERROR - Database Connection Faild
+2025-03-10 00:05:41,483 - INFO - package: mysql.connector.plugins
+2025-03-10 00:05:41,483 - INFO - plugin_name: mysql_native_password
+2025-03-10 00:05:41,484 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 00:05:41,485 - INFO - Database is connected
+2025-03-10 00:05:42,129 - INFO - Connected to MQTT Broker!
+2025-03-10 00:06:24,903 - INFO - package: mysql.connector.plugins
+2025-03-10 00:06:24,903 - INFO - plugin_name: mysql_native_password
+2025-03-10 00:06:24,904 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 00:06:24,904 - INFO - Database is connected
+2025-03-10 00:06:24,906 - ERROR - MQTT Broker Connection Failed! {e}
+2025-03-10 00:06:45,151 - INFO - package: mysql.connector.plugins
+2025-03-10 00:06:45,151 - INFO - plugin_name: mysql_native_password
+2025-03-10 00:06:45,152 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 00:06:45,153 - INFO - Database is connected
+2025-03-10 00:06:45,154 - ERROR - MQTT Broker Connection Failed! {e}
+2025-03-10 00:07:05,385 - INFO - package: mysql.connector.plugins
+2025-03-10 00:07:05,386 - INFO - plugin_name: mysql_native_password
+2025-03-10 00:07:05,386 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 00:07:05,387 - INFO - Database is connected
+2025-03-10 00:07:05,388 - ERROR - MQTT Broker Connection Failed! {e}
+2025-03-10 00:07:16,279 - ERROR - Database Connection Faild
+2025-03-10 00:07:16,803 - ERROR - Database Connection Faild
+2025-03-10 00:07:17,207 - ERROR - Database Connection Faild
+2025-03-10 00:07:29,158 - ERROR - Database Connection Faild
+2025-03-10 00:07:31,189 - INFO - package: mysql.connector.plugins
+2025-03-10 00:07:31,190 - INFO - plugin_name: mysql_native_password
+2025-03-10 00:07:31,190 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 00:07:31,191 - INFO - Database is connected
+2025-03-10 00:07:31,192 - ERROR - MQTT Broker Connection Failed! 
+2025-03-10 00:07:51,429 - INFO - package: mysql.connector.plugins
+2025-03-10 00:07:51,429 - INFO - plugin_name: mysql_native_password
+2025-03-10 00:07:51,429 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 00:07:51,430 - INFO - Database is connected
+2025-03-10 00:07:51,431 - ERROR - MQTT Broker Connection Failed! 
+2025-03-10 00:08:11,676 - INFO - package: mysql.connector.plugins
+2025-03-10 00:08:11,676 - INFO - plugin_name: mysql_native_password
+2025-03-10 00:08:11,677 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 00:08:11,677 - INFO - Database is connected
+2025-03-10 00:08:11,677 - ERROR - MQTT Broker Connection Failed! 
+2025-03-10 00:08:31,917 - INFO - package: mysql.connector.plugins
+2025-03-10 00:08:31,918 - INFO - plugin_name: mysql_native_password
+2025-03-10 00:08:31,918 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 00:08:31,919 - INFO - Database is connected
+2025-03-10 00:08:31,920 - ERROR - MQTT Broker Connection Failed! 
+2025-03-10 00:08:34,893 - ERROR - Database Connection Faild
+2025-03-10 00:08:35,453 - ERROR - Database Connection Faild
+2025-03-10 00:08:35,738 - ERROR - Database Connection Faild
+2025-03-10 00:08:36,007 - ERROR - Database Connection Faild
+2025-03-10 00:08:38,604 - INFO - package: mysql.connector.plugins
+2025-03-10 00:08:38,604 - INFO - plugin_name: mysql_native_password
+2025-03-10 00:08:38,605 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 00:08:38,605 - INFO - Database is connected
+2025-03-10 00:08:38,606 - ERROR - MQTT Broker Connection Failed! 
+2025-03-10 00:08:58,887 - INFO - package: mysql.connector.plugins
+2025-03-10 00:08:58,887 - INFO - plugin_name: mysql_native_password
+2025-03-10 00:08:58,888 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 00:08:58,888 - INFO - Database is connected
+2025-03-10 00:08:59,511 - INFO - Connected to MQTT Broker!
+2025-03-10 00:11:01,812 - INFO - Connected to MQTT Broker!
+2025-03-10 00:11:27,846 - ERROR - Database Connection Faild
+2025-03-10 00:11:28,351 - ERROR - Database Connection Faild
+2025-03-10 00:11:45,895 - INFO - package: mysql.connector.plugins
+2025-03-10 00:11:45,895 - INFO - plugin_name: mysql_native_password
+2025-03-10 00:11:45,896 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 04:30:01,498 - INFO - package: mysql.connector.plugins
+2025-03-10 04:30:01,498 - INFO - plugin_name: mysql_native_password
+2025-03-10 04:30:01,499 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 09:13:27,560 - ERROR - MQTT Broker Connection Failed! 
+2025-03-10 09:13:47,805 - INFO - package: mysql.connector.plugins
+2025-03-10 09:13:47,806 - INFO - plugin_name: mysql_native_password
+2025-03-10 09:13:47,806 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 12:13:02,577 - INFO - package: mysql.connector.plugins
+2025-03-10 12:13:02,577 - INFO - plugin_name: mysql_native_password
+2025-03-10 12:13:02,578 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 12:13:02,580 - ERROR - MQTT Broker Connection Failed! 
+2025-03-10 12:13:22,834 - INFO - package: mysql.connector.plugins
+2025-03-10 12:13:22,834 - INFO - plugin_name: mysql_native_password
+2025-03-10 12:13:22,835 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 12:50:04,138 - ERROR - MQTT Broker Connection Failed! 
+2025-03-10 12:50:26,406 - ERROR - Database Connection Faild
+2025-03-10 12:50:46,696 - INFO - package: mysql.connector.plugins
+2025-03-10 12:50:46,696 - INFO - plugin_name: mysql_native_password
+2025-03-10 12:50:46,697 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 12:51:41,752 - ERROR - MQTT Broker Connection Failed! 
+2025-03-10 12:52:04,011 - ERROR - Database Connection Faild
+2025-03-10 12:52:24,260 - INFO - package: mysql.connector.plugins
+2025-03-10 12:52:24,260 - INFO - plugin_name: mysql_native_password
+2025-03-10 12:52:24,261 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 17:12:52,206 - INFO - package: mysql.connector.plugins
+2025-03-10 17:12:52,207 - INFO - plugin_name: mysql_native_password
+2025-03-10 17:12:52,208 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 17:23:18,560 - INFO - package: mysql.connector.plugins
+2025-03-10 17:23:18,560 - INFO - plugin_name: mysql_native_password
+2025-03-10 17:23:18,561 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-10 17:24:31,767 - ERROR - MQTT Broker Connection Failed! 
+2025-03-10 17:26:10,313 - INFO - package: mysql.connector.plugins
+2025-03-10 17:26:10,314 - INFO - plugin_name: mysql_native_password
+2025-03-10 17:26:10,319 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-11 20:29:07,722 - ERROR - Database Connection Faild
+2025-03-11 20:29:22,731 - INFO - package: mysql.connector.plugins
+2025-03-11 20:29:22,731 - INFO - plugin_name: mysql_native_password
+2025-03-11 20:29:22,733 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-03-11 20:29:41,906 - ERROR - MQTT Broker Connection Failed! 
+2025-03-11 20:29:59,812 - ERROR - MQTT Broker Connection Failed! 
+2025-03-11 20:30:17,740 - ERROR - MQTT Broker Connection Failed! 
+2025-03-11 20:30:31,074 - ERROR - Database Connection Faild

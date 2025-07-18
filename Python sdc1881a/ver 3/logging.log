@@ -1,0 +1,1584 @@
+2025-02-12 19:23:04,246 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:24:12,289 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:24:28,244 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:24:44,254 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:25:00,280 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:25:16,256 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:25:32,268 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:25:48,310 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:26:04,295 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:26:27,288 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:27:27,342 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:27:48,117 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:27:52,159 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:27:53,166 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:28:08,339 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:28:24,263 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:28:40,346 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:28:56,228 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:29:12,253 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:29:28,316 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:29:44,240 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:30:00,307 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:30:16,334 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:30:32,237 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:30:48,288 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:31:04,312 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:31:20,267 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:31:36,296 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:31:52,275 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:32:08,263 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:32:24,296 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:32:40,308 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:33:27,353 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:33:28,370 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:33:29,383 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:34:06,637 - INFO - Mqtt Inserted to the Database
+2025-02-12 19:34:29,412 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:31,523 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:33,526 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:35,535 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:37,541 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:39,545 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:41,550 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:43,553 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:45,557 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:47,561 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:49,564 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:51,567 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:53,571 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:55,578 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:57,583 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:34:59,589 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:01,592 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:03,595 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:05,602 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:07,605 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:09,608 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:11,612 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:13,619 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:15,623 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:17,636 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:19,640 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:21,647 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:23,655 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:25,661 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:27,666 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:29,673 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:31,684 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:33,696 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:35,701 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:37,708 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:39,716 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:41,727 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:43,739 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:45,751 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:47,763 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:49,780 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:51,792 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:53,807 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:55,820 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:57,833 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:35:59,844 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:01,856 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:03,872 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:05,884 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:07,894 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:09,906 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:11,913 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:13,921 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:15,927 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:17,940 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:19,946 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:21,957 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:23,972 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:25,983 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:27,995 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:30,005 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:32,017 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:34,029 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:36,034 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:38,040 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:40,051 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:42,063 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:44,072 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:46,078 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:48,085 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:50,089 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:52,095 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:54,102 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:56,107 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:36:58,112 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:00,119 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:02,123 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:04,128 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:06,131 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:08,135 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:10,139 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:12,150 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:14,155 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:16,158 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:18,165 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:20,178 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:22,185 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:24,195 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:26,204 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:28,214 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:30,224 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:32,239 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:34,253 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:36,257 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:38,268 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:40,279 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:42,287 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:44,299 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:46,302 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:48,313 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:50,329 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:52,336 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:54,350 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:56,353 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:37:58,360 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:00,367 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:02,375 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:04,392 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:06,400 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:08,405 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:10,412 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:12,420 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:14,432 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:16,443 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:18,451 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:20,456 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:22,465 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:24,477 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:26,490 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:28,501 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:30,508 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:32,519 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:34,530 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:36,546 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:38,557 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:40,566 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:42,572 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:44,587 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:46,592 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:48,604 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:50,616 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:52,625 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:54,636 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:56,647 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:38:58,662 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:00,668 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:02,676 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:04,691 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:06,706 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:08,715 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:10,720 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:12,723 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:14,734 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:16,741 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:18,749 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:20,757 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:22,760 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:24,768 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:26,779 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:28,784 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:30,792 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:32,795 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:34,802 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:36,810 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:38,818 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:40,827 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:42,839 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:44,847 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:46,859 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:48,871 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:50,883 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:52,887 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:54,893 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:56,901 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:39:58,908 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:00,911 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:02,914 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:04,922 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:06,927 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:08,934 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:10,941 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:12,953 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:14,963 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:16,976 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:18,986 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:20,992 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:23,005 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:25,008 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:27,017 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:29,023 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:31,031 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:33,041 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:35,051 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:37,062 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:39,071 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:41,080 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:43,091 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:45,094 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:47,102 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:49,108 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:51,112 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:53,116 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:55,123 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:57,131 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:40:59,136 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:01,141 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:03,145 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:05,151 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:07,158 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:09,161 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:11,166 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:13,169 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:15,173 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:17,183 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:19,189 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:21,192 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:23,197 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:25,205 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:27,210 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:29,215 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:31,218 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:33,224 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:35,228 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:37,234 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:39,238 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:41:41,242 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:46:43,781 - INFO - package: mysql.connector.plugins
+2025-02-12 19:46:43,781 - INFO - plugin_name: mysql_native_password
+2025-02-12 19:46:43,782 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-12 19:47:42,097 - INFO - package: mysql.connector.plugins
+2025-02-12 19:47:42,097 - INFO - plugin_name: mysql_native_password
+2025-02-12 19:47:42,098 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-12 19:48:05,672 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:48:08,295 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:48:10,300 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:48:12,312 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:48:14,319 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:48:16,331 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:48:18,338 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:49:47,108 - INFO - package: mysql.connector.plugins
+2025-02-12 19:49:47,108 - INFO - plugin_name: mysql_native_password
+2025-02-12 19:49:47,108 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-12 19:50:02,772 - INFO - package: mysql.connector.plugins
+2025-02-12 19:50:02,773 - INFO - plugin_name: mysql_native_password
+2025-02-12 19:50:02,777 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-12 19:50:19,656 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:50:22,751 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:50:25,708 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:51:08,660 - INFO - package: mysql.connector.plugins
+2025-02-12 19:51:08,661 - INFO - plugin_name: mysql_native_password
+2025-02-12 19:51:08,661 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-12 19:51:19,989 - ERROR - InCorrect Message Format
+2025-02-12 19:51:28,036 - ERROR - InCorrect Message Format
+2025-02-12 19:51:31,129 - ERROR - InCorrect Message Format
+2025-02-12 19:51:34,093 - ERROR - InCorrect Message Format
+2025-02-12 19:51:38,481 - ERROR - InCorrect Message Format
+2025-02-12 19:51:43,833 - ERROR - InCorrect Message Format
+2025-02-12 19:51:57,426 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:52:08,094 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:52:11,142 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:52:14,122 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:52:17,144 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:55:27,995 - INFO - package: mysql.connector.plugins
+2025-02-12 19:55:27,995 - INFO - plugin_name: mysql_native_password
+2025-02-12 19:55:27,996 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-12 19:55:29,274 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:58:57,735 - INFO - package: mysql.connector.plugins
+2025-02-12 19:58:57,735 - INFO - plugin_name: mysql_native_password
+2025-02-12 19:58:57,735 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-12 19:59:16,639 - INFO - package: mysql.connector.plugins
+2025-02-12 19:59:16,639 - INFO - plugin_name: mysql_native_password
+2025-02-12 19:59:16,639 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-12 19:59:17,821 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 19:59:34,036 - INFO - package: mysql.connector.plugins
+2025-02-12 19:59:34,036 - INFO - plugin_name: mysql_native_password
+2025-02-12 19:59:34,037 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-12 19:59:35,159 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:04:37,954 - INFO - package: mysql.connector.plugins
+2025-02-12 20:04:37,955 - INFO - plugin_name: mysql_native_password
+2025-02-12 20:04:37,955 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-12 20:04:39,195 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:11:49,861 - INFO - package: mysql.connector.plugins
+2025-02-12 20:11:49,861 - INFO - plugin_name: mysql_native_password
+2025-02-12 20:11:49,862 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-12 20:11:50,453 - INFO - Connected to MQTT Broker!
+2025-02-12 20:11:50,783 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:12:06,967 - INFO - Connected to MQTT Broker!
+2025-02-12 20:13:14,932 - INFO - package: mysql.connector.plugins
+2025-02-12 20:13:14,932 - INFO - plugin_name: mysql_native_password
+2025-02-12 20:13:14,932 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-12 20:13:15,554 - INFO - Connected to MQTT Broker!
+2025-02-12 20:13:16,158 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:13:29,789 - INFO - Connected to MQTT Broker!
+2025-02-12 20:13:30,379 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:13:41,397 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:13:43,407 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:13:45,414 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:13:47,425 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:13:49,452 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:14:19,001 - INFO - Connected to MQTT Broker!
+2025-02-12 20:14:19,579 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:16:02,398 - INFO - package: mysql.connector.plugins
+2025-02-12 20:16:02,399 - INFO - plugin_name: mysql_native_password
+2025-02-12 20:16:02,399 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-12 20:16:02,950 - INFO - Connected to MQTT Broker!
+2025-02-12 20:16:03,532 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:16:13,902 - INFO - package: mysql.connector.plugins
+2025-02-12 20:16:13,902 - INFO - plugin_name: mysql_native_password
+2025-02-12 20:16:13,902 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-12 20:16:13,904 - ERROR - MQTT Broker Connection Failed!
+2025-02-12 20:16:28,911 - ERROR - MQTT Broker Connection Failed!
+2025-02-12 20:16:43,919 - ERROR - MQTT Broker Connection Failed!
+2025-02-12 20:16:59,482 - INFO - Connected to MQTT Broker!
+2025-02-12 20:17:00,097 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:17:24,126 - INFO - Connected to MQTT Broker!
+2025-02-12 20:17:24,728 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:17:32,394 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:17:34,404 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:17:36,424 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:17:38,445 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:30,272 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:33,267 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:35,272 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:37,277 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:39,286 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:41,294 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:43,300 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:45,309 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:47,314 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:49,328 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:51,339 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:53,343 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:55,349 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:57,356 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:21:59,360 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:01,367 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:03,383 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:05,388 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:07,396 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:09,401 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:11,413 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:13,420 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:15,428 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:17,446 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:19,452 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:21,469 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:23,493 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:25,511 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:27,536 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:29,541 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:31,560 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:33,579 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:35,597 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:37,618 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:39,631 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:41,640 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:43,658 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:45,676 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:47,698 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:49,718 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:51,730 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:53,748 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:55,763 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:57,782 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:22:59,794 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:01,799 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:03,816 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:05,834 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:07,858 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:09,877 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:11,882 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:13,896 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:15,915 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:17,936 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:19,954 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:21,959 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:23,967 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:25,988 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:28,007 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:30,020 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:32,035 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:34,040 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:36,063 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:38,076 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:40,084 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:42,110 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:44,126 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:46,136 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:48,159 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:50,170 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:52,181 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:54,200 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:56,224 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:23:58,242 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:00,257 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:02,277 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:04,294 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:06,307 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:08,321 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:10,326 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:12,334 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:14,348 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:16,354 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:18,359 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:20,374 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:22,383 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:24,389 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:26,407 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:28,427 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:30,447 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:32,453 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:34,471 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:36,481 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:38,504 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:40,523 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:42,526 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:44,533 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:46,551 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:48,564 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:50,574 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:52,580 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:54,597 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:56,626 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:24:58,643 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:00,661 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:02,686 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:04,697 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:06,717 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:08,737 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:10,756 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:12,768 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:14,782 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:16,800 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:18,822 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:20,839 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:22,855 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:24,859 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:26,878 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:28,888 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:30,908 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:32,927 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:34,932 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:36,951 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:38,958 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:40,967 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:42,976 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:44,981 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:46,986 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:48,994 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:50,999 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:53,003 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:55,008 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:57,014 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:25:59,019 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:01,023 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:03,027 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:05,035 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:07,040 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:09,044 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:11,065 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:13,073 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:15,077 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:17,083 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:19,098 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:21,104 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:23,122 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:25,135 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:27,153 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:29,179 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:31,191 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:26:33,211 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:27:23,345 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:28:23,280 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:29:23,274 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:30:02,385 - INFO - Connected to MQTT Broker!
+2025-02-12 20:30:03,021 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:30:14,420 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:30:16,424 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 20:47:06,532 - INFO - Connected to MQTT Broker!
+2025-02-12 20:47:07,147 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:15,608 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:18,208 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:20,231 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:22,248 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:24,263 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:26,274 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:28,285 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:30,293 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:32,299 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:34,308 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:36,317 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:38,330 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:40,336 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:42,341 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:44,346 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:46,351 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:48,356 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:50,360 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:52,364 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:54,369 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:56,373 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:43:58,377 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:00,394 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:02,413 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:04,421 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:06,438 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:08,456 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:10,474 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:12,493 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:14,512 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:16,532 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:18,551 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:20,569 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:22,589 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:24,606 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:26,613 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:28,628 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:30,639 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:32,648 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:34,661 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:36,665 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:38,671 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:40,679 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:42,687 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:44,704 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:46,721 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:48,730 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:50,748 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:52,766 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:54,774 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:56,790 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:44:58,795 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:00,808 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:02,826 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:04,844 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:06,864 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:08,869 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:10,889 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:12,909 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:14,921 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:16,930 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:18,934 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:20,952 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:22,970 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:24,989 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:27,006 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:29,024 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:31,042 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:33,060 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:35,079 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:37,086 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:39,091 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:41,107 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:43,126 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:45,144 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:47,163 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:49,181 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:51,187 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:53,203 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:55,223 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:57,240 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:45:59,258 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:01,263 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:03,280 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:05,298 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:07,318 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:09,335 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:11,344 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:13,360 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:15,378 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:17,396 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:19,417 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:21,435 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:23,446 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:25,464 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:27,481 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:29,500 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:31,519 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:33,537 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:35,556 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:37,573 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:39,592 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:41,611 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:43,632 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:45,647 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:47,660 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:49,678 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:51,697 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:53,704 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:55,709 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:57,725 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:46:59,736 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:01,755 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:03,772 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:05,777 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:07,796 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:09,813 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:11,833 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:13,839 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:15,850 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:17,860 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:19,868 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:21,886 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:23,898 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:25,912 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:27,924 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:29,931 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:31,938 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:33,957 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:35,969 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:37,973 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:39,979 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:41,985 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:43,990 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:45,996 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:47,999 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:50,016 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:52,021 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:54,031 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:56,040 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:47:58,059 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:48:00,076 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:48:02,086 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:48:04,104 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:48:06,123 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:48:08,141 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:48:10,146 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:48:12,157 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:48:14,175 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:48:16,196 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:48:18,216 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:48:23,314 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:49:23,247 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:50:23,340 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:51:23,321 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:52:23,301 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:53:23,314 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:54:23,297 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:55:23,294 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:56:23,290 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:57:23,295 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:58:23,302 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 21:59:23,267 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:00:23,333 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:01:23,305 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:02:23,333 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:03:23,320 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:04:23,327 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:05:23,327 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:06:23,307 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:07:23,335 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:08:23,309 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:09:23,328 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:10:23,331 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:11:23,309 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:12:23,300 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:13:23,275 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:14:23,289 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:15:23,317 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:16:23,317 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:17:23,237 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:18:23,234 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:19:23,265 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:20:23,343 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:21:23,294 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:22:23,616 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:23:23,268 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:24:23,335 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:25:23,308 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:26:23,277 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:27:23,236 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:28:23,316 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:29:23,252 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:30:23,296 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:31:23,338 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:32:23,288 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:33:23,241 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:34:23,275 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:35:23,258 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:36:23,325 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:37:23,286 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:38:23,294 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:39:23,327 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:40:23,242 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:41:23,358 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:42:23,274 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:43:23,361 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:44:23,478 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:45:23,539 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:46:23,611 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:47:23,297 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:48:23,297 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:48:28,592 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-12 22:48:30,597 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:35:12,514 - INFO - package: mysql.connector.plugins
+2025-02-13 09:35:12,515 - INFO - plugin_name: mysql_native_password
+2025-02-13 09:35:12,521 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-13 09:35:13,107 - INFO - Connected to MQTT Broker!
+2025-02-13 09:35:13,781 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:35:39,934 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:35:42,010 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:35:44,551 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:35:46,622 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:35:48,628 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:35:50,635 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:35:52,644 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:35:54,649 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:35:56,656 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:35:58,833 - INFO - package: mysql.connector.plugins
+2025-02-13 09:35:58,833 - INFO - plugin_name: mysql_native_password
+2025-02-13 09:35:58,833 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-13 09:35:59,383 - INFO - Connected to MQTT Broker!
+2025-02-13 09:35:59,968 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:36:01,993 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:36:04,021 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:36:06,028 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 09:36:47,174 - ERROR - event is not available in MQTT
+2025-02-13 09:36:47,179 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 10:37:09,784 - ERROR - event is not available in MQTT
+2025-02-13 10:37:09,798 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 10:37:13,980 - INFO - package: mysql.connector.plugins
+2025-02-13 10:37:13,980 - INFO - plugin_name: mysql_native_password
+2025-02-13 10:37:13,981 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-13 10:37:14,542 - INFO - Connected to MQTT Broker!
+2025-02-13 10:37:18,912 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:37:19,926 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:37:20,935 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:37:20,939 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 10:37:26,978 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:37:27,990 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:37:29,008 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:37:33,063 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:37:34,080 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:37:35,098 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:37:39,145 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:37:40,163 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:37:41,181 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:37:41,185 - ERROR - event is not available in MQTT
+2025-02-13 10:37:41,190 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 10:37:41,200 - ERROR - event is not available in MQTT
+2025-02-13 10:37:41,205 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 10:37:49,327 - ERROR - event is not available in MQTT
+2025-02-13 10:37:49,333 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 10:37:50,390 - ERROR - event is not available in MQTT
+2025-02-13 10:37:50,394 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 10:38:17,242 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 10:38:29,554 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:38:30,572 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:38:31,586 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:38:36,740 - ERROR - event is not available in MQTT
+2025-02-13 10:38:36,749 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 10:38:47,490 - ERROR - event is not available in MQTT
+2025-02-13 10:38:47,495 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 10:40:35,232 - ERROR - event is not available in MQTT
+2025-02-13 10:40:35,234 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 10:40:36,263 - ERROR - event is not available in MQTT
+2025-02-13 10:40:36,268 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 10:40:50,200 - ERROR - event is not available in MQTT
+2025-02-13 10:40:50,210 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 10:41:02,112 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 10:41:04,131 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 10:41:06,149 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 10:41:08,159 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 10:41:10,165 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 10:57:03,627 - INFO - Connected to MQTT Broker!
+2025-02-13 10:57:07,917 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:57:08,923 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:57:09,927 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:57:09,929 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 10:57:15,949 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:57:16,955 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:57:17,963 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:57:21,978 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:57:22,984 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:57:23,989 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:57:28,019 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:57:29,029 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:57:30,034 - INFO - Mqtt Inserted to the Database
+2025-02-13 10:57:30,040 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 11:00:02,528 - ERROR - event is not available in MQTT
+2025-02-13 11:00:02,538 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:09:20,858 - ERROR - event is not available in MQTT
+2025-02-13 11:09:20,869 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:09:52,232 - ERROR - event is not available in MQTT
+2025-02-13 11:09:52,241 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:09:53,783 - ERROR - event is not available in MQTT
+2025-02-13 11:09:53,792 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:09:55,372 - ERROR - event is not available in MQTT
+2025-02-13 11:09:55,381 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:13:11,961 - INFO - package: mysql.connector.plugins
+2025-02-13 11:13:11,961 - INFO - plugin_name: mysql_native_password
+2025-02-13 11:13:11,962 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-13 11:13:12,541 - INFO - Connected to MQTT Broker!
+2025-02-13 11:13:16,870 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:13:17,887 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:13:18,905 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:13:18,917 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 11:13:24,965 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:13:25,984 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:13:26,993 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:13:31,030 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:13:32,041 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:13:33,051 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:13:37,091 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:13:38,105 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:13:39,117 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:13:39,119 - ERROR - event is not available in MQTT
+2025-02-13 11:13:39,121 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:13:39,124 - ERROR - event is not available in MQTT
+2025-02-13 11:13:39,129 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:13:39,132 - ERROR - event is not available in MQTT
+2025-02-13 11:13:39,135 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:13:39,137 - ERROR - event is not available in MQTT
+2025-02-13 11:13:39,139 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:13:39,144 - ERROR - event is not available in MQTT
+2025-02-13 11:13:39,146 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:13:39,149 - ERROR - event is not available in MQTT
+2025-02-13 11:13:39,151 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:13:39,153 - ERROR - event is not available in MQTT
+2025-02-13 11:13:39,155 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:13:46,877 - ERROR - event is not available in MQTT
+2025-02-13 11:13:46,884 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:14:18,214 - ERROR - event is not available in MQTT
+2025-02-13 11:14:18,222 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 11:14:24,233 - ERROR - event is not available in MQTT
+2025-02-13 11:14:24,240 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 11:15:21,215 - ERROR - event is not available in MQTT
+2025-02-13 11:15:21,224 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 11:15:24,574 - ERROR - event is not available in MQTT
+2025-02-13 11:15:24,583 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 11:15:30,226 - ERROR - event is not available in MQTT
+2025-02-13 11:15:30,231 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:24:38,868 - ERROR - event is not available in MQTT
+2025-02-13 11:24:38,878 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:24:48,833 - ERROR - event is not available in MQTT
+2025-02-13 11:24:48,843 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:25:02,597 - ERROR - event is not available in MQTT
+2025-02-13 11:25:02,606 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:25:21,929 - ERROR - event is not available in MQTT
+2025-02-13 11:25:21,935 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:25:30,453 - ERROR - event is not available in MQTT
+2025-02-13 11:25:30,455 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 11:25:35,418 - ERROR - event is not available in MQTT
+2025-02-13 11:25:35,423 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:25:38,062 - ERROR - event is not available in MQTT
+2025-02-13 11:25:38,065 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:25:39,122 - ERROR - event is not available in MQTT
+2025-02-13 11:25:39,126 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:31:50,786 - INFO - package: mysql.connector.plugins
+2025-02-13 11:31:50,787 - INFO - plugin_name: mysql_native_password
+2025-02-13 11:31:50,787 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-13 11:31:51,383 - INFO - Connected to MQTT Broker!
+2025-02-13 11:31:55,705 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:31:56,725 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:31:57,743 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:31:57,757 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 11:32:03,800 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:32:04,817 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:32:05,831 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:32:09,872 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:32:10,886 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:32:11,898 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:32:15,941 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:32:16,953 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:32:17,962 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:32:17,964 - ERROR - event is not available in MQTT
+2025-02-13 11:32:17,966 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:32:17,973 - ERROR - event is not available in MQTT
+2025-02-13 11:32:17,975 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:32:17,978 - ERROR - event is not available in MQTT
+2025-02-13 11:32:17,983 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:32:17,986 - ERROR - event is not available in MQTT
+2025-02-13 11:32:17,987 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:32:17,990 - ERROR - event is not available in MQTT
+2025-02-13 11:32:17,996 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:33:14,938 - INFO - package: mysql.connector.plugins
+2025-02-13 11:33:14,938 - INFO - plugin_name: mysql_native_password
+2025-02-13 11:33:14,939 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-13 11:33:15,488 - INFO - Connected to MQTT Broker!
+2025-02-13 11:33:19,809 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:33:19,822 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 11:33:25,865 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:33:29,910 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:33:33,950 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:33:33,956 - ERROR - event is not available in MQTT
+2025-02-13 11:33:33,965 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:33:33,976 - ERROR - event is not available in MQTT
+2025-02-13 11:33:33,983 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:33:33,991 - ERROR - event is not available in MQTT
+2025-02-13 11:33:33,998 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:34:40,752 - ERROR - event is not available in MQTT
+2025-02-13 11:34:40,762 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:38:19,515 - INFO - package: mysql.connector.plugins
+2025-02-13 11:38:19,515 - INFO - plugin_name: mysql_native_password
+2025-02-13 11:38:19,516 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-02-13 11:38:20,034 - INFO - Connected to MQTT Broker!
+2025-02-13 11:38:24,327 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:38:25,343 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:38:26,360 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:38:26,371 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 11:38:32,413 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:38:33,430 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:38:34,443 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:38:38,493 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:38:39,507 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:38:40,516 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:38:44,559 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:38:45,576 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:38:46,592 - INFO - Mqtt Inserted to the Database
+2025-02-13 11:38:46,598 - ERROR - event is not available in MQTT
+2025-02-13 11:38:46,608 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:39:44,339 - ERROR - event is not available in MQTT
+2025-02-13 11:39:44,348 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:40:04,637 - ERROR - event is not available in MQTT
+2025-02-13 11:40:04,642 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 11:50:00,109 - ERROR - event is not available in MQTT
+2025-02-13 11:50:00,115 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 11:50:02,529 - ERROR - event is not available in MQTT
+2025-02-13 11:50:02,534 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 11:50:10,966 - ERROR - event is not available in MQTT
+2025-02-13 11:50:10,969 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:52:03,944 - ERROR - event is not available in MQTT
+2025-02-13 11:52:03,957 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:53:00,102 - ERROR - event is not available in MQTT
+2025-02-13 11:53:00,117 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 11:53:30,188 - ERROR - event is not available in MQTT
+2025-02-13 11:53:30,197 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 12:13:53,844 - ERROR - event is not available in MQTT
+2025-02-13 12:13:53,850 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 12:14:06,484 - ERROR - event is not available in MQTT
+2025-02-13 12:14:06,488 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 12:14:09,075 - ERROR - event is not available in MQTT
+2025-02-13 12:14:09,082 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 12:17:09,347 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 12:18:09,487 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 12:56:37,092 - INFO - Mqtt Inserted to the Database
+2025-02-13 12:56:38,101 - INFO - Mqtt Inserted to the Database
+2025-02-13 12:56:39,107 - INFO - Mqtt Inserted to the Database
+2025-02-13 12:56:43,131 - INFO - Mqtt Inserted to the Database
+2025-02-13 12:56:44,139 - INFO - Mqtt Inserted to the Database
+2025-02-13 12:56:45,155 - INFO - Mqtt Inserted to the Database
+2025-02-13 12:56:49,186 - INFO - Mqtt Inserted to the Database
+2025-02-13 12:56:50,192 - INFO - Mqtt Inserted to the Database
+2025-02-13 12:56:51,203 - INFO - Mqtt Inserted to the Database
+2025-02-13 12:56:55,246 - INFO - Mqtt Inserted to the Database
+2025-02-13 12:56:56,260 - INFO - Mqtt Inserted to the Database
+2025-02-13 12:56:57,270 - INFO - Mqtt Inserted to the Database
+2025-02-13 12:56:57,273 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 13:10:50,067 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:10:51,079 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:10:52,090 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:10:56,118 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:10:57,132 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:10:58,145 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:11:02,190 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:11:03,203 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:11:04,217 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:11:08,251 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:11:09,268 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:11:10,281 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:11:10,286 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 13:16:10,820 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 13:16:16,842 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:16:17,856 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:16:18,866 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:16:22,898 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:16:23,911 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:16:24,923 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:16:28,972 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:16:29,990 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:16:31,009 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:16:35,066 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:16:36,083 - INFO - Mqtt Inserted to the Database
+2025-02-13 13:16:37,095 - INFO - Mqtt Inserted to the Database
+2025-02-13 16:26:56,295 - INFO - Connected to MQTT Broker!
+2025-02-13 16:27:00,588 - INFO - Mqtt Inserted to the Database
+2025-02-13 16:27:01,595 - INFO - Mqtt Inserted to the Database
+2025-02-13 16:27:02,600 - INFO - Mqtt Inserted to the Database
+2025-02-13 16:27:02,605 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 16:27:08,619 - INFO - Mqtt Inserted to the Database
+2025-02-13 16:27:09,623 - INFO - Mqtt Inserted to the Database
+2025-02-13 16:27:10,627 - INFO - Mqtt Inserted to the Database
+2025-02-13 16:27:14,657 - INFO - Mqtt Inserted to the Database
+2025-02-13 16:27:15,670 - INFO - Mqtt Inserted to the Database
+2025-02-13 16:27:16,718 - INFO - Mqtt Inserted to the Database
+2025-02-13 16:27:20,734 - INFO - Mqtt Inserted to the Database
+2025-02-13 16:27:21,745 - INFO - Mqtt Inserted to the Database
+2025-02-13 16:27:22,755 - INFO - Mqtt Inserted to the Database
+2025-02-13 16:27:22,756 - ERROR - event is not available in MQTT
+2025-02-13 16:27:22,760 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 17:46:36,136 - INFO - Connected to MQTT Broker!
+2025-02-13 17:46:40,428 - INFO - Mqtt Inserted to the Database
+2025-02-13 17:46:41,436 - INFO - Mqtt Inserted to the Database
+2025-02-13 17:46:42,446 - INFO - Mqtt Inserted to the Database
+2025-02-13 17:46:42,455 - INFO - MacAdd is Not Available in tbl_work_center_setting 
+2025-02-13 17:46:48,486 - INFO - Mqtt Inserted to the Database
+2025-02-13 17:46:49,493 - INFO - Mqtt Inserted to the Database
+2025-02-13 17:46:50,497 - INFO - Mqtt Inserted to the Database
+2025-02-13 17:46:54,516 - INFO - Mqtt Inserted to the Database
+2025-02-13 17:46:55,526 - INFO - Mqtt Inserted to the Database
+2025-02-13 17:46:56,534 - INFO - Mqtt Inserted to the Database
+2025-02-13 17:47:00,560 - INFO - Mqtt Inserted to the Database
+2025-02-13 17:47:01,569 - INFO - Mqtt Inserted to the Database
+2025-02-13 17:47:02,581 - INFO - Mqtt Inserted to the Database
+2025-02-13 17:47:02,584 - ERROR - event is not available in MQTT
+2025-02-13 17:47:02,599 - INFO - Device Power On Message : 34:AB:95:8C:8C:A4
+2025-02-13 21:23:09,126 - INFO - Connected to MQTT Broker!
+2025-02-13 21:23:11,479 - ERROR - MQTT Broker Connection Failed!
+2025-02-13 21:23:28,534 - ERROR - Database Connection Faild
+2025-02-13 21:23:45,581 - ERROR - Database Connection Faild
+2025-02-13 21:24:02,614 - ERROR - Database Connection Faild
+2025-02-13 21:24:19,655 - ERROR - Database Connection Faild
+2025-02-13 21:24:36,701 - ERROR - Database Connection Faild
+2025-02-13 21:24:53,752 - ERROR - Database Connection Faild
+2025-02-13 21:25:10,803 - ERROR - Database Connection Faild
+2025-02-13 21:25:27,850 - ERROR - Database Connection Faild
+2025-02-13 21:25:44,892 - ERROR - Database Connection Faild
+2025-02-13 21:26:01,933 - ERROR - Database Connection Faild
+2025-02-13 21:26:18,985 - ERROR - Database Connection Faild
+2025-02-13 21:26:36,034 - ERROR - Database Connection Faild
+2025-02-13 21:26:53,088 - ERROR - Database Connection Faild
+2025-02-13 21:27:10,128 - ERROR - Database Connection Faild
+2025-02-13 21:27:27,174 - ERROR - Database Connection Faild
+2025-02-13 21:27:44,223 - ERROR - Database Connection Faild
+2025-02-13 21:28:01,272 - ERROR - Database Connection Faild
+2025-02-13 21:28:18,318 - ERROR - Database Connection Faild
+2025-02-13 21:28:35,370 - ERROR - Database Connection Faild
+2025-02-13 21:28:52,429 - ERROR - Database Connection Faild
+2025-02-13 21:29:09,464 - ERROR - Database Connection Faild
+2025-02-13 21:29:26,517 - ERROR - Database Connection Faild
+2025-02-13 21:29:43,566 - ERROR - Database Connection Faild
+2025-02-13 21:30:00,615 - ERROR - Database Connection Faild
+2025-02-13 21:30:17,661 - ERROR - Database Connection Faild
+2025-02-13 21:30:34,717 - ERROR - Database Connection Faild
+2025-02-13 21:30:51,774 - ERROR - Database Connection Faild
+2025-02-13 21:31:08,813 - ERROR - Database Connection Faild
+2025-02-13 21:31:25,869 - ERROR - Database Connection Faild
+2025-02-13 21:31:42,915 - ERROR - Database Connection Faild
+2025-02-13 21:31:59,955 - ERROR - Database Connection Faild
+2025-02-13 21:32:17,004 - ERROR - Database Connection Faild
+2025-02-13 21:32:34,049 - ERROR - Database Connection Faild
+2025-02-13 21:32:51,105 - ERROR - Database Connection Faild
+2025-02-13 21:33:08,160 - ERROR - Database Connection Faild
+2025-02-13 21:33:25,218 - ERROR - Database Connection Faild
+2025-02-13 21:33:42,279 - ERROR - Database Connection Faild
+2025-02-13 21:33:59,318 - ERROR - Database Connection Faild
+2025-02-13 21:34:16,359 - ERROR - Database Connection Faild
+2025-02-13 21:34:33,417 - ERROR - Database Connection Faild
+2025-02-13 21:34:50,455 - ERROR - Database Connection Faild
+2025-02-13 21:35:07,505 - ERROR - Database Connection Faild
+2025-02-13 21:35:24,538 - ERROR - Database Connection Faild
+2025-02-13 21:35:41,591 - ERROR - Database Connection Faild
+2025-02-13 21:35:58,627 - ERROR - Database Connection Faild
+2025-02-13 21:36:15,676 - ERROR - Database Connection Faild
+2025-02-13 21:36:32,727 - ERROR - Database Connection Faild
+2025-02-13 21:36:49,752 - ERROR - Database Connection Faild
+2025-02-13 21:37:06,809 - ERROR - Database Connection Faild
+2025-02-13 21:37:23,856 - ERROR - Database Connection Faild
+2025-02-13 21:37:40,903 - ERROR - Database Connection Faild
+2025-02-13 21:37:57,923 - ERROR - Database Connection Faild
+2025-02-13 21:38:14,968 - ERROR - Database Connection Faild
+2025-02-13 21:38:31,993 - ERROR - Database Connection Faild
+2025-02-13 21:38:49,024 - ERROR - Database Connection Faild
+2025-02-13 21:39:06,072 - ERROR - Database Connection Faild
+2025-02-13 21:39:23,118 - ERROR - Database Connection Faild
+2025-02-13 21:39:40,174 - ERROR - Database Connection Faild
+2025-02-13 21:39:57,201 - ERROR - Database Connection Faild
+2025-02-13 21:40:14,238 - ERROR - Database Connection Faild
+2025-02-13 21:40:31,278 - ERROR - Database Connection Faild
+2025-02-13 21:40:48,329 - ERROR - Database Connection Faild
+2025-02-13 21:41:05,370 - ERROR - Database Connection Faild
+2025-02-13 21:41:22,400 - ERROR - Database Connection Faild
+2025-02-13 21:41:39,440 - ERROR - Database Connection Faild
+2025-02-13 21:41:56,472 - ERROR - Database Connection Faild
+2025-02-13 21:42:13,521 - ERROR - Database Connection Faild
+2025-02-13 21:42:30,572 - ERROR - Database Connection Faild
+2025-02-13 21:42:47,623 - ERROR - Database Connection Faild
+2025-02-13 21:43:04,672 - ERROR - Database Connection Faild
+2025-02-13 21:43:21,720 - ERROR - Database Connection Faild
+2025-02-13 21:43:38,772 - ERROR - Database Connection Faild
+2025-02-13 21:43:55,807 - ERROR - Database Connection Faild
+2025-02-13 21:44:12,860 - ERROR - Database Connection Faild
+2025-02-13 21:44:29,892 - ERROR - Database Connection Faild
+2025-02-13 21:44:46,947 - ERROR - Database Connection Faild
+2025-02-13 21:45:03,988 - ERROR - Database Connection Faild
+2025-02-13 21:45:21,026 - ERROR - Database Connection Faild
+2025-02-13 21:45:38,066 - ERROR - Database Connection Faild
+2025-02-13 21:45:55,107 - ERROR - Database Connection Faild
+2025-02-13 21:46:12,166 - ERROR - Database Connection Faild
+2025-02-13 21:46:29,185 - ERROR - Database Connection Faild
+2025-02-13 21:46:46,226 - ERROR - Database Connection Faild
+2025-02-13 21:47:03,282 - ERROR - Database Connection Faild
+2025-02-13 21:47:20,329 - ERROR - Database Connection Faild
+2025-02-13 21:47:37,385 - ERROR - Database Connection Faild
+2025-02-13 21:47:54,443 - ERROR - Database Connection Faild
+2025-02-13 21:48:11,502 - ERROR - Database Connection Faild
+2025-02-13 21:48:28,557 - ERROR - Database Connection Faild
+2025-02-13 21:48:45,599 - ERROR - Database Connection Faild
+2025-02-13 21:49:02,647 - ERROR - Database Connection Faild
+2025-02-13 21:49:19,700 - ERROR - Database Connection Faild
+2025-02-13 21:49:36,760 - ERROR - Database Connection Faild
+2025-02-13 21:49:53,804 - ERROR - Database Connection Faild
+2025-02-13 21:50:10,842 - ERROR - Database Connection Faild
+2025-02-13 21:50:27,873 - ERROR - Database Connection Faild
+2025-02-13 21:50:44,907 - ERROR - Database Connection Faild
+2025-02-13 21:51:01,954 - ERROR - Database Connection Faild
+2025-02-13 21:51:19,008 - ERROR - Database Connection Faild
+2025-02-13 21:51:36,051 - ERROR - Database Connection Faild
+2025-02-13 21:51:53,085 - ERROR - Database Connection Faild
+2025-02-13 21:52:10,137 - ERROR - Database Connection Faild
+2025-02-13 21:52:27,177 - ERROR - Database Connection Faild
+2025-02-13 21:52:44,228 - ERROR - Database Connection Faild
+2025-02-13 21:53:01,266 - ERROR - Database Connection Faild
+2025-02-13 21:53:18,318 - ERROR - Database Connection Faild
+2025-02-13 21:53:35,353 - ERROR - Database Connection Faild
+2025-02-13 21:53:52,408 - ERROR - Database Connection Faild
+2025-02-13 21:54:09,448 - ERROR - Database Connection Faild
+2025-02-13 21:54:26,496 - ERROR - Database Connection Faild
+2025-02-13 21:54:43,541 - ERROR - Database Connection Faild
+2025-02-13 21:55:00,597 - ERROR - Database Connection Faild
+2025-02-13 21:55:17,638 - ERROR - Database Connection Faild
+2025-02-13 21:55:34,682 - ERROR - Database Connection Faild
+2025-02-13 21:55:51,721 - ERROR - Database Connection Faild
+2025-02-13 21:56:08,753 - ERROR - Database Connection Faild
+2025-02-13 21:56:25,767 - ERROR - Database Connection Faild
+2025-02-13 21:56:42,823 - ERROR - Database Connection Faild
+2025-02-13 21:56:59,883 - ERROR - Database Connection Faild
+2025-02-13 21:57:16,918 - ERROR - Database Connection Faild
+2025-02-13 21:57:33,953 - ERROR - Database Connection Faild
+2025-02-13 21:57:50,988 - ERROR - Database Connection Faild
+2025-02-13 21:58:08,029 - ERROR - Database Connection Faild
+2025-02-13 21:58:25,073 - ERROR - Database Connection Faild
+2025-02-13 21:58:42,098 - ERROR - Database Connection Faild
+2025-02-13 21:58:59,129 - ERROR - Database Connection Faild
+2025-02-13 21:59:16,165 - ERROR - Database Connection Faild
+2025-02-13 21:59:33,195 - ERROR - Database Connection Faild
+2025-02-13 21:59:50,233 - ERROR - Database Connection Faild
+2025-02-13 22:00:07,289 - ERROR - Database Connection Faild
+2025-02-13 22:00:24,339 - ERROR - Database Connection Faild
+2025-02-13 22:00:41,373 - ERROR - Database Connection Faild
+2025-02-13 22:00:58,396 - ERROR - Database Connection Faild
+2025-02-13 22:01:15,453 - ERROR - Database Connection Faild
+2025-02-13 22:01:32,507 - ERROR - Database Connection Faild
+2025-02-13 22:01:49,557 - ERROR - Database Connection Faild
+2025-02-13 22:02:06,591 - ERROR - Database Connection Faild
+2025-02-13 22:02:23,632 - ERROR - Database Connection Faild
+2025-02-13 22:02:40,676 - ERROR - Database Connection Faild
+2025-02-13 22:02:57,736 - ERROR - Database Connection Faild
+2025-02-13 22:03:14,798 - ERROR - Database Connection Faild
+2025-02-13 22:03:31,841 - ERROR - Database Connection Faild
+2025-02-13 22:03:48,889 - ERROR - Database Connection Faild
+2025-02-13 22:04:05,937 - ERROR - Database Connection Faild
+2025-02-13 22:04:22,994 - ERROR - Database Connection Faild
+2025-02-13 22:04:40,044 - ERROR - Database Connection Faild
+2025-02-13 22:04:57,100 - ERROR - Database Connection Faild
+2025-02-13 22:05:14,139 - ERROR - Database Connection Faild
+2025-02-13 22:05:31,164 - ERROR - Database Connection Faild
+2025-02-13 22:05:48,182 - ERROR - Database Connection Faild
+2025-02-13 22:06:05,231 - ERROR - Database Connection Faild
+2025-02-13 22:06:22,276 - ERROR - Database Connection Faild
+2025-02-13 22:06:39,333 - ERROR - Database Connection Faild
+2025-02-13 22:06:56,381 - ERROR - Database Connection Faild
+2025-02-13 22:07:13,430 - ERROR - Database Connection Faild
+2025-02-13 22:07:30,481 - ERROR - Database Connection Faild
+2025-02-13 22:07:47,504 - ERROR - Database Connection Faild
+2025-02-13 22:08:04,550 - ERROR - Database Connection Faild
+2025-02-13 22:08:21,603 - ERROR - Database Connection Faild
+2025-02-13 22:08:38,645 - ERROR - Database Connection Faild
+2025-02-13 22:08:55,689 - ERROR - Database Connection Faild
+2025-02-13 22:09:12,735 - ERROR - Database Connection Faild
+2025-02-13 22:09:29,790 - ERROR - Database Connection Faild
+2025-02-13 22:09:46,841 - ERROR - Database Connection Faild
+2025-02-13 22:10:03,885 - ERROR - Database Connection Faild
+2025-02-13 22:10:20,937 - ERROR - Database Connection Faild
+2025-02-13 22:10:37,965 - ERROR - Database Connection Faild
+2025-02-13 22:10:55,017 - ERROR - Database Connection Faild
+2025-02-13 22:11:12,067 - ERROR - Database Connection Faild
+2025-02-13 22:11:29,101 - ERROR - Database Connection Faild
+2025-02-13 22:11:46,142 - ERROR - Database Connection Faild
+2025-02-13 22:12:03,190 - ERROR - Database Connection Faild
+2025-02-13 22:12:20,230 - ERROR - Database Connection Faild
+2025-02-13 22:12:37,289 - ERROR - Database Connection Faild
+2025-02-13 22:12:54,338 - ERROR - Database Connection Faild
+2025-02-13 22:13:11,372 - ERROR - Database Connection Faild
+2025-02-13 22:13:28,403 - ERROR - Database Connection Faild
+2025-02-13 22:13:45,444 - ERROR - Database Connection Faild
+2025-02-13 22:14:02,486 - ERROR - Database Connection Faild
+2025-02-13 22:14:19,517 - ERROR - Database Connection Faild
+2025-02-13 22:14:36,571 - ERROR - Database Connection Faild
+2025-02-13 22:14:53,616 - ERROR - Database Connection Faild
+2025-02-13 22:15:10,673 - ERROR - Database Connection Faild
+2025-02-13 22:15:27,714 - ERROR - Database Connection Faild
+2025-02-13 22:15:44,755 - ERROR - Database Connection Faild
+2025-02-13 22:16:01,772 - ERROR - Database Connection Faild
+2025-02-13 22:16:18,809 - ERROR - Database Connection Faild
+2025-02-13 22:16:35,846 - ERROR - Database Connection Faild
+2025-02-13 22:16:52,882 - ERROR - Database Connection Faild
+2025-02-13 22:17:09,921 - ERROR - Database Connection Faild
+2025-02-13 22:17:26,981 - ERROR - Database Connection Faild
+2025-02-13 22:17:44,025 - ERROR - Database Connection Faild
+2025-02-13 22:18:01,065 - ERROR - Database Connection Faild
+2025-02-13 22:18:18,125 - ERROR - Database Connection Faild
+2025-02-13 22:18:35,179 - ERROR - Database Connection Faild
+2025-02-13 22:18:52,225 - ERROR - Database Connection Faild
+2025-02-13 22:19:09,283 - ERROR - Database Connection Faild
+2025-02-13 22:19:26,320 - ERROR - Database Connection Faild
+2025-02-13 22:19:43,377 - ERROR - Database Connection Faild
+2025-02-13 22:20:00,431 - ERROR - Database Connection Faild
+2025-02-13 22:20:17,461 - ERROR - Database Connection Faild
+2025-02-13 22:20:34,500 - ERROR - Database Connection Faild
+2025-02-13 22:20:51,558 - ERROR - Database Connection Faild
+2025-02-13 22:21:08,614 - ERROR - Database Connection Faild
+2025-02-13 22:21:25,659 - ERROR - Database Connection Faild
+2025-02-13 22:21:42,705 - ERROR - Database Connection Faild
+2025-02-13 22:21:59,746 - ERROR - Database Connection Faild
+2025-02-13 22:22:16,786 - ERROR - Database Connection Faild
+2025-02-13 22:22:33,835 - ERROR - Database Connection Faild
+2025-02-13 22:22:50,881 - ERROR - Database Connection Faild
+2025-02-13 22:23:07,916 - ERROR - Database Connection Faild
+2025-02-13 22:23:24,976 - ERROR - Database Connection Faild
+2025-02-13 22:23:42,031 - ERROR - Database Connection Faild
+2025-02-13 22:23:59,073 - ERROR - Database Connection Faild
+2025-02-13 22:24:16,131 - ERROR - Database Connection Faild
+2025-02-13 22:24:33,155 - ERROR - Database Connection Faild
+2025-02-13 22:24:50,201 - ERROR - Database Connection Faild
+2025-02-13 22:25:07,242 - ERROR - Database Connection Faild
+2025-02-13 22:25:24,287 - ERROR - Database Connection Faild
+2025-02-13 22:25:41,310 - ERROR - Database Connection Faild
+2025-02-13 22:25:58,372 - ERROR - Database Connection Faild
+2025-02-13 22:26:15,425 - ERROR - Database Connection Faild
+2025-02-13 22:26:32,463 - ERROR - Database Connection Faild
+2025-02-13 22:26:49,485 - ERROR - Database Connection Faild
+2025-02-13 22:27:06,525 - ERROR - Database Connection Faild
+2025-02-13 22:27:23,538 - ERROR - Database Connection Faild
+2025-02-13 22:27:40,576 - ERROR - Database Connection Faild
+2025-02-13 22:27:57,618 - ERROR - Database Connection Faild
+2025-02-13 22:28:14,660 - ERROR - Database Connection Faild
+2025-02-13 22:28:31,701 - ERROR - Database Connection Faild
+2025-02-13 22:28:48,753 - ERROR - Database Connection Faild
+2025-02-13 22:29:05,805 - ERROR - Database Connection Faild
+2025-02-13 22:29:22,839 - ERROR - Database Connection Faild
+2025-02-13 22:29:39,869 - ERROR - Database Connection Faild
+2025-02-13 22:29:56,917 - ERROR - Database Connection Faild
+2025-02-13 22:30:13,960 - ERROR - Database Connection Faild
+2025-02-13 22:30:31,006 - ERROR - Database Connection Faild
+2025-02-13 22:30:48,046 - ERROR - Database Connection Faild
+2025-02-13 22:31:05,092 - ERROR - Database Connection Faild
+2025-02-13 22:31:22,146 - ERROR - Database Connection Faild
+2025-02-13 22:31:39,190 - ERROR - Database Connection Faild
+2025-02-13 22:31:56,235 - ERROR - Database Connection Faild
+2025-02-13 22:32:13,281 - ERROR - Database Connection Faild
+2025-02-13 22:32:30,319 - ERROR - Database Connection Faild
+2025-02-13 22:32:47,365 - ERROR - Database Connection Faild
+2025-02-13 22:33:04,401 - ERROR - Database Connection Faild
+2025-02-13 22:33:21,454 - ERROR - Database Connection Faild
+2025-02-13 22:33:38,507 - ERROR - Database Connection Faild
+2025-02-13 22:33:55,549 - ERROR - Database Connection Faild
+2025-02-13 22:34:12,591 - ERROR - Database Connection Faild
+2025-02-13 22:34:29,640 - ERROR - Database Connection Faild
+2025-02-13 22:34:46,661 - ERROR - Database Connection Faild
+2025-02-13 22:35:03,712 - ERROR - Database Connection Faild
+2025-02-13 22:35:20,768 - ERROR - Database Connection Faild
+2025-02-13 22:35:37,804 - ERROR - Database Connection Faild
+2025-02-13 22:35:54,853 - ERROR - Database Connection Faild
+2025-02-13 22:36:11,915 - ERROR - Database Connection Faild
+2025-02-13 22:36:28,969 - ERROR - Database Connection Faild
+2025-02-13 22:36:46,016 - ERROR - Database Connection Faild
+2025-02-13 22:37:03,058 - ERROR - Database Connection Faild
+2025-02-13 22:37:20,116 - ERROR - Database Connection Faild
+2025-02-13 22:37:37,157 - ERROR - Database Connection Faild
+2025-02-13 22:37:54,205 - ERROR - Database Connection Faild
+2025-02-13 22:38:11,264 - ERROR - Database Connection Faild
+2025-02-13 22:38:28,309 - ERROR - Database Connection Faild
+2025-02-13 22:38:45,353 - ERROR - Database Connection Faild
+2025-02-13 22:39:02,395 - ERROR - Database Connection Faild
+2025-02-13 22:39:19,420 - ERROR - Database Connection Faild
+2025-02-13 22:39:36,467 - ERROR - Database Connection Faild
+2025-02-13 22:39:53,507 - ERROR - Database Connection Faild
+2025-02-13 22:40:10,549 - ERROR - Database Connection Faild
+2025-02-13 22:40:27,598 - ERROR - Database Connection Faild
+2025-02-13 22:40:44,644 - ERROR - Database Connection Faild
+2025-02-13 22:41:01,696 - ERROR - Database Connection Faild
+2025-02-13 22:41:18,742 - ERROR - Database Connection Faild
+2025-02-13 22:41:35,791 - ERROR - Database Connection Faild
+2025-02-13 22:41:52,824 - ERROR - Database Connection Faild
+2025-02-13 22:42:09,879 - ERROR - Database Connection Faild
+2025-02-13 22:42:26,933 - ERROR - Database Connection Faild
+2025-02-13 22:42:43,987 - ERROR - Database Connection Faild
+2025-02-13 22:43:01,045 - ERROR - Database Connection Faild
+2025-02-13 22:43:18,102 - ERROR - Database Connection Faild
+2025-02-13 22:43:35,153 - ERROR - Database Connection Faild
+2025-02-13 22:43:52,187 - ERROR - Database Connection Faild
+2025-02-13 22:44:09,221 - ERROR - Database Connection Faild
+2025-02-13 22:44:26,259 - ERROR - Database Connection Faild
+2025-02-13 22:44:43,283 - ERROR - Database Connection Faild
+2025-02-13 22:45:00,330 - ERROR - Database Connection Faild
+2025-02-13 22:45:17,363 - ERROR - Database Connection Faild
+2025-02-13 22:45:34,397 - ERROR - Database Connection Faild
+2025-02-13 22:45:51,430 - ERROR - Database Connection Faild
+2025-02-13 22:46:08,476 - ERROR - Database Connection Faild
+2025-02-13 22:46:25,533 - ERROR - Database Connection Faild
+2025-02-13 22:46:42,588 - ERROR - Database Connection Faild
+2025-02-13 22:46:59,626 - ERROR - Database Connection Faild
+2025-02-13 22:47:16,665 - ERROR - Database Connection Faild
+2025-02-13 22:47:33,710 - ERROR - Database Connection Faild
+2025-02-13 22:47:50,764 - ERROR - Database Connection Faild
+2025-02-13 22:48:07,818 - ERROR - Database Connection Faild
+2025-02-13 22:48:24,861 - ERROR - Database Connection Faild
+2025-02-13 22:48:41,914 - ERROR - Database Connection Faild
+2025-02-13 22:48:58,943 - ERROR - Database Connection Faild
+2025-02-13 22:49:16,000 - ERROR - Database Connection Faild
+2025-02-13 22:49:33,056 - ERROR - Database Connection Faild
+2025-02-13 22:49:50,108 - ERROR - Database Connection Faild
+2025-02-13 22:50:07,159 - ERROR - Database Connection Faild
+2025-02-13 22:50:24,217 - ERROR - Database Connection Faild
+2025-02-13 22:50:41,266 - ERROR - Database Connection Faild
+2025-02-13 22:50:58,304 - ERROR - Database Connection Faild
+2025-02-13 22:51:15,346 - ERROR - Database Connection Faild
+2025-02-13 22:51:32,393 - ERROR - Database Connection Faild
+2025-02-13 22:51:49,431 - ERROR - Database Connection Faild
+2025-02-13 22:52:06,466 - ERROR - Database Connection Faild
+2025-02-13 22:52:23,513 - ERROR - Database Connection Faild
+2025-02-13 22:52:40,566 - ERROR - Database Connection Faild
+2025-02-13 22:52:57,611 - ERROR - Database Connection Faild
+2025-02-13 22:53:14,619 - ERROR - Database Connection Faild
+2025-02-13 22:53:31,671 - ERROR - Database Connection Faild
+2025-02-13 22:53:48,713 - ERROR - Database Connection Faild
+2025-02-13 22:54:05,769 - ERROR - Database Connection Faild
+2025-02-13 22:54:22,813 - ERROR - Database Connection Faild
+2025-02-13 22:54:39,865 - ERROR - Database Connection Faild
+2025-02-13 22:54:56,922 - ERROR - Database Connection Faild
+2025-02-13 22:55:13,972 - ERROR - Database Connection Faild
+2025-02-13 22:55:31,012 - ERROR - Database Connection Faild
+2025-02-13 22:55:48,069 - ERROR - Database Connection Faild
+2025-02-13 22:56:05,121 - ERROR - Database Connection Faild
+2025-02-13 22:56:22,164 - ERROR - Database Connection Faild
+2025-02-13 22:56:39,194 - ERROR - Database Connection Faild
+2025-02-13 22:56:56,236 - ERROR - Database Connection Faild
+2025-02-13 22:57:13,278 - ERROR - Database Connection Faild
+2025-02-13 22:57:30,302 - ERROR - Database Connection Faild
+2025-02-13 22:57:47,350 - ERROR - Database Connection Faild
+2025-02-13 22:58:04,385 - ERROR - Database Connection Faild
+2025-02-13 22:58:21,418 - ERROR - Database Connection Faild
+2025-02-13 22:58:38,453 - ERROR - Database Connection Faild
+2025-02-13 22:58:55,465 - ERROR - Database Connection Faild
+2025-02-13 22:59:12,485 - ERROR - Database Connection Faild
+2025-02-13 22:59:29,518 - ERROR - Database Connection Faild
+2025-02-13 22:59:46,555 - ERROR - Database Connection Faild
+2025-02-13 23:00:03,595 - ERROR - Database Connection Faild
+2025-02-13 23:00:20,645 - ERROR - Database Connection Faild
+2025-02-13 23:00:37,703 - ERROR - Database Connection Faild
+2025-02-13 23:00:54,748 - ERROR - Database Connection Faild
+2025-02-13 23:01:11,803 - ERROR - Database Connection Faild
+2025-02-13 23:01:28,845 - ERROR - Database Connection Faild
+2025-02-13 23:01:45,904 - ERROR - Database Connection Faild
+2025-02-13 23:02:02,934 - ERROR - Database Connection Faild
+2025-02-13 23:02:19,989 - ERROR - Database Connection Faild
+2025-02-13 23:02:37,038 - ERROR - Database Connection Faild
+2025-02-13 23:02:54,097 - ERROR - Database Connection Faild
+2025-02-13 23:03:11,144 - ERROR - Database Connection Faild
+2025-02-13 23:03:28,200 - ERROR - Database Connection Faild
+2025-02-13 23:03:45,243 - ERROR - Database Connection Faild
+2025-02-13 23:04:02,294 - ERROR - Database Connection Faild
+2025-02-13 23:04:19,327 - ERROR - Database Connection Faild
+2025-02-13 23:04:36,385 - ERROR - Database Connection Faild
+2025-02-13 23:04:53,442 - ERROR - Database Connection Faild
+2025-02-13 23:05:10,496 - ERROR - Database Connection Faild
+2025-02-13 23:05:27,548 - ERROR - Database Connection Faild
+2025-02-13 23:05:44,575 - ERROR - Database Connection Faild
+2025-02-13 23:06:01,624 - ERROR - Database Connection Faild
+2025-02-13 23:06:18,672 - ERROR - Database Connection Faild
+2025-02-13 23:06:35,722 - ERROR - Database Connection Faild
+2025-02-13 23:06:52,774 - ERROR - Database Connection Faild
+2025-02-13 23:07:09,829 - ERROR - Database Connection Faild
+2025-02-13 23:07:26,876 - ERROR - Database Connection Faild
+2025-02-13 23:07:43,931 - ERROR - Database Connection Faild
+2025-02-13 23:08:00,988 - ERROR - Database Connection Faild
+2025-02-13 23:08:18,039 - ERROR - Database Connection Faild
+2025-02-13 23:08:35,093 - ERROR - Database Connection Faild
+2025-02-13 23:08:52,145 - ERROR - Database Connection Faild
+2025-02-13 23:09:09,191 - ERROR - Database Connection Faild
+2025-02-13 23:09:26,235 - ERROR - Database Connection Faild
+2025-02-13 23:09:43,272 - ERROR - Database Connection Faild
+2025-02-13 23:10:00,322 - ERROR - Database Connection Faild
+2025-02-13 23:10:17,366 - ERROR - Database Connection Faild
+2025-02-13 23:10:34,405 - ERROR - Database Connection Faild
+2025-02-13 23:10:51,442 - ERROR - Database Connection Faild
+2025-02-13 23:11:08,481 - ERROR - Database Connection Faild
+2025-02-13 23:11:25,510 - ERROR - Database Connection Faild
+2025-02-13 23:11:42,569 - ERROR - Database Connection Faild
+2025-02-13 23:11:59,603 - ERROR - Database Connection Faild
+2025-02-13 23:12:16,647 - ERROR - Database Connection Faild
+2025-02-13 23:12:33,668 - ERROR - Database Connection Faild
+2025-02-13 23:12:50,701 - ERROR - Database Connection Faild
+2025-02-13 23:13:07,724 - ERROR - Database Connection Faild
+2025-02-13 23:13:24,775 - ERROR - Database Connection Faild
+2025-02-13 23:13:41,821 - ERROR - Database Connection Faild
+2025-02-13 23:13:58,884 - ERROR - Database Connection Faild
+2025-02-13 23:14:15,936 - ERROR - Database Connection Faild
+2025-02-13 23:14:32,995 - ERROR - Database Connection Faild
+2025-02-13 23:14:50,031 - ERROR - Database Connection Faild
+2025-02-13 23:15:07,069 - ERROR - Database Connection Faild
+2025-02-13 23:15:24,113 - ERROR - Database Connection Faild
+2025-02-13 23:15:41,155 - ERROR - Database Connection Faild
+2025-02-13 23:15:58,193 - ERROR - Database Connection Faild
+2025-02-13 23:16:15,203 - ERROR - Database Connection Faild
+2025-02-13 23:16:32,247 - ERROR - Database Connection Faild
+2025-02-13 23:16:49,300 - ERROR - Database Connection Faild
+2025-02-13 23:17:06,349 - ERROR - Database Connection Faild
+2025-02-13 23:17:23,394 - ERROR - Database Connection Faild
+2025-02-13 23:17:40,449 - ERROR - Database Connection Faild
+2025-02-13 23:17:57,505 - ERROR - Database Connection Faild
+2025-02-13 23:18:14,555 - ERROR - Database Connection Faild
+2025-02-13 23:18:31,607 - ERROR - Database Connection Faild
+2025-02-13 23:18:48,626 - ERROR - Database Connection Faild
+2025-02-13 23:19:05,682 - ERROR - Database Connection Faild
+2025-02-13 23:19:22,730 - ERROR - Database Connection Faild
+2025-02-13 23:19:39,775 - ERROR - Database Connection Faild
+2025-02-13 23:19:56,835 - ERROR - Database Connection Faild
+2025-02-13 23:20:13,861 - ERROR - Database Connection Faild
+2025-02-13 23:20:30,907 - ERROR - Database Connection Faild
+2025-02-13 23:20:47,938 - ERROR - Database Connection Faild
+2025-02-13 23:21:04,978 - ERROR - Database Connection Faild
+2025-02-13 23:21:22,011 - ERROR - Database Connection Faild
+2025-02-13 23:21:39,058 - ERROR - Database Connection Faild
+2025-02-13 23:21:56,115 - ERROR - Database Connection Faild
+2025-02-13 23:22:13,172 - ERROR - Database Connection Faild
+2025-02-13 23:22:30,212 - ERROR - Database Connection Faild
+2025-02-13 23:22:47,255 - ERROR - Database Connection Faild
+2025-02-13 23:23:04,290 - ERROR - Database Connection Faild
+2025-02-13 23:23:21,347 - ERROR - Database Connection Faild
+2025-02-13 23:23:38,384 - ERROR - Database Connection Faild
+2025-02-13 23:23:55,431 - ERROR - Database Connection Faild
+2025-02-13 23:24:12,493 - ERROR - Database Connection Faild
+2025-02-13 23:24:29,540 - ERROR - Database Connection Faild
+2025-02-13 23:24:46,579 - ERROR - Database Connection Faild
+2025-02-13 23:25:03,634 - ERROR - Database Connection Faild
+2025-02-13 23:25:20,687 - ERROR - Database Connection Faild
+2025-02-13 23:25:37,729 - ERROR - Database Connection Faild
+2025-02-13 23:25:54,766 - ERROR - Database Connection Faild
+2025-02-13 23:26:11,811 - ERROR - Database Connection Faild
+2025-02-13 23:26:28,841 - ERROR - Database Connection Faild
+2025-02-13 23:26:45,884 - ERROR - Database Connection Faild
+2025-02-13 23:27:02,936 - ERROR - Database Connection Faild
+2025-02-13 23:27:19,986 - ERROR - Database Connection Faild
+2025-02-13 23:27:37,011 - ERROR - Database Connection Faild
+2025-02-13 23:27:54,059 - ERROR - Database Connection Faild
+2025-02-13 23:28:11,095 - ERROR - Database Connection Faild
+2025-02-13 23:28:28,116 - ERROR - Database Connection Faild
+2025-02-13 23:28:45,169 - ERROR - Database Connection Faild
+2025-02-13 23:29:02,219 - ERROR - Database Connection Faild
+2025-02-13 23:29:19,282 - ERROR - Database Connection Faild
+2025-02-13 23:29:36,328 - ERROR - Database Connection Faild
+2025-02-13 23:29:53,368 - ERROR - Database Connection Faild
+2025-02-13 23:30:10,417 - ERROR - Database Connection Faild
+2025-02-13 23:30:27,469 - ERROR - Database Connection Faild
+2025-02-13 23:30:44,500 - ERROR - Database Connection Faild
+2025-02-13 23:31:01,547 - ERROR - Database Connection Faild
+2025-02-13 23:31:18,608 - ERROR - Database Connection Faild
+2025-02-13 23:31:35,659 - ERROR - Database Connection Faild
+2025-02-13 23:31:52,717 - ERROR - Database Connection Faild
+2025-02-13 23:32:09,734 - ERROR - Database Connection Faild
+2025-02-13 23:32:26,788 - ERROR - Database Connection Faild
+2025-02-13 23:32:43,824 - ERROR - Database Connection Faild
+2025-02-13 23:33:00,881 - ERROR - Database Connection Faild
+2025-02-13 23:33:17,925 - ERROR - Database Connection Faild
+2025-02-13 23:33:34,954 - ERROR - Database Connection Faild
+2025-02-13 23:33:51,974 - ERROR - Database Connection Faild
+2025-02-13 23:34:09,020 - ERROR - Database Connection Faild
+2025-02-13 23:34:26,055 - ERROR - Database Connection Faild
+2025-02-13 23:34:43,092 - ERROR - Database Connection Faild
+2025-02-13 23:35:00,140 - ERROR - Database Connection Faild
+2025-02-13 23:35:17,177 - ERROR - Database Connection Faild
+2025-02-14 09:10:27,911 - ERROR - Database Connection Faild
+2025-02-14 09:10:44,941 - ERROR - Database Connection Faild
+2025-02-14 09:11:01,982 - ERROR - Database Connection Faild
+2025-02-14 09:11:19,030 - ERROR - Database Connection Faild
+2025-02-14 09:11:36,064 - ERROR - Database Connection Faild
+2025-02-14 09:11:53,122 - ERROR - Database Connection Faild
+2025-02-14 09:12:10,170 - ERROR - Database Connection Faild
+2025-02-14 09:12:27,221 - ERROR - Database Connection Faild
+2025-02-14 09:12:44,269 - ERROR - Database Connection Faild
+2025-02-14 09:13:01,314 - ERROR - Database Connection Faild
+2025-02-14 09:13:18,361 - ERROR - Database Connection Faild
+2025-02-14 09:13:35,383 - ERROR - Database Connection Faild
+2025-02-14 09:13:52,432 - ERROR - Database Connection Faild
+2025-02-14 09:14:09,481 - ERROR - Database Connection Faild
+2025-02-14 09:14:26,535 - ERROR - Database Connection Faild
+2025-02-14 09:14:43,581 - ERROR - Database Connection Faild
+2025-02-14 09:15:00,634 - ERROR - Database Connection Faild
+2025-02-14 09:15:17,685 - ERROR - Database Connection Faild
+2025-02-14 09:15:34,712 - ERROR - Database Connection Faild
+2025-02-14 09:15:51,768 - ERROR - Database Connection Faild
+2025-02-14 09:16:08,831 - ERROR - Database Connection Faild
+2025-02-14 09:16:25,877 - ERROR - Database Connection Faild
+2025-02-14 09:16:42,914 - ERROR - Database Connection Faild
+2025-02-14 09:16:59,950 - ERROR - Database Connection Faild
+2025-02-14 09:17:17,005 - ERROR - Database Connection Faild
+2025-02-14 09:17:34,061 - ERROR - Database Connection Faild
+2025-02-14 09:17:51,123 - ERROR - Database Connection Faild
+2025-02-14 09:18:08,160 - ERROR - Database Connection Faild
+2025-02-14 09:18:25,203 - ERROR - Database Connection Faild
+2025-02-14 09:18:42,260 - ERROR - Database Connection Faild
+2025-02-14 09:18:59,300 - ERROR - Database Connection Faild
+2025-02-14 09:19:16,343 - ERROR - Database Connection Faild
+2025-02-14 09:19:33,365 - ERROR - Database Connection Faild
+2025-02-14 09:19:50,420 - ERROR - Database Connection Faild
+2025-02-14 09:20:07,451 - ERROR - Database Connection Faild
+2025-02-14 09:20:24,503 - ERROR - Database Connection Faild
+2025-02-14 09:20:41,563 - ERROR - Database Connection Faild
+2025-02-14 09:20:58,619 - ERROR - Database Connection Faild
+2025-02-14 09:21:15,656 - ERROR - Database Connection Faild
+2025-02-14 09:21:32,704 - ERROR - Database Connection Faild
+2025-02-14 09:21:49,738 - ERROR - Database Connection Faild
+2025-02-14 09:22:06,795 - ERROR - Database Connection Faild
+2025-02-14 09:22:23,853 - ERROR - Database Connection Faild
+2025-02-14 09:22:40,916 - ERROR - Database Connection Faild
+2025-02-14 09:22:57,946 - ERROR - Database Connection Faild
+2025-02-14 09:23:15,006 - ERROR - Database Connection Faild
+2025-02-14 09:23:32,041 - ERROR - Database Connection Faild
+2025-02-14 09:23:49,089 - ERROR - Database Connection Faild
+2025-02-14 09:24:06,132 - ERROR - Database Connection Faild
+2025-02-14 09:24:23,175 - ERROR - Database Connection Faild
+2025-02-14 09:24:40,197 - ERROR - Database Connection Faild
+2025-02-14 09:24:57,250 - ERROR - Database Connection Faild
+2025-02-14 09:25:14,300 - ERROR - Database Connection Faild
+2025-02-14 09:25:31,347 - ERROR - Database Connection Faild
+2025-02-14 09:25:48,404 - ERROR - Database Connection Faild
+2025-02-14 09:26:05,455 - ERROR - Database Connection Faild
+2025-02-14 09:26:22,496 - ERROR - Database Connection Faild
+2025-02-14 09:26:39,548 - ERROR - Database Connection Faild
+2025-02-14 09:26:56,598 - ERROR - Database Connection Faild
+2025-02-14 09:27:13,632 - ERROR - Database Connection Faild
+2025-02-14 09:27:30,687 - ERROR - Database Connection Faild
+2025-02-14 09:27:47,737 - ERROR - Database Connection Faild
+2025-02-14 09:28:04,790 - ERROR - Database Connection Faild
+2025-02-14 09:28:21,835 - ERROR - Database Connection Faild
+2025-02-14 09:28:38,871 - ERROR - Database Connection Faild
+2025-02-14 09:28:55,904 - ERROR - Database Connection Faild
+2025-02-14 09:29:12,958 - ERROR - Database Connection Faild
+2025-02-14 09:29:30,018 - ERROR - Database Connection Faild
+2025-02-14 10:37:59,450 - ERROR - Database Connection Faild
+2025-02-14 10:38:16,489 - ERROR - Database Connection Faild
+2025-02-14 10:38:33,522 - ERROR - Database Connection Faild
+2025-02-14 10:38:50,565 - ERROR - Database Connection Faild
+2025-02-14 10:39:07,610 - ERROR - Database Connection Faild
+2025-02-14 10:39:24,663 - ERROR - Database Connection Faild
+2025-02-14 10:39:41,712 - ERROR - Database Connection Faild
+2025-02-14 10:39:58,767 - ERROR - Database Connection Faild
+2025-02-14 10:40:15,828 - ERROR - Database Connection Faild
+2025-02-14 10:40:32,890 - ERROR - Database Connection Faild
+2025-02-14 10:40:49,936 - ERROR - Database Connection Faild
+2025-02-14 10:41:06,985 - ERROR - Database Connection Faild
+2025-02-14 10:41:24,030 - ERROR - Database Connection Faild
+2025-02-14 10:41:41,079 - ERROR - Database Connection Faild
+2025-02-14 10:41:58,115 - ERROR - Database Connection Faild
+2025-02-14 10:42:15,136 - ERROR - Database Connection Faild
+2025-02-14 10:42:32,181 - ERROR - Database Connection Faild

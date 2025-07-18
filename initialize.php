@@ -3,7 +3,8 @@ $dev_data = array('id'=>'-1','firstname'=>'Developer','lastname'=>'','username'=
 //if(!defined('base_url')) define('base_url','http://winroengineering.lk/');
 if(!defined('base_url'))
 {
-    define('base_url','http://localhost/hvc1750b/ver7/');
+    define('base_url','http://localhost/sdc1881a/');
+    //define('base_url','https://perahara.lk/sdc1881a/');
 }
 if(!defined('base_app'))
 {

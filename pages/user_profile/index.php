@@ -10,6 +10,7 @@
     }
     // Display the authenticated user's information
     $username = $_SESSION["user_name"];
+  
 
 ?>
 <?php
@@ -59,10 +60,10 @@
                                         </div>
                                         <div class="row mt-3">
                                             <div class="col-md-12 text-center mt-3">  
-                                                <input id="id_FullName" type="text" class="form-control text-center" placeholder="Full Name">
+                                                <input id="id_FullName" type="text" class="form-control text-center" placeholder="Full Name" value="<?php echo $_SESSION["user_name"]; ?>">
                                             </div>
                                             <div class="col-md-12 text-center mt-3">  
-                                                <input id="id_MobNo" type="text" class="form-control text-center" placeholder="Mobile number">
+                                                <input id="id_MobNo" type="text" class="form-control text-center" placeholder="Mobile number" value="<?php echo $_SESSION["user_contactno"]; ?>">
                                             </div>
                                         </div>   
                                         <div class="row mt-2">
@@ -87,7 +88,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row">    
+                                        <div class="row" >    
                                             <div class="col-md-12 text-center mt-3">
                                                 <button type="submit" onclick="funClickOK()" class="btn btn-primary btn-block" style="width: 100%">OK</button>
                                             </div>                       
@@ -98,7 +99,7 @@
                                 </div>
                             </div> 
                         </div>
-                        <div class="col-4">
+                        <div class="col-4"> 
                             
                         </div>
                     </div>
@@ -107,12 +108,13 @@
                <br/><!-- comment -->
                <br/>
                <br/>
-                <?php
-                    include '../../headers/footer-bar.php'
-                ?> 
+               <div style="margin-top:25vh" ></div>
+                
             </section>
         </div>    
-
+        <?php
+                    include '../../headers/footer-bar.php'
+                ?> 
 </div>    
  
 <!-- Navbar -->
@@ -122,18 +124,17 @@
 
 <!-- Page specific script -->
 <script>
+
+
     //var i;
     //var j;
     //--------------- Admin Panel Minimize ----------------------
     $('[data-widget="pushmenu"]').PushMenu("collapse");
     //--------------- Admin Panel Minimize END ----------------------
-    $(document).ready(function () 
-    {     
-        //alert("page load"); 
-        document.getElementById("id_FullName").value    = "<?php echo htmlspecialchars($_SESSION["user_name"]); ?>";
-        document.getElementById("id_MobNo").value       = "<?php echo htmlspecialchars($_SESSION["user_contactno"]); ?>";
-        //funLoadMachinesAttend();        
-    });
+
+
+
+
     function funClickOK() 
     {    
         //alert("OK Clicked..");       
@@ -190,6 +191,17 @@
                 }
             });
         }
+
+
+
+
+
+
+
+
+
+
+
     }  
 </script>
 </body>

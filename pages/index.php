@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MAS Matrix & MFI</title>
+    <title>MAS Intimo</title>
     <link rel="icon" type="image/x-icon" href="../myimg/favicon.ico">
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -21,9 +21,9 @@
     <div class="login-box">        
         <div class="login-logo">
             <div>
-                <img src="../myimg/MAS_Logo.jpeg" class="user-image" alt="User Image" width="60" hight="70">  
+                <img src="../myimg/mas_active.jpg" class="user-image" alt="User Image" width="200" hight="200">  
             </div>
-            <h3>HVAC performance Monitoring System <h3>
+            <h3>Succession Air Pressure Monitoring System <h3>
         </div>
         <!-- /.login-logo -->
         <div class="card">

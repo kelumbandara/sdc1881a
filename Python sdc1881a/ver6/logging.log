@@ -1,0 +1,55 @@
+2025-04-26 10:45:44,350 - INFO - package: mysql.connector.plugins
+2025-04-26 10:45:44,351 - INFO - plugin_name: mysql_native_password
+2025-04-26 10:45:44,359 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-04-26 10:45:44,361 - INFO - Database is connected
+2025-04-26 10:45:54,733 - INFO - Connected to MQTT Broker!
+2025-04-26 10:46:09,358 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:46:19,758 - INFO - Connected to MQTT Broker!
+2025-04-26 10:46:34,284 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:46:44,684 - INFO - Connected to MQTT Broker!
+2025-04-26 10:46:59,307 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:47:09,735 - INFO - Connected to MQTT Broker!
+2025-04-26 10:47:24,407 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:47:34,808 - INFO - Connected to MQTT Broker!
+2025-04-26 10:47:49,375 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:47:59,744 - INFO - Connected to MQTT Broker!
+2025-04-26 10:48:14,277 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:48:24,689 - INFO - Connected to MQTT Broker!
+2025-04-26 10:48:39,680 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:48:50,100 - INFO - Connected to MQTT Broker!
+2025-04-26 10:49:04,841 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:49:15,243 - INFO - Connected to MQTT Broker!
+2025-04-26 10:49:29,974 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:49:40,416 - INFO - Connected to MQTT Broker!
+2025-04-26 10:49:55,040 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:50:05,555 - INFO - Connected to MQTT Broker!
+2025-04-26 10:50:20,150 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:50:30,622 - INFO - Connected to MQTT Broker!
+2025-04-26 10:50:45,353 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:50:55,751 - INFO - Connected to MQTT Broker!
+2025-04-26 10:51:10,635 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:51:21,005 - INFO - Connected to MQTT Broker!
+2025-04-26 10:51:35,644 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:51:46,051 - INFO - Connected to MQTT Broker!
+2025-04-26 10:52:00,787 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:52:11,163 - INFO - Connected to MQTT Broker!
+2025-04-26 10:52:25,904 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:52:36,311 - INFO - Connected to MQTT Broker!
+2025-04-26 10:52:51,046 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:53:01,430 - INFO - Connected to MQTT Broker!
+2025-04-26 10:53:16,154 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:53:26,566 - INFO - Connected to MQTT Broker!
+2025-04-26 10:53:41,239 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:53:51,700 - INFO - Connected to MQTT Broker!
+2025-04-26 10:54:06,272 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:54:16,663 - INFO - Connected to MQTT Broker!
+2025-04-26 10:54:31,237 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:54:41,626 - INFO - Connected to MQTT Broker!
+2025-04-26 10:54:56,189 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:55:06,596 - INFO - Connected to MQTT Broker!
+2025-04-26 10:55:21,083 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:55:31,453 - INFO - Connected to MQTT Broker!
+2025-04-26 10:55:46,037 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:55:56,437 - INFO - Connected to MQTT Broker!
+2025-04-26 10:56:10,998 - ERROR - 1146 (42S02): Table 'sdc1881a.tblphone_numbers' doesn't exist
+2025-04-26 10:56:21,394 - INFO - Connected to MQTT Broker!

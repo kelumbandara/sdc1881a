@@ -1,0 +1,51 @@
+canvas
+{
+    width: 100% !important;
+    height:100% !important;
+}
+.chartBox
+{
+    width:500px;
+    height:250px;
+    padding:5px;
+    position: relative;
+    height: 23vh;
+    width: 25vh;
+}
+.flexbox
+{
+    display: flex;
+}
+
+
+@media   (max-height: 720px) {
+    canvas
+{
+    width: 100% !important;
+    height:100% !important;
+}
+.chartBox
+{
+    width:500px;
+    height:250px;
+    padding:5px;
+    position: relative;
+    height: 23vh;
+    width: 25vh;
+}
+.flexbox
+{
+    display: flex;
+}}
+
+
+
+
+
+@media (max-width: 768px) {
+    .chartBox{
+        height: fit-content;
+        width: 400px;
+    }
+
+} 

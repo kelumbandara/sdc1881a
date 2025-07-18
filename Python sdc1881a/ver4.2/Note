@@ -1,0 +1,4 @@
+SELECT COUNT(ID) FROM `tbl_summary_air_flow` WHERE LastUpdatedTime BETWEEN "2025-03-11 9:20:14" AND "2025-03-11 11:22:14";
+
+
+SELECT COUNT(ID) FROM `tbl_summary_air_flow` WHERE LastUpdatedTime BETWEEN "2025-03-11 09:16:14" AND NOW();
